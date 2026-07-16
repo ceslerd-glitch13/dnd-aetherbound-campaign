@@ -1,0 +1,4 @@
+﻿# Windows / system junk
+*.winmd
+Thumbs.db
+Desktop.ini
