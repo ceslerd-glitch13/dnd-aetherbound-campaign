@@ -1,9 +1,9 @@
 ---
 status: Reference
 authority: Repository Navigation and Verified Status
-version: 3.1
+version: 4.0
 last_reviewed: 2026-07-16
-review_state: Batch B canon synchronized; Batch C playability and NPC completion remain active
+review_state: Batch C implemented and archived; repository ready to stage Batch D
 ---
 
 # Campaign Index and Quick Reference
@@ -19,9 +19,12 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 - **Campaign/repository name:** Aetherbound
 - **Continent:** Elyndria
 - **Rules foundation:** Dungeons & Dragons 5th Edition with targeted homebrew
-- **Current condition:** Batch B setting canon is synchronized; Batch C city playability and NPC completion remain active proposals
-- **Geography:** Updated to match the Elyndria map and document all ten dead zones, major routes, ports, and canonical settlements
-- **Starter material:** Hook and branching concepts exist, but the starter quest and Sessions 1–5 are not yet complete enough to run without additional preparation
+- **Current condition:** Batch B setting canon and Batch C city playability, NPC, starter-quest, tracker, and combat work are implemented
+- **Geography:** Map-aligned, with ten dead zones, major routes, ports, travel estimates, and intercity trade dependencies documented
+- **Cities:** Ravensport, Deepanvil, Faerindel, and Ironforge meet the mandatory city-profile requirements
+- **Starter material:** Session 0 and Captain Rurik's Request are ready to run; five open-world quests are prepared for on-demand expansion
+- **Combat:** Starter-arc enemies, complications, dead-zone variants, Silas, and an early-Veyne contingency are actionable
+- **Pending changes:** No active proposals; Batch D has not yet been staged
 
 ## Authority Order
 
@@ -30,8 +33,8 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 3. `World_Geography.md` — spatial canon
 4. Dedicated city, NPC, quest, tracker, and combat files — detail within their scopes
 5. This Index — navigation and verified status only
-6. Session plans/drafts — preparation, not automatic canon
-7. Pending and archived change logs — proposals/history, not canon
+6. Session plans and drafts — preparation, not automatic setting canon
+7. Pending and archived change logs — proposals and history, not canon
 
 ## File Directory and Verified Status
 
@@ -39,38 +42,38 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 
 | File | Purpose | Status |
 |---|---|---|
-| `GOVERNANCE.md` | Authority hierarchy, ownership, metadata, approval workflow | Reference |
+| `GOVERNANCE.md` | Authority hierarchy, ownership, metadata, and approval workflow | Reference |
 | `AGENTS.md` | Entry instructions for repository-aware assistants | Reference |
 | `SKILL.md` | Detailed campaign operating procedure | Reference |
-| `Pending_Changes.md` | Active unimplemented proposals | Active Reference; contains approved Batch C working decisions awaiting implementation |
+| `Pending_Changes.md` | Active unimplemented proposals | Active Reference; currently empty |
 | `Pending_Changes_Archived_*.md` | Historical approved-change records | Historical |
 
 ### Core canon and reference
 
 | File | Purpose | Verified state |
 |---|---|---|
-| `DnD_Campaign_World_Bible.md` | Setting-wide lore and mechanics | Canon; Batch B dead-zone, beacon, Aetherite, Veyne, terminology, and Ravensport decisions synchronized |
-| `World_Geography.md` | Elyndria placement, terrain, routes, waters, ports, travel, and dead zones | Canon; map-aligned |
+| `DnD_Campaign_World_Bible.md` | Setting-wide lore and mechanics | Canon; Batch B and Batch C setting-wide rules synchronized |
+| `World_Geography.md` | Elyndria terrain, routes, settlements, travel, dead zones, and trade dependencies | Canon; map-aligned |
 | `Campaign_Index_and_Quick_Reference.md` | Navigation and verified readiness | Reference |
 
 ### Cities and NPCs
 
 | File | Purpose | Verified state |
 |---|---|---|
-| `Ravensport_City_Profile.md` | Detailed primary hub | Draft; leadership synchronized, Batch C service and playable-detail sections pending |
-| `Deepanvil_City_Profile.md` | Western mining city inside the Deepanvil Dead Zone | Draft; mandatory city sections remain incomplete |
-| `Faerindel_City_Profile.md` | Central elven gate city | Draft; mandatory city sections remain incomplete |
-| `Ironforge_City_Profile.md` | Northern dwarven gate city | Draft; mandatory city sections remain incomplete |
-| `NPC_Backstory_Personality_file.md` | Named NPC database | Draft; Batch B Ravensport identities synchronized, Batch C collision cleanup and profile expansion pending |
+| `Ravensport_City_Profile.md` | Primary mixed gate city and starter hub | Canon; services, trade, daily life, defenses, and NPC contacts complete |
+| `Deepanvil_City_Profile.md` | Dwarven mining settlement inside a dead zone | Canon; dead-zone services, trade, daily life, and NPC contacts complete |
+| `Faerindel_City_Profile.md` | Elven gate city | Canon; high magic, technological redundancy, trade, and NPC contacts complete |
+| `Ironforge_City_Profile.md` | Dwarven gate city | Canon; integrated magic, heavy engineering, trade, and NPC contacts complete |
+| `NPC_Backstory_Personality_file.md` | Canonical NPC identity and personality database | Canon; duplicates and collisions resolved, major profiles playable |
 
-### Quests, sessions, and tracking
+### Quests, sessions, tracking, and combat
 
 | File | Purpose | Verified state |
 |---|---|---|
-| `Captain_Ruriks_Request_Session_0-1.md` | Starter hook and medallion theft | Draft; investigation, conflict, and outcomes remain incomplete |
-| `Early_Sessions_Plan_Sessions_0_to_5.md` | Session 0 outline and four branch concepts | Draft outline; not complete Sessions 1–5 preparation |
-| `Quests_Player_Decisions_Impacts.md` | Quest state, decisions, attitudes, and session record | Active Reference; starter quest and Resonance Orb pre-play tracking seeded |
-| `Enemy_Encounters_Stat_Blocks.md` | Campaign combat repository | Draft; current entries lack required actionable attack/ability details |
+| `Captain_Ruriks_Request_Session_0-1.md` | Opening scene, investigation, recovery, and orb decision | Draft preparation; ready to run |
+| `Early_Sessions_Plan_Sessions_0_to_5.md` | Open-world opening structure and five quest frameworks | Draft preparation; ready for on-demand session development |
+| `Quests_Player_Decisions_Impacts.md` | Quest states, decisions, attitudes, orb state, and antagonist interest | Active Reference; pre-play state seeded |
+| `Enemy_Encounters_Stat_Blocks.md` | Campaign combat repository | Draft preparation; starter-arc entries actionable |
 
 ### Guidelines
 
@@ -83,43 +86,40 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 
 Guidelines define mandatory, default, and optional content standards. They do not override approved canon.
 
-## Current Open Decisions and Development Work
+## Current Open Decisions and Future Development
 
-The former Batch B canon conflicts are resolved and synchronized. Do not reopen them without a new approved proposal.
+The implemented Batch B and Batch C decisions should not be reopened without a new approved proposal.
 
-Current work still includes:
+Known future topics include:
 
 1. A permanent in-world name for Veyne's secret organization
 2. A final campaign title if `Aetherbound` is replaced as the working title
-3. Batch C city services, trade, daily life, racial/gate interaction, and immediate-run NPC detail
-4. Batch C cross-city NPC collision cleanup and proprietor separation
-5. Completion of the starter investigation, Sessions 1–5, and actionable encounter stat blocks
-
-These items are active development work rather than contradictions in the implemented Batch B canon.
+3. Batch D scope, to be defined through `Pending_Changes.md`
+4. Detailed maps, encounter layouts, and expanded session preparation only after players choose a quest
+5. New enemies and stat blocks only when upcoming play requires them
 
 ## Quick Navigation by Task
 
-- **World lore/mechanics:** World Bible + relevant guideline
+- **World lore or mechanics:** World Bible + relevant guideline
 - **Map, route, distance, or settlement placement:** Geography + World Bible
-- **City preparation:** relevant city profile + Geography + NPC database + City guideline
-- **NPC interaction:** NPC database + tracker + relevant city/quest
-- **Quest/session preparation:** starter/early-session file + tracker + NPC database + stat blocks + Quest guideline
-- **Combat:** stat-block repository + World Bible mechanics + Battle guideline
-- **Repository edit:** Governance + Skill + Pending Changes + target files + World Update guideline
+- **City preparation:** relevant city profile + Geography + NPC database
+- **NPC interaction:** NPC database + tracker + relevant city or quest
+- **Starter session:** Captain Rurik file + Early Sessions + Ravensport profile
+- **Quest status or consequences:** tracker + selected quest/session file
+- **Combat:** encounter repository + World Bible mechanics
+- **Repository edit:** Governance + Skill + Pending Changes + target files + update guideline
 
-## Verified Safe Structural Work
+## Verified Implemented Work
 
-The following structural work is reflected in the current files:
-
-- map-aligned Elyndria geography;
-- corrected starter-quest filename;
-- corrected governance and file-loading instructions;
-- one staged approval workflow;
-- accurate active pending inventory;
-- archived logs clearly marked historical;
-- duplicate World Bible directory removed;
-- false completion claims removed from this Index;
-- major-document status metadata added;
-- approved Batch B canon synchronized across its authority files.
-
-Batch B canon decisions have also been synchronized. Playability, NPC expansion, session completion, and combat readiness remain in progress.
+- map-aligned Elyndria geography and exactly ten dead zones;
+- governance, file ownership, staged approval, and archive workflow;
+- Batch B dead-zone, beacon, Aetherite, Veyne, terminology, Ravensport-government, and Rurik canon;
+- distinction between active magic and permanent physical improvements;
+- Heart-centered gate security and normalized gate-city culture;
+- human, dwarven, and elven cooperation based on shared gate-defense necessity;
+- complete featured-city services, trade, black-market, daily-life, defense, and interaction sections;
+- consolidated NPC identities, unique names, proprietor separation, and playable profiles;
+- runnable Captain Rurik opening and investigation;
+- five independent open-world quests tied to the central story;
+- actionable starter combat entries and Veyne-interest tracking;
+- Batch C archived in `Pending_Changes_Archived_04.md`.

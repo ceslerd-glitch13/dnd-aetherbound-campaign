@@ -139,7 +139,7 @@ Update this section whenever the orb changes hands, expends charges, recharges, 
 
 # Veyne's Organization Interest
 
-This replaces the retired phrase **Aetherbound interest**. Track how much attention Veyne's organization gives the party, separately from whether Veyne's larger plans are succeeding.
+Track how much attention Veyne's organization gives the party, separately from whether Veyne's larger plans are succeeding.
 
 ## Current Interest
 

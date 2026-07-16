@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Setting-Wide Lore and Mechanics
-version: 3.0
+version: 3.1
 last_reviewed: 2026-07-16
-review_state: Batch B canon synchronization complete; Batch C city playability work remains pending
+review_state: Batch C gate-city culture, dead-zone technology, and city playability canon synchronized
 ---
 
 # D&D Campaign World Bible
@@ -114,6 +114,45 @@ These three cities are very large, extremely well-defended, and function almost 
 | **Faerindel**     | Elven           | Primary Elven gate city                    |
 | **Ironforge**     | Dwarven         | Primary Dwarven gate city                  |
 | **Ravensport**    | Officially Human (heavily mixed) | Major trade hub with diverse population   |
+
+### The Heart and Gate Security
+
+Each gate is contained inside a heavily fortified inner district commonly called the **Heart**. Heavy inspections, anti-magic screening, cargo controls, quarantine, restricted research, and military oversight are concentrated inside the Heart and at actual gate-transit points.
+
+Ordinary citizens do not undergo gate-level inspection while moving through normal residential, commercial, religious, or industrial districts. Entry into a Heart requires identification or sponsorship, a legitimate purpose, inspection of people and cargo, declaration of restricted magic or technology, and compliance with local security procedures.
+
+Major Hearts maintain both permanent controlled anti-magic chambers and larger emergency suppression zones. These defenses stop hostile spellcasting, magical creatures, summoned reinforcements, teleportation, and magical attacks emerging through the gate. Active magical functions are suppressed while inside an operating field and return after leaving unless the object or effect was separately damaged.
+
+Because defenders must continue operating during suppression, every Heart maintains physical barriers, mundane weapons, mechanical systems, runners, conventional signals, secure locks, medical facilities, and evacuation procedures that do not require active magic. Anti-magic coverage is localized to the Heart rather than imposed across the entire city.
+
+### Gate-City Life
+
+The three gate cities have operated for centuries. Their populations treat dimensional danger as a permanent fact of life rather than a new or universally traumatic condition. Long-term residents know local alarm signals, emergency routes, shelter procedures, military traffic rules, and the difference between a drill, a routine containment incident, and a genuine breach.
+
+Most residents have heard hostile beings, weapons, impacts, or unnatural sounds from behind the inner walls. People pause, listen for the official follow-up signal, adjust work or travel when needed, and resume ordinary life when containment is confirmed.
+
+Security is based on access, purpose, cargo, and risk—not ancestry. Human, elven, dwarven, and other communities have lived in each gate city for generations.
+
+### Cooperation and Existential Responsibility
+
+Human, dwarven, and elven powers cooperate because no people has enough manpower, magic, technology, logistics, or resources to defend every gate alone. Large-scale war would strip defenders from the Hearts, interrupt shared supply routes, and risk allowing a planar threat to establish itself.
+
+Legitimate governments may compete over contracts, command authority, trade, research access, taxes, and defensive methods, but they regard open warfare and deliberate gate sabotage as existentially irresponsible. Intentional weakening of a gate normally indicates Veyne's organization, an apocalyptic extremist, hostile planar control, deception, or another exceptional threat—not ordinary politics or commercial rivalry.
+
+Broad institutional strengths are cooperative traditions rather than racial limitations:
+
+- **Elven institutions** are strongest in magical detection, healing, wards, planar study, nature magic, and living systems.
+- **Dwarven institutions** are strongest in engineering, physical defenses, weapons, redundancy, and systems that remain useful under anti-magic.
+- **Human institutions** are strongest in logistics, trade, administration, adaptable staffing, diplomacy, and coordinating mixed populations.
+
+Individuals may work outside these traditions, and no city excludes competent people based on ancestry.
+
+### Distinct Magical and Technological Traditions
+
+- **Faerindel** practices broad spellcraft, nature magic, healing, living architecture, artistic enchantment, and planar research while maintaining advanced technological and mundane backups for anti-magic emergencies.
+- **Ironforge** emphasizes **integrated magic**. Dwarven crafters begin with a mechanically sound weapon, tool, structure, or machine and use runes and enchantments to improve power, accuracy, durability, control, efficiency, or defense. The physical design remains useful when magic is suppressed.
+- **Ravensport** combines elven wards, dwarven engineering, human logistics, and mixed commercial institutions.
+- **Deepanvil** is not a gate city, but its dead-zone engineering, medicine, maintenance, and nonmagical infrastructure make it a strategic partner to all three.
 
 ---
 

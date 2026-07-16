@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Spatial Geography
-version: 1.1
+version: 1.2
 last_reviewed: 2026-07-16
-review_state: Map-aligned; formal political borders remain undefined
+review_state: Map-aligned; Batch C intercity trade dependencies synchronized; formal political borders remain undefined
 ---
 # World Geography — Elyndria
 
@@ -292,6 +292,17 @@ Important chokepoints include:
 - narrow safe corridors between southern dead zones;
 - the mountain roads serving Deepanvil.
 
+### Major Intercity Trade Dependencies
+
+The dedicated city profiles own exact imports, exports, restricted goods, and black-market details. Geography establishes why the four featured cities depend on one another:
+
+- **Ravensport** uses the eastern harbor, main river, and gate to distribute dimensional cargo, imported materials, finance, and information across the continent. It depends on inland food, dwarven metalwork and machinery, and elven medicine and enchanted goods.
+- **Faerindel** exports medicine, enchanted textiles, scholarly services, fine woodwork, and planar expertise through the Central Gate Road and river routes. It imports heavy tools, refined metal, physical vault systems, and anti-magic-compatible machinery.
+- **Ironforge** exports weapons, armor, heavy machinery, integrated magical equipment, fortification systems, and refined metal through the Northern Mountain Road and Central Gate Road. It depends on surface food, timber, medicine, and specialized living or magical materials.
+- **Deepanvil** exports rare ore, precision tools, prosthetics, rescue equipment, and dead-zone-compatible infrastructure through the Western Mining Road. It depends heavily on regular caravans of food, medicine, timber, cloth, paper, and surface luxuries.
+
+These routes are strategic lifelines as well as commercial corridors. No gate city can safely abandon the others without weakening shared gate defense. Disruption normally creates shortages, delays, criminal opportunity, or emergency rationing rather than immediate interstate war.
+
 ---
 
 ## 7. Magic Dead Zones — Exactly 10
@@ -385,9 +396,10 @@ Weather, road quality, caravans, encounters, and avoidance of dead zones may len
 - Ravensport controls the most important eastern harbor and the main river's access to the Azure Sea.
 - Newbridge controls a key southern river and road crossing.
 - Ironforge controls access through the northern mountains.
-- Deepanvil's dead zone protects its industry from many magical threats but makes magical healing, transport, and communication unavailable inside the city.
+- Deepanvil's dead zone blocks active magical healing, transport, and communication, but its engineering, perfected physical materials, medicine, and maintenance systems often outperform magic-dependent alternatives.
 - Dead zones fragment otherwise direct routes, creating fortified bridges, caravan stops, smuggling corridors, and isolated settlements.
 - Lake Aelorin and the main river provide the continent's most important natural east-west transport corridor.
+- The three gate cities avoid large-scale war because each depends on shared manpower, routes, materials, and specialist support to keep the Hearts defended.
 
 ---
 

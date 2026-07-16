@@ -1,96 +1,178 @@
 ---
-status: Draft
+status: Canon
 authority: Deepanvil City Detail
-version: 1.0
+version: 2.0
 last_reviewed: 2026-07-16
-review_state: Mandatory city sections remain incomplete
+review_state: Batch C city playability, trade, daily life, and NPC synchronization complete
 ---
+
 # Deepanvil City Profile
 
-**Status**: Major Dwarven Mining Settlement (inside a Magic Dead Zone)  
-**Population**: ~28,000 (mostly dwarven with small human and gnome populations)  
-**Racial Breakdown**: Dwarf ~80%, Human ~12%, Gnome ~6%, Other ~2%  
-**Primary Economy**: Deep mining, rare minerals, advanced non-magical engineering and manufacturing  
-**Government**: Mining Council led by a Chief Engineer
+**Status:** Major Dwarven Mining Settlement inside a Magic Dead Zone  
+**Population:** Approximately 28,000  
+**Racial Breakdown:** Dwarf ~80%, Human ~12%, Gnome ~6%, Other ~2%  
+**Primary Economy:** Deep mining, rare minerals, precision manufacturing, and dead-zone-compatible engineering  
+**Government:** Mining Council led by a Chief Engineer
 
-**Note**: Deepanvil sits directly inside one of the continent’s magic dead zones. All magic is suppressed here. The city relies entirely on mechanical and industrial technology.
+## City Identity
+
+Deepanvil is not the dwarven gate city; **Ironforge** fills that role. Deepanvil is a mining and industrial settlement built entirely inside a dead zone.
+
+Active magic does not function normally here, but that does not make the city primitive or worse. Deepanvil uses superior engineering, standardized parts, magically perfected materials manufactured elsewhere, and generations of practical experience to make mundane work faster, safer, and often cheaper than in magic-dependent cities.
+
+A completed physical improvement remains useful in the dead zone. An alloy refined through magic, a permanently balanced tool, a physically reinforced beam, or a precision-shaped component remains improved. A tool that must actively levitate, burn, move itself, communicate magically, or repair itself does not function.
 
 ---
 
 ## Leadership
 
-**Primary Ruler**  
-- **Chief Engineer Thrain Stonefist** (Dwarf male, Lawful Neutral)  
-  Practical and no-nonsense leader. Focused on production and safety in the mines.
-
-**Key Council / Figureheads**
-- **Master Miner Garrick Deepdelve** (Dwarf male, Neutral) – Oversees all mining operations.
-- **Forge Overseer Helga Ironvein** (Dwarf female, Lawful Good) – Manages the great forges and manufacturing.
-- **Security Captain Drogath Stoneguard** (Dwarf male, Lawful Neutral) – Commands the city militia and mine security.
-- **Trade Factor Vorn Hammerfall** (Dwarf male, Neutral) – Handles external trade with Ravensport and other cities.
-- **Head Engineer Brannok Gearwright** (Dwarf male, Neutral Good) – Leads research into new mechanical technologies.
+- **Chief Engineer Borin Stonefist** — Practical, decisive leader of the Mining Council who refuses to gamble with worker safety.
+- **Master Miner Korrin Deepdelve** — Patient geological expert overseeing excavation and mine planning.
+- **Forge Overseer Helga Brassmantle** — Demanding but fair leader of manufacturing and major forge operations.
+- **Security Captain Torag Stoneguard** — Methodical commander of militia, mine security, and rescue response.
+- **Trade Factor Keldran Hammerfall** — Sociable manager of surface trade and supply relationships.
+- **Head Engineer Odrik Gearwright** — Curious researcher leading dead-zone engineering and high-efficiency mundane systems.
 
 ---
 
-## Key Locations & Named Proprietors
+## Districts
 
-**Inns & Taverns**
-- **The Iron Vein** – Rowdy inn popular with miners. Run by **Innkeeper Helga Ironvein**.
-- **The Gear & Grog** – Tavern favored by engineers and foremen. Run by **Barkeep Brannok Gearwright**.
+### The Great Shafts
 
-**Shops**
-- **Deepforge Armory** – Weapons and heavy armor. Proprietor: **Forge Overseer Helga Ironvein**.
-- **Stonefist Mining Supplies** – Picks, drills, and mining equipment. Proprietor: **Master Miner Garrick Deepdelve**.
-- **Gearwright’s Workshop** – Mechanical devices and clockwork tools. Proprietor: **Head Engineer Brannok Gearwright**.
-- **Hammerfall Traders** – General goods and trade with the surface. Proprietor: **Trade Factor Vorn Hammerfall**.
-- **Stoneguard Security** – Private security services and equipment. Proprietor: **Security Captain Drogath Stoneguard**.
-- **The Deep Market** – Open market for ore, gems, and manufactured goods.
+The main mining district, containing deep tunnels, mechanical elevators, ventilation systems, rescue stations, and controlled access to restricted depths.
 
----
+### The Forges
 
-## District Breakdown
+The industrial heart of Deepanvil. Refineries, foundries, machine shops, and material-testing halls operate around the clock.
 
-**The Great Shafts**  
-Main mining district with massive elevator systems and deep tunnels.
+### The Assembly Halls
 
-**The Forges**  
-Industrial heart of the city. Constant sound of machinery and hammering.
+Large workshops where lifts, pumps, drills, prosthetics, safety systems, transport mechanisms, and modular components are constructed.
 
-**The Assembly Halls**  
-Where mechanical devices and mining equipment are built.
+### Clan Residences
 
-**The Clan Residences**  
-Housing districts for the various mining clans.
+Dense residential districts organized around clan halls, communal kitchens, shrines, schools, and trade associations.
 
-**The Trade Hall**  
-Market and warehouse district for moving goods to the surface.
+### The Trade Hall
+
+Warehouses, caravan offices, gem exchanges, surface-goods markets, and inspection points for incoming food, medicine, timber, cloth, and specialty materials.
 
 ---
 
-## Economy
-- Extremely focused on **deep mining** and **non-magical industry**.
-- Produces rare minerals, high-quality tools, and mechanical equipment.
-- Acts as a major supplier to Ravensport and other surface cities.
-- Has its own internal economy based on ore, manufactured goods, and engineering services.
+## Key Locations and Proprietors
+
+### Inns and Taverns
+
+- **The Iron Vein — Brenna Copperkeg:** Deepanvil's busiest miners' inn. Brenna is loud, generous, and often knows which workers are hiding injuries, debts, or discoveries.
+- **The Gear & Grog — Jori Rivetbeard:** Tavern favored by engineers and foremen. Jori collects competing explanations for every malfunction and quickly notices who is lying.
+
+### Shops and Services
+
+- **Deepforge Armory — Orsa Blackmantle:** Heavy weapons, armor, and protective equipment. Orsa can distinguish neglect, impossible stress, and deliberate damage.
+- **Stonefist Mining Supplies — Renn Quarryhand:** Picks, drills, braces, lamps, and rescue gear. Renn is intensely safety-conscious and remembers suspicious purchases.
+- **Gearwright's Workshop — Pell Tinkerspark:** Public workshop associated with Odrik's research hall. Pell is inventive, enthusiastic, and occasionally reckless.
+- **Hammerfall Traders — Sella Roadcoin:** Surface goods and special orders. Sella rations scarce medicine when deliveries fail.
+- **Stoneguard Security — Durn Shieldlock:** Private escorts, vault testing, physical security, and lock services. Durn can identify specialized bypass tools.
+- **The Deep Market:** Open exchange for ore, gemstones, mechanical parts, masterwork mundane equipment, imported food, and surface luxuries.
+
+Full profiles are owned by `NPC_Backstory_Personality_file.md`.
+
+---
+
+## Basic Services
+
+- **Lodging and meals:** Clan halls, miners' inns, bunkhouses, and practical taverns serve residents and visitors. Food depends heavily on imported grain, produce, meat, and spices. Outsiders without connections pay more for premium lodging.
+- **Mundane equipment and repairs:** Exceptional quality and availability. Advanced engineering, standardized parts, and magically perfected physical materials make repairs and routine work fast and affordable.
+- **Healing and medical care:** Highly trained surgeons, herbalists, bonesetters, prosthetic specialists, and mine-rescue physicians operate throughout the city. Magical healing is unavailable without resonance, but perfected tools, medicines, and physical materials remain usable.
+- **Temples and spiritual assistance:** Temples, ancestor halls, and shrines provide worship, mourning, counsel, and community. Clergy retain knowledge and authority but cannot perform active magical miracles without a resonance source.
+- **Transportation and stabling:** Mechanical lifts, rail carts, freight elevators, wagons, pack animals, and secured mountain routes are common and highly reliable.
+- **Banking and secure storage:** Clan vaults, company accounts, gem exchanges, sealed warehouses, and precision mechanical lockboxes are widespread. The dead zone provides strong protection against magical intrusion.
+- **Messengers and information:** Runners, bells, message tubes, coded lanterns, notices, and caravan couriers replace magical communication.
+- **Legal help and permits:** The Mining Council and clan representatives handle claims, excavation permits, engineering ownership, labor disputes, contracts, and safety violations. Outsiders often need sponsorship for restricted areas.
+- **Hiring labor and guards:** Miners, engineers, mechanics, guards, tunnel guides, demolition experts, rescue teams, and repair specialists are readily available.
+- **Magical services:** Active spellcasting and active enchantment are not normally available. Items can be taken outside for magical manufacturing or treatment and returned when the resulting benefit is a permanent physical property rather than an ongoing effect.
+
+---
+
+## Trade and Supply
+
+### Major Exports
+
+- Rare ores, refined metals, gemstones, and specialty alloys.
+- Precision tools, replacement parts, pumps, lifts, drills, and mechanical safety systems.
+- Masterwork mundane weapons, armor components, locks, vault mechanisms, and industrial hardware.
+- Prosthetics, surgical instruments, rescue equipment, and durable goods designed for magicless operation.
+- Engineering services, mine planning, and dead-zone-compatible infrastructure.
+
+### Major Imports
+
+- Grain, meat, produce, spices, and preserved food.
+- Timber, cloth, leather, paper, lamp oils, medicine, herbs, and alchemical ingredients.
+- Magically perfected raw materials or components manufactured outside the dead zone.
+- Luxury goods and cultural items unavailable underground.
+
+### Restricted Goods
+
+- Mining explosives, demolition equipment, restricted drilling systems, and military-grade mechanisms.
+- Unregistered claims, geological surveys, and proprietary engineering plans.
+- Aetherite devices, resonance orbs, and technology capable of enabling active magic inside the dead zone.
+- Sacred clan relics and materials removed from sealed depths.
+
+### Black Market
+
+Deepanvil's black market is smaller than Ravensport's but highly specialized. It operates through clan connections, corrupt foremen, falsified manifests, abandoned tunnels, and private workshops. Common illicit trade includes stolen ore, false claims, restricted explosives, proprietary designs, and magical items whose active properties cannot be tested inside the zone.
+
+### Current Supply Pressure
+
+Deepanvil depends on regular surface deliveries of food, medicine, timber, and cloth. Road disruption or caravan loss quickly raises prices and strains poorer districts.
+
+---
+
+## Daily Life and Current Tensions
+
+Daily life revolves around shifts, maintenance schedules, rescue readiness, clan obligations, apprenticeships, and practical problem solving. The city takes pride in accomplishing through craft and organization what other settlements leave to active magic.
+
+Current tensions center on:
+
+- food and medical supply reliability;
+- mine safety and pressure for increased production;
+- disputes over newly discovered veins and restricted depths;
+- labor demands and apprenticeship access;
+- ownership of proprietary mechanisms;
+- who receives scarce resonance or Aetherite-related resources;
+- whether unexplained failures originate in local machinery or something deeper.
+
+---
+
+## Dead-Zone and Cultural Interaction
+
+- Visitors must plan for the loss of active magic, magical communication, teleportation, and spell-dependent equipment.
+- Deepanvil residents may regard unprepared spellcasters as careless, but do not treat magical people or other races as inferior.
+- The settlement values Faerindel's perfected materials, Ironforge's industrial partnership, and Ravensport's trade network.
+- Gate-city specialists value Deepanvil because its engineers know how to keep civilization operating when magic cannot be trusted.
+- Mixed communities are established and ordinary, though dwarven clan institutions dominate local government and work culture.
 
 ---
 
 ## Defenses
-- Thick stone fortifications on the surface.
-- Extensive underground defenses and trap networks.
-- Well-trained militia focused on mine security.
-- Heavy use of mechanical siege weapons and traps.
-- Strong alliance with Ravensport for surface trade protection.
+
+- Thick stone surface fortifications and controlled mountain approaches.
+- Extensive underground barriers, traps, sealed corridors, and fallback positions.
+- Well-trained militia and mine-rescue units under Torag Stoneguard.
+- Mechanical artillery, alarms, signal networks, physical locks, and redundant ventilation.
+- No dependence on active magic for routine defense or emergency response.
+- Strong trade and security cooperation with Ravensport and Ironforge.
 
 ---
 
 ## Immediate Plot Hooks
-1. A major cave-in has trapped miners deep underground.
-2. Strange mechanical malfunctions have been occurring near the center of the dead zone.
-3. Tension between mining clans over a newly discovered rich vein.
-4. Reports of unknown creatures appearing in the deeper tunnels.
-5. The Chief Engineer is looking for discreet help investigating possible sabotage.
+
+1. **The Vanished Supply Caravan:** Food, medicine, and lift components have failed to arrive from Ravensport.
+2. **Worked Depths:** Korrin Deepdelve believes a new tunnel has reached constructed spaces rather than natural caverns.
+3. **Impossible Tool Failures:** Magically perfected alloy tools are breaking under loads they should easily withstand.
+4. **Sealed-Tunnel Entry:** Someone has purchased equipment suited to entering prohibited depths rather than legal claims.
+5. **Hidden Energy Signal:** Pell Tinkerspark's device reacts to an unknown source beneath the city.
 
 ---
 
-**Notes**: Deepanvil is a major industrial and mining center located inside a magic dead zone. It serves as both an economic powerhouse and a potential future plot location due to the dead zone and ongoing excavation. All information about Deepanvil is contained in this file.
+**Use at the table:** Deepanvil is an industrial powerhouse and a demonstration that the absence of active magic produces specialization, not inferiority.
