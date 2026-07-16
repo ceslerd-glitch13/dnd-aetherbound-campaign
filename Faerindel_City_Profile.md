@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: Faerindel City Detail
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Mandatory city sections remain incomplete
+---
 # Faerindel City Profile
 
 **Status**: Primary Elven Gate City  

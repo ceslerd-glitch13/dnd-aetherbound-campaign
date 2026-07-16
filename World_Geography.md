@@ -1,3 +1,10 @@
+---
+status: Canon
+authority: Spatial Geography
+version: 1.1
+last_reviewed: 2026-07-16
+review_state: Map-aligned; formal political borders remain undefined
+---
 # World Geography — Elyndria
 
 **Continent Name:** Elyndria  

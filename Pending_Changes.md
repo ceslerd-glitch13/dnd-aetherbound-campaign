@@ -1,143 +1,80 @@
-> # Pending Changes Log (Active) - Master Baseline
-> **Purpose**: This is the single source of truth and long-term staging area for **all** proposed changes across the entire D&D campaign project. Every edit, addition, or modification (no matter how small) must be logged here first with file-specific detail. Main files are never edited until this log is explicitly approved.
-> **Important Rule**: When logging changes, always specify:
-> - The **exact file(s)** affected
-> - The **precise change** needed in each file
-> - Any cross-references or follow-up actions required
-> ---
-> 
-> ## Master File Inventory (All Editable .md Files)
-> 
-> This section lists every file in the project that can potentially be edited. Use the sections below to annotate changes.
-> 
-> ### Core Campaign Files
-> - **DnD_Campaign_World_Bible.md** — Master lore, plot, pantheon, factions, timeline
-> - **World_Geography.md** — Continent layout, city placements, distances, dead zones
-> - **NPC_Backstory_Personality_file.md** — Master NPC database (all characters, attitudes, secrets)
-> - **Quests_Player_Decisions_Impacts.md** — Quest tracking, player decisions, long-term impacts, NPC attitudes
-> - **Enemy_Encounters_Stat_Blocks.md** — All custom stat blocks and combat data
-> - **Captain_Ruriks_Request_Session_0-1.md** — Starter quest / Session 0 material
-> - **Campaign_Index_and_Quick_Reference.md** — High-level index (if exists)
-> 
-> ### City Profile Files
-> - **Ravensport_City_Profile.md** — Human gate city details
-> - **Faerindel_City_Profile.md** — Elven gate city details
-> - **Ironforge_City_Profile.md** — Dwarven gate city details
-> - **Deepanvil_City_Profile.md** — Dwarven mining city in dead zone
-> 
-> ### Guidelines & Rules Files
-> - **City_Creation_Guidelines.md** — Rules for creating/expanding cities
-> - **Guideline_Quest_Creation.md** — Framework for designing quests
-> - **Guideline_World_Update_Change_Management.md** — Rules for implementing world changes
-> - **Guideline_Battle_Stat_Block_Management.md** — How to handle stat blocks and combat
-> - **Guideline_NPC_Character_Creation.md** — How to create memorable NPCs
-> - **Guideline_World_Geography_Map_Creation.md** — Standards for map creation
-> 
-> ### Skill Files
-> - **dnd-campaign-helper/SKILL.md** — The main campaign skill that loads all references
-> 
-> ### Other / Supporting Files
-> - **Early_Sessions_Plan_Sessions_0_to_5.md** — Early campaign planning document
-> - **Pending_Changes.md** — This file (current active change log)
-> 
-> ---
-> 
-> ## Where Do I Log This? (Quick Reference)
-> 
-> ### Core Lore & World Building
-> - Changes to overall lore, plot, pantheon, factions, timeline, or major world rules → **DnD_Campaign_World_Bible.md**
-> 
-> ### Geography & Maps
-> - City placements, distances, dead zones, roads, or map-related changes → **World_Geography.md**
-> 
-> ### NPCs & Relationships
-> - Adding/editing NPCs, their backstories, attitudes toward players, or secrets → **NPC_Backstory_Personality_file.md** and **Quests_Player_Decisions_Impacts.md**
-> 
-> ### Quests, Decisions & Impacts
-> - Quest progress, player decisions, long-term consequences, or NPC attitude updates → **Quests_Player_Decisions_Impacts.md**
-> 
-> ### Combat & Stat Blocks
-> - New or updated stat blocks → **Enemy_Encounters_Stat_Blocks.md**
-> 
-> ### Cities
-> - Changes to any city profile (leadership, shops, districts, defenses, etc.) → The specific city file (Ravensport, Faerindel, Ironforge, or Deepanvil)
-> 
-> ### Guidelines & Rules
-> - Updates to creation rules or processes → The relevant Guideline file
-> 
-> ### The Skill Itself
-> - Changes to how the campaign skill works → **dnd-campaign-helper/SKILL.md**
-> 
-> ---
-> 
-> ## Pending Changes by File
-> 
-> Use the format below. Be specific about the file and the exact change.
-> 
-> ### DnD_Campaign_World_Bible.md
-> - 
-> 
-> ### World_Geography.md
-> - 
-> 
-> ### NPC_Backstory_Personality_file.md
-> - 
-> 
-> ### Quests_Player_Decisions_Impacts.md
-> - 
-> 
-> ### Enemy_Encounters_Stat_Blocks.md
-> - 
-> 
-> ### Captain_Ruriks_Request_Session_0-1.md
-> - 
-> 
-> ### Ravensport_City_Profile.md
-> - 
-> 
-> ### Faerindel_City_Profile.md
-> - 
-> 
-> ### Ironforge_City_Profile.md
-> - 
-> 
-> ### Deepanvil_City_Profile.md
-> - 
-> 
-> ### City_Creation_Guidelines.md
-> - 
-> 
-> ### Guideline_Quest_Creation.md
-> - 
-> 
-> ### Guideline_World_Update_Change_Management.md
-> - 
-> 
-> ### Guideline_Battle_Stat_Block_Management.md
-> - 
-> 
-> ### Guideline_NPC_Character_Creation.md
-> - 
-> 
-> ### Guideline_World_Geography_Map_Creation.md
-> - 
-> 
-> ### dnd-campaign-helper/SKILL.md
-> - 
-> 
-> ### Early_Sessions_Plan_Sessions_0_to_5.md
-> - 
-> 
-> ### Campaign_Index_and_Quick_Reference.md
-> - 
-> 
-> ### Pending_Changes.md (this file)
-> - 
-> 
-> ---
-> 
-> 
-> **Notes**:
-> - After approval, this file will be archived (renamed) and a fresh version created containing only the lines marked with >.
-> - Keep entries clear, concise, and file-specific.
-> - This structure exists so that every possible file has a dedicated section for long-term tracking.
+---
+status: Active Reference
+authority: Proposed Change Staging
+version: 2.0
+last_reviewed: 2026-07-16
+---
+
+# Pending Changes — Active
+
+## Purpose
+
+This file contains only **unapproved proposed repository changes**. It is not canon.
+
+Read `GOVERNANCE.md` and `SKILL.md` before using this file.
+
+## Active Proposed Changes
+
+_No active proposals._
+
+## Required Proposal Format
+
+### Change title
+
+- **Requested outcome:**
+- **Affected files:**
+  - `Exact_File_Name.md`
+- **Exact edits by file:**
+  - `Exact_File_Name.md`: Describe the precise addition, replacement, removal, or rename.
+- **Cross-reference and validation work:**
+- **Canon decisions required:** None / list the decisions
+- **Status:** Awaiting approval
+
+## Current Editable Markdown Inventory
+
+### Governance and navigation
+
+- `GOVERNANCE.md`
+- `AGENTS.md`
+- `SKILL.md`
+- `README.md`
+- `Campaign_Index_and_Quick_Reference.md`
+- `Pending_Changes.md`
+
+### Core campaign documents
+
+- `DnD_Campaign_World_Bible.md`
+- `World_Geography.md`
+- `NPC_Backstory_Personality_file.md`
+- `Quests_Player_Decisions_Impacts.md`
+- `Enemy_Encounters_Stat_Blocks.md`
+- `Captain_Ruriks_Request_Session_0-1.md`
+- `Early_Sessions_Plan_Sessions_0_to_5.md`
+
+### City profiles
+
+- `Ravensport_City_Profile.md`
+- `Deepanvil_City_Profile.md`
+- `Faerindel_City_Profile.md`
+- `Ironforge_City_Profile.md`
+
+### Guidelines
+
+- `City_Creation_Guidelines.md`
+- `Guideline_Battle_Stat_Block_Management.md`
+- `Guideline_NPC_Character_Creation.md`
+- `Guideline_Quest_Creation.md`
+- `Guideline_World_Geography_Map_Creation.md`
+- `Guideline_World_Update_Change_Management.md`
+
+### Historical logs
+
+Files matching `Pending_Changes_Archived_*.md` are historical records. They are not active proposal files and should not be edited except to correct misleading archive labeling or preserve readability.
+
+## Approval and Archival
+
+After the user approves an exact proposal or documented batch:
+
+1. Apply the approved changes.
+2. Create the next numbered `Pending_Changes_Archived_XX.md` record with the approved scope and implementation result.
+3. Reset this file so **Active Proposed Changes** again reads `_No active proposals._`.

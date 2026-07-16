@@ -1,3 +1,11 @@
+---
+status: Canon
+authority: Setting-Wide Lore and Mechanics
+version: 2.9.1
+last_reviewed: 2026-07-16
+review_state: Structural cleanup complete; unresolved canon conflicts are listed in the Campaign Index
+---
+
 # D&D Campaign World Bible
 **Campaign Title:** Untitled D&D Campaign  
 **Focus:** One primary continent (other continents can be added later)  
@@ -339,62 +347,47 @@ He is secretly excavating deep beneath his own manor to locate a geologically an
 
 ---
 
-## Related Documents & Guidelines Directory
+---
 
-This World Bible serves as the central directory. All supporting files are listed below with their purpose.
+## Related Documents and Guidelines
 
-### City Profiles (Dedicated Files)
-- **Ravensport_City_Profile.md** — Full details for Ravensport (leadership, shops, districts, defenses, plot hooks).
-- **Faerindel_City_Profile.md** — Full details for the Elven Gate City.
-- **Ironforge_City_Profile.md** — Full details for the Dwarven Gate City.
-- **Deepanvil_City_Profile.md** — Full details for the major Dwarven mining settlement inside a dead zone (west of Ravensport).
+### Governance and navigation
+
+- **GOVERNANCE.md** — Authority hierarchy, document ownership, status definitions, and approval workflow.
+- **AGENTS.md** — Entry instructions for repository-aware assistants.
+- **SKILL.md** — Detailed campaign operating procedure.
+- **Campaign_Index_and_Quick_Reference.md** — Verified navigation and project status; does not override canon.
+- **Pending_Changes.md** — Unapproved proposals only.
+
+### City profiles
+
+- **Ravensport_City_Profile.md** — Detailed Ravensport profile.
+- **Faerindel_City_Profile.md** — Detailed Faerindel profile.
+- **Ironforge_City_Profile.md** — Detailed Ironforge profile.
+- **Deepanvil_City_Profile.md** — Detailed Deepanvil profile.
+
+### Core reference files
+
+- **World_Geography.md** — Elyndria's spatial relationships, settlements, terrain, routes, waters, ports, travel, and dead zones.
+- **NPC_Backstory_Personality_file.md** — Named NPC database.
+- **Quests_Player_Decisions_Impacts.md** — Quest, decision, attitude, and session tracker.
+- **Enemy_Encounters_Stat_Blocks.md** — Campaign custom-stat repository.
+- **Captain_Ruriks_Request_Session_0-1.md** — Draft starter quest.
+- **Early_Sessions_Plan_Sessions_0_to_5.md** — Draft early-campaign outline.
 
 ### Guidelines
-- **City_Creation_Guidelines.md** — Mandatory rules for creating or expanding cities (leadership, named NPCs, districts, etc.).  
-  *Note: An older version exists as Guideline_City_Creation.md — use the newer City_Creation_Guidelines.md going forward.*
-- **Guideline_World_Geography_Map_Creation.md** — Standards for world and regional map creation.
-- **Guideline_NPC_Character_Creation.md** — How to create memorable NPCs for key locations (quick method).
-- **NPC_Backstory_Personality_Guideline.md** — Deeper development tool for important NPCs (backstory, personality traits, motivations, voice).
-- **Guideline_Battle_Stat_Block_Management.md** — Process for handling stat blocks and combat encounters.
-- **Guideline_Quest_Creation.md** — Framework for designing quests.
-- **Guideline_World_Update_Change_Management.md** — Rules for implementing user-requested changes across the campaign.
 
-### Core Reference Files
-- **Enemy_Encounters_Stat_Blocks.md** — Master repository of all custom stat blocks.
-- **World_Geography.md** — Continent layout, city placements, and distances.
-- **Captain_Ruriks_Request_Session_0-1.md** — Starter quest for Session 0/1.
+- **City_Creation_Guidelines.md**
+- **Guideline_World_Geography_Map_Creation.md**
+- **Guideline_NPC_Character_Creation.md**
+- **Guideline_Battle_Stat_Block_Management.md**
+- **Guideline_Quest_Creation.md**
+- **Guideline_World_Update_Change_Management.md**
 
-**Rule**: When working on a specific city, open its dedicated profile file first. The World Bible acts as the index. Always cross-reference the relevant guideline before making changes.
+When working within a dedicated subject, use the ownership hierarchy in `GOVERNANCE.md`. Do not treat this directory as a second independent definition of detailed city, NPC, quest, or geography facts.
 
 ---
 
-**End of World Bible v2.9**  
-Completed remaining tasks: Full Pantheon, Major Factions, Campaign Arc & Plot Hooks, Key NPCs, Specific Dead Zone Descriptions, Dragon Details, and Technology/Industry section. Ready for further refinement.
+**End of World Bible v2.9.1**
 
----
-
-## Related Documents & Guidelines Directory
-
-This World Bible serves as the central directory. All supporting files are listed below with their purpose.
-
-### City Profiles (Dedicated Files)
-- **Ravensport_City_Profile.md** — Full details for Ravensport (leadership, shops, districts, defenses, plot hooks).
-- **Faerindel_City_Profile.md** — Full details for the Elven Gate City.
-- **Ironforge_City_Profile.md** — Full details for the Dwarven Gate City.
-- **Deepanvil_City_Profile.md** — Full details for the major Dwarven mining settlement inside a dead zone (west of Ravensport).
-
-### Guidelines
-- **City_Creation_Guidelines.md** — Mandatory rules for creating or expanding cities (leadership, named NPCs, districts, etc.).
-- **Guideline_World_Geography_Map_Creation.md** — Standards for world and regional map creation.
-- **Guideline_NPC_Character_Creation.md** — How to create memorable NPCs for key locations (quick method).
-- **NPC_Backstory_Personality_file.md** — Master living database of all named NPCs across cities. Sorted by city and role. Includes major and minor characters for historic reference and cross-city tracking (gangs, smuggling rings, religious groups, etc.).
-- **Guideline_Battle_Stat_Block_Management.md** — Process for handling stat blocks and combat encounters.
-- **Guideline_Quest_Creation.md** — Framework for designing quests.
-- **Guideline_World_Update_Change_Management.md** — Rules for implementing user-requested changes across the campaign.
-
-### Core Reference Files
-- **Enemy_Encounters_Stat_Blocks.md** — Master repository of all custom stat blocks.
-- **World_Geography.md** — Continent layout, city placements, and distances.
-- **Captain_Ruriks_Request_Session_0-1.md** — Starter quest for Session 0/1.
-
-**Rule**: When working on a specific city, open its dedicated profile file first. The World Bible acts as the index. Always cross-reference the relevant guideline before making changes.
+Structural cleanup in v2.9.1 removed duplicate navigation and stale file references. No unresolved lore conflict was decided in this revision.

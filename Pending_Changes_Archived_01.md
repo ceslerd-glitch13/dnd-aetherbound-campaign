@@ -1,4 +1,13 @@
-> # Pending Changes Log (Active) - Master Baseline
+---
+status: Historical
+authority: Archived Change Record
+version: 1.1
+last_reviewed: 2026-07-16
+---
+
+# Pending Changes Archive 01
+
+> **Historical record only.** This file is not active, is not a current source of truth, and must not be used as the present file inventory. The original snapshot below is preserved for traceability and may contain stale filenames or paths.
 
 > **Purpose**: This is the single source of truth and long-term staging area for **all** proposed changes across the entire D&D campaign project. Every edit, addition, or modification (no matter how small) must be logged here first with file-specific detail. Main files are never edited until this log is explicitly approved.
 

@@ -1,60 +1,122 @@
 ---
 name: dnd-campaign-helper
-description: Use this skill for almost any question about the D&D campaign world, NPCs, quests, player decisions, combat, or related content. Triggers on campaign terms (Ravensport, Faerindel, Ironforge, Deepanvil, dead zones, gates, Lord Veyne, Aetherbound, Captain Rurik) or when the user discusses NPCs, quests, player actions, or world interactions.
+description: Repository operating manual for the Aetherbound D&D campaign. Use for campaign lore, NPCs, quests, player decisions, combat, cities, geography, and repository edits.
+status: Reference
+authority: Campaign Operating Procedure
+version: 2.0
+last_reviewed: 2026-07-16
 ---
 
-# D&D Campaign Helper Skill
+# Aetherbound Campaign Helper
 
-**System Overview**:
-1. Skill activates on any campaign-related query.
-2. Always check **Pending_Changes.md** first (all changes live here until approved).
-3. Load relevant core files (World Bible, NPC database, Quest/Decision tracker, city profiles).
-4. For NPCs/quests/decisions: Use the dedicated rules below + tracker for attitudes and progression.
-5. When changes are requested → Log in Pending_Changes.md only.
-6. Only apply changes when user explicitly approves the change log.
+## Important Loading Note
 
-This skill ensures consistent, accurate responses by loading the right campaign files automatically.
+This file is usable by ChatGPT and other repository-aware assistants **after it is explicitly opened**. The filename alone does not guarantee automatic activation on every platform. `AGENTS.md` therefore directs agents to read this file at the start of substantive campaign work.
 
-## Core Files to Load
-- **DnD_Campaign_World_Bible.md** — Master lore and plot.
-- **NPC_Backstory_Personality_file.md** — All NPCs (check for quest connections).
-- **Quests_Player_Decisions_Impacts.md** — Master tracker for quests, decisions, progression, and NPC attitudes.
-- **Ravensport_City_Profile.md**, **Faerindel_City_Profile.md**, **Ironforge_City_Profile.md**, **Deepanvil_City_Profile.md** — City details.
-- **Enemy_Encounters_Stat_Blocks.md** — Combat.
-- All **Guideline_*.md** files.
+`GOVERNANCE.md` outranks this file if a process rule conflicts.
 
-## Quest, Decision & NPC Relationship Tracking Rules (Critical)
-When the user mentions an NPC, player conversation, quest, decision, or progression:
-1. Check **NPC_Backstory_Personality_file.md** for the NPC’s details and quest connections.
-2. Check **Quests_Player_Decisions_Impacts.md** for:
-   - Current quest status and progression
-   - Recent player decisions and their impacts
-   - That NPC’s attitude toward the party or specific players (likes/dislikes)
-3. Cross-reference the **World Bible** for ongoing plot threads and Aetherbound activity.
-4. In your response, clearly note:
-   - Whether the NPC should reveal quest information now (based on current progress and attitude)
-   - Any long-term consequences of recent player decisions
-   - How the NPC currently feels about the players (and why)
-5. Suggest updates to the tracker file when new decisions or quest developments occur.
+## Startup Checklist
 
-**Quick Triggers**:
-- Player talks to an NPC → Check quest status + current attitude in tracker.
-- Player makes a decision → Note ripple effects and update tracker.
-- User asks about quest progress or reputation → Summarize from World Bible + tracker.
+1. Open `GOVERNANCE.md` and follow its authority hierarchy.
+2. Inspect `Pending_Changes.md` for active proposals that may affect the request.
+3. Classify the task as read-only analysis, a proposed repository change, or an approved implementation.
+4. Load the relevant files from the matrix below.
+5. Check status metadata and unresolved-conflict notes before treating a document as complete canon.
 
-## General Rules
-- Always load relevant files before answering.
-- Maintain consistency across all campaign files.
-- For combat in dead zones: Adjust enemy capabilities accordingly.
-- Keep responses clear and actionable for the DM.
+Do not load every file by default. Load all files needed to verify the specific answer or edit.
 
-## Change Log / Pending Changes Workflow (Strict)
-- All changes (big or small) are first written only to **Pending_Changes.md**. When logging, always specify the exact file(s) affected and the precise change needed in each one.
-- Nothing is applied to other files until you explicitly say you accept/approve the change log.
-- When approved:
-  1. Apply all changes to the relevant documents.
-  2. Rename the current `Pending_Changes.md` to an archived version (e.g. `Pending_Changes_Archived_01.md`).
-  3. Create a fresh `Pending_Changes.md` containing **only the lines that start with >**. All other lines are cleared.
-- Archived logs are kept for history but are no longer active.
+## File-Loading Matrix
 
-Use this skill to handle quest tracking and decision impacts efficiently.
+| Request type | Minimum files to inspect |
+|---|---|
+| Setting lore or world mechanics | World Bible, Geography when spatial, relevant dedicated profiles, applicable guideline |
+| City/location | Relevant city profile, World Bible, Geography, NPC database, City guideline |
+| NPC or relationship | NPC database, tracker, relevant city/quest/session files, NPC guideline |
+| Quest/session/progression | Dedicated quest/session file, tracker, NPC database, relevant city profile, stat blocks, Quest guideline |
+| Combat or encounter | Stat-block repository, relevant world mechanics, encounter/quest file, Battle guideline |
+| Geography/map | Geography, World Bible city/dead-zone lists, relevant city profiles, Geography guideline |
+| Repository edit/process | Governance, Pending Changes, target files, World Update guideline, Campaign Index |
+
+## Read-Only Questions and Audits
+
+For explanations, audits, summaries, and recommendations:
+
+- read the relevant files;
+- cite or name the files supporting the answer;
+- distinguish canon, draft material, and unresolved conflicts;
+- do not create a pending entry unless a repository edit is requested.
+
+## NPC, Quest, and Decision Tracking
+
+When the user asks about an NPC, quest, player choice, reputation, or progression:
+
+1. Check `NPC_Backstory_Personality_file.md` for identity, motives, and connections.
+2. Check `Quests_Player_Decisions_Impacts.md` for current status, decisions, reactions, and attitudes.
+3. Check the relevant quest/session and city files.
+4. Cross-reference the World Bible for campaign-wide plot threads.
+5. Explain, when relevant:
+   - what the NPC currently knows;
+   - whether the NPC should reveal it now;
+   - the NPC's current attitude and why;
+   - immediate and long-term consequences;
+   - what tracker update would be needed after play.
+
+Do not invent a tracker state when the tracker is empty. State that the information has not yet been recorded.
+
+## Combat and Dead Zones
+
+Before using a custom stat block:
+
+1. Check `Enemy_Encounters_Stat_Blocks.md`.
+2. Follow `Guideline_Battle_Stat_Block_Management.md`.
+3. Apply only dead-zone mechanics approved in the World Bible.
+4. If draft session material introduces a conflicting exception, flag it rather than applying it silently.
+5. Ensure the final encounter entry is actionable for the DM.
+
+## Repository Change Workflow
+
+### Proposed change
+
+When the user requests an edit that has not yet been approved as an exact batch:
+
+1. Add a file-specific proposal to `Pending_Changes.md`.
+2. Include every affected file, exact changes, and cross-reference work.
+3. Do not modify target files.
+4. Summarize the proposal and ask for approval.
+
+### Approved implementation
+
+When the user explicitly approves the active proposals or a previously documented exact batch:
+
+1. Re-read the current target files before editing.
+2. Apply only the approved scope.
+3. Run the ripple checks in `Guideline_World_Update_Change_Management.md`.
+4. Update the Campaign Index to reflect only the verified final state.
+5. Create the next numbered archived change record.
+6. Reset `Pending_Changes.md` to an empty active template.
+7. Report exactly what changed and identify any decisions that remain unresolved.
+
+If repository write access is unavailable, produce a patch or replacement files and clearly state that nothing was committed.
+
+## Content-Creation Rules
+
+- Use the applicable guideline.
+- Treat mandatory requirements as requirements, default guidance as guidance, and optional fields as optional.
+- Preserve player agency in quests.
+- Keep minor NPCs concise; use fuller profiles for important or recurring NPCs.
+- Prefer a single authoritative definition with cross-references over duplicated facts.
+- Do not turn a session idea into setting-wide canon without approval and synchronization.
+- Do not claim a file is complete unless its mandatory requirements are actually present.
+
+## Final Validation Checklist
+
+Before answering or committing:
+
+- [ ] Real files were inspected.
+- [ ] Authority and status metadata were respected.
+- [ ] Relevant tracker/profile/guideline files were checked.
+- [ ] Contradictions were flagged rather than silently resolved.
+- [ ] All referenced filenames and paths exist.
+- [ ] No unavailable previous-version placeholder is being relied upon.
+- [ ] No unapproved canon choice was added.
+- [ ] The Campaign Index, pending log, and archive reflect the actual final state when files were changed.

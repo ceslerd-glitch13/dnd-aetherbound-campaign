@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: Custom Combat Statistics
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Current entries are not yet fully actionable under the battle guideline
+---
 # Enemy Encounters Stat Blocks
 **Campaign:** Untitled D&D Campaign  
 **Purpose:** Running compilation of enemies, guards, and NPCs for quick reference during play.

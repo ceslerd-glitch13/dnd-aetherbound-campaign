@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: NPC Identity and Personality Detail
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Useful profiles exist; duplicate identities and leadership synchronization remain unresolved
+---
 # NPC Backstory & Personality File (Master Database)
 
 **Purpose**: Living master reference for all named NPCs across the campaign. Sorted by city and role. Includes both major and minor characters for consistency and historic reference. Update this file whenever new locations or personnel are added.

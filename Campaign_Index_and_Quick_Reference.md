@@ -1,108 +1,123 @@
+---
+status: Reference
+authority: Repository Navigation and Verified Status
+version: 3.0
+last_reviewed: 2026-07-16
+review_state: Safe structural cleanup complete; canon decisions remain unresolved
+---
+
 # Campaign Index and Quick Reference
 
-**Campaign Title:** Untitled D&D Campaign (Homebrew – Magic Dead Zones, Dimensional Gates, Aetheron Plot)  
-**Current Version / Focus:** v2.10 (July 2026) – Early campaign refinement complete. Primary play focus: Sessions 0–5 in/around Ravensport with branching paths (medallion, smuggling ring, Deepanvil delivery/mines). High-level arc available as stretch goal.  
-**Last Major Update:** Implementation of all recommended cleanups, organization improvements, NPC deepening, encounter quick reference, and early sessions plan. All changes follow existing Guidelines (especially World Update Change Management, Battle Stat Block Management, NPC Creation). No core mechanics altered.  
-**Continent Name:** Elyndria (set for consistency; previously "To be named").
+## Purpose
 
-**Purpose of This Index:** Single source of truth for file organization, purposes, interconnections, and quick navigation. Addresses previous recommendation for better labeling/organization in a flat directory structure. Update this file whenever new documents or major changes are added.
+This file provides navigation and a factual snapshot of the repository. It does **not** override campaign canon and is not a historical changelog.
 
----
+Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating procedure.
 
-## File Organization & Directory
+## Current Project State
 
-All files are in `/home/workdir/attachments/`. Use this index to locate content quickly. For long-term scalability, consider the recommended folder hierarchy in the Early Sessions Plan or future migration (e.g., 00_Overview/, 01_Locations/, 02_NPCs/, etc.), but current flat structure is functional with this index.
+- **Campaign/repository name:** Aetherbound
+- **Continent:** Elyndria
+- **Rules foundation:** Dungeons & Dragons 5th Edition with targeted homebrew
+- **Current condition:** Structured campaign draft with partially synchronized canon
+- **Geography:** Updated to match the Elyndria map and document all ten dead zones, major routes, ports, and canonical settlements
+- **Starter material:** Hook and branching concepts exist, but the starter quest and Sessions 1–5 are not yet complete enough to run without additional preparation
 
-### Core Lore & World Documents (Start Here for Big Picture)
-- **DnD_Campaign_World_Bible.md** (v2.10 – cleaned)  
-  **Purpose**: Central high-level lore bible (races, dead zones/Aetheron origin, gates, cities overview, pantheon, rules/homebrew, key locations like Ravensport).  
-  **Status**: Duplicate "Related Documents" section removed. Added reference to early sessions focus and Early_Sessions_Plan. Minor version bump.  
-  **Interconnections**: Primary index; cross-references all city profiles, guidelines, and core files. Update first for major lore changes.
+## Authority Order
 
-- **World_Geography.md** (enhanced)  
-  **Purpose**: Continent layout, regions, dead zones placement, starter area details.  
-  **Status**: Added specific travel times and descriptions for Ravensport starter area (western road, nearby dead zone ~2 hours walking). Continent name set to Elyndria. Hidden Deepanvil plot note preserved.  
-  **Interconnections**: Supports map creation guideline and Early Sessions Plan (travel to Deepanvil path).
+1. `GOVERNANCE.md` — repository process and authority ownership
+2. `DnD_Campaign_World_Bible.md` — setting-wide canon and mechanics
+3. `World_Geography.md` — spatial canon
+4. Dedicated city, NPC, quest, tracker, and combat files — detail within their scopes
+5. This Index — navigation and verified status only
+6. Session plans/drafts — preparation, not automatic canon
+7. Pending and archived change logs — proposals/history, not canon
 
-- **Early_Sessions_Plan_Sessions_0_to_5.md** (NEW – primary for initial play)  
-  **Purpose**: Focused plan for Session 0 + branching paths for Sessions 1–5. Includes detailed outlines, 4 interconnected quest paths (medallion keep/return, Deepanvil delivery + mine subquests, Shrouded Wards smuggling), pre-created key NPCs with full details (appearance, personality, motivation, secret, quirk), encounter templates (D&D Beyond pointers + partial homebrew), textual map/location aids, and convergence to main plot.  
-  **Status**: Created to implement review recommendations for early campaign focus, branching agency, and pre-created NPCs.  
-  **Interconnections**: References and updates starter quest, NPC file, stat blocks, city profiles, and World Bible. Use this first for Sessions 0–5 prep.
+## File Directory and Verified Status
 
-### City & Location Profiles (Detailed Playable Locations)
-- **Ravensport_City_Profile.md**  
-  **Purpose**: Full details for primary hub (leadership, shops with named proprietors, districts, economy, defenses, plot hooks).  
-  **Status**: Current; cross-referenced in early plan. Some NPC overlap with master file (disambiguation notes added in NPC file).  
-  **Interconnections**: Core for Session 0 (The Rusty Anchor, Docks, Shrouded Wards, Grand Bazaar).
+### Governance and operation
 
-- **Deepanvil_City_Profile.md**, **Faerindel_City_Profile.md**, **Ironforge_City_Profile.md**  
-  **Purpose**: Supporting gate/mining cities for later expansion or specific paths (e.g., Deepanvil for western delivery quest).  
-  **Status**: Complete per City Creation Guidelines. Use when players travel (e.g., Path 3 in early plan).  
-  **Interconnections**: Linked from World Bible, Geography, and Early Sessions Plan (Deepanvil subquests).
+| File | Purpose | Status |
+|---|---|---|
+| `GOVERNANCE.md` | Authority hierarchy, ownership, metadata, approval workflow | Reference |
+| `AGENTS.md` | Entry instructions for repository-aware assistants | Reference |
+| `SKILL.md` | Detailed campaign operating procedure | Reference |
+| `Pending_Changes.md` | Active unapproved proposals | Active Reference; currently empty |
+| `Pending_Changes_Archived_*.md` | Historical approved-change records | Historical |
 
-- **Ravensport_Starter_Area_Key_Locations.md** (RECOMMENDED / to be expanded)  
-  **Purpose**: Textual quick-reference "map" aid for Sessions 0–5 (districts, travel times within city, key sites like Rusty Anchor / Last Chance Curios / western road / nearby dead zone, sensory descriptions, rumors tying to branching paths). Addresses map creation weakness with narrative focus.  
-  **Status**: Prioritized in review; create or expand from existing district info in Ravensport profile if not yet present.  
-  **Interconnections**: Companion to Early Sessions Plan and Ravensport profile.
+### Core canon and reference
 
-### NPC & Character Management
-- **NPC_Backstory_Personality_file.md** (updated)  
-  **Purpose**: Master living database – all named NPCs sorted by city/role. Includes major/minor for consistency.  
-  **Status**: Key early campaign NPCs deepened with full details from Early Sessions Plan (Rurik expanded, Lirael "Silverthorn" deepened, new Client/Agent, new Smuggling Ring Leader, Deepanvil liaison, etc.). Disambiguation notes added for repeated names across cities (Lirael, Vesper, Helga, Thrain, Garrick, Brannok, Drogath, Vorn – distinguish by full title + location/role). New "Quest-Relevant / Early Campaign NPCs" subsection under Ravensport.  
-  **Interconnections**: Update whenever new NPCs added (per its own purpose note). Cross-reference in city profiles and Early Sessions Plan. Use 3-line + deeper method per NPC Creation Guideline.
+| File | Purpose | Verified state |
+|---|---|---|
+| `DnD_Campaign_World_Bible.md` | Setting-wide lore and mechanics | Canon with unresolved conflicts flagged; structural duplicate removed |
+| `World_Geography.md` | Elyndria placement, terrain, routes, waters, ports, travel, and dead zones | Canon; map-aligned |
+| `Campaign_Index_and_Quick_Reference.md` | Navigation and verified readiness | Reference |
 
-### Quests, Sessions & Plot
-- **Captain_Ruriks_Request_Session_0-1 (1).md** (updated)  
-  **Purpose**: Starter quest hook at The Rusty Anchor (medallion theft).  
-  **Status**: Investigation leads section expanded with concrete branching options tied to the four paths. References Early_Sessions_Plan for full structure.  
-  **Interconnections**: Core of Session 0; links to all branching paths and Early Sessions Plan.
+### Cities and NPCs
 
-- **Early_Sessions_Plan_Sessions_0_to_5.md** (see above)  
-  Primary for all early quest branching and session prep.
+| File | Purpose | Verified state |
+|---|---|---|
+| `Ravensport_City_Profile.md` | Detailed primary hub | Draft; mandatory city sections remain incomplete and leadership conflicts remain unresolved |
+| `Deepanvil_City_Profile.md` | Western mining city inside the Deepanvil Dead Zone | Draft; mandatory city sections remain incomplete |
+| `Faerindel_City_Profile.md` | Central elven gate city | Draft; mandatory city sections remain incomplete |
+| `Ironforge_City_Profile.md` | Northern dwarven gate city | Draft; mandatory city sections remain incomplete |
+| `NPC_Backstory_Personality_file.md` | Named NPC database | Draft; useful early profiles exist, but identity and leadership conflicts remain |
 
-### Encounters, Stat Blocks & Combat
-- **Enemy_Encounters_Stat_Blocks.md** (updated)  
-  **Purpose**: Master repository for all custom stat blocks (guards, monsters, NPCs). Standard format with AC/HP/attacks/loot/notes.  
-  **Status**: Added "Quick Reference: Common Encounters for Sessions 0–5" section with D&D Beyond pointers for official blocks + partial homebrew skeletons/adjustments for dead zones, Aetherbound, smuggling, mining threats. Follows Battle Stat Block Management Guideline strictly (check here first).  
-  **Interconnections**: Update with any new threats from play. Used in Early Sessions Plan encounters.
+### Quests, sessions, and tracking
 
-### Guidelines (Process Documents – Do Not Deviate)
-- **Guideline_Battle_Stat_Block_Management.md**  
-- **City_Creation_Guidelines.md**  
-- **Guideline_World_Update_Change_Management.md** (core rule: implement requested changes, then update affected files)  
-- **Guideline_Quest_Creation.md**  
-- **Guideline_NPC_Character_Creation.md** (3-line method + deeper for key NPCs)  
-- **Guideline_World_Geography_Map_Creation.md**  
-- **Guideline_World_Update_Change_Management.md** (already followed in all cleanups)
+| File | Purpose | Verified state |
+|---|---|---|
+| `Captain_Ruriks_Request_Session_0-1.md` | Starter hook and medallion theft | Draft; investigation, conflict, and outcomes remain incomplete |
+| `Early_Sessions_Plan_Sessions_0_to_5.md` | Session 0 outline and four branch concepts | Draft outline; not complete Sessions 1–5 preparation |
+| `Quests_Player_Decisions_Impacts.md` | Quest state, decisions, attitudes, and session record | Active Reference; template exists but known pre-play entries are not yet seeded |
+| `Enemy_Encounters_Stat_Blocks.md` | Campaign combat repository | Draft; current entries lack required actionable attack/ability details |
 
-**Usage Note**: Always consult the relevant Guideline before creating/editing content. The Early Sessions Plan incorporates all of them for the starter arc.
+### Guidelines
 
-### Other / Future Expansion
-- **Captain_Ruriks_Request_Session_0-1 (1).md** and Early plan cover initial quests. Additional quests can be added to Early_Sessions_Plan or a new master quest tracker as needed.
-- Pantheon (in World Bible): Foundational (Aetherion, Elyndra, Thalor). Room for 1–2 more (e.g., dwarven forge god, general trade/war deity) per review recommendation – implement when relevant to play.
-- Dragons, full 10 dead zones details, factions, random tables: Noted in World Bible/ Geography as future expansion. Prioritize only when players approach those elements.
-- Player character creation notes or restrictions: Can be added to Early Sessions Plan or new file if needed for Session 0.
+- `City_Creation_Guidelines.md`
+- `Guideline_Battle_Stat_Block_Management.md`
+- `Guideline_NPC_Character_Creation.md`
+- `Guideline_Quest_Creation.md`
+- `Guideline_World_Geography_Map_Creation.md`
+- `Guideline_World_Update_Change_Management.md`
 
----
+Guidelines define mandatory, default, and optional content standards. They do not override approved canon.
 
-## Quick Navigation for Common Tasks
+## Known Unresolved Canon Decisions
 
-- **Running Session 0 or prepping Sessions 1–5**: Start with **Early_Sessions_Plan_Sessions_0_to_5.md** + updated starter quest + Ravensport profile + deepened NPCs in master file + Quick Reference in stat blocks.
-- **Adding a new NPC**: Use NPC Creation Guideline → add to master NPC file (with disambiguation if name overlap) → update relevant city profile if shop/leadership → note in this Index.
-- **New stat block or encounter**: Check stat blocks file first → add in standard format or to Quick Reference section → update Early Sessions Plan if for early game.
-- **World/lore change**: Follow World Update Change Management Guideline → update World Bible + affected profiles/geography/NPC file → update this Index and Early Sessions Plan if relevant to starter arc.
-- **Map or geography**: Use Geography file + map creation guideline. For starter area, use textual aids in Early Sessions Plan or dedicated Ravensport_Starter_Area_Key_Locations.md.
-- **City expansion**: Follow City Creation Guidelines strictly → create new profile if large settlement.
+Do not silently resolve these items:
 
----
+1. How gods and divine power interact with dead zones
+2. Whether beacon cores create a local magic exception and, if so, its mechanics
+3. Exact Resonance Medallion mechanics and relationship to Aetherite technology
+4. Ravensport government and military command structure
+5. The canonical identity of the Rusty Anchor's Captain Rurik
+6. Definitions of Aetheron, Aetherite, Aetherians/Aetheronians, and the Aetherbound
 
-## Notes on Cleanup & Refinements Implemented
+These decisions require a proposed canon batch and explicit approval before synchronization.
 
-- All recommendations from full project review addressed: redundancies removed (World Bible duplicate), organization improved (this Index + Early Sessions Plan as hub), NPCs pre-created and disambiguated, encounters enhanced with D&D Beyond + partial fills, early campaign focused with branching paths exactly as specified, textual map aids prioritized, pantheon noted for future, geography starter details added.
-- Embedded notes in files reviewed and actioned (e.g., "update this file whenever new locations or personnel added" → done via Index and master NPC updates; "See previous version" in starter quest → replaced with concrete leads; "Ready for further refinement" → implemented early focus and cleanups).
-- No core mechanics changed. All homebrew (dead zones, Aetherite) preserved.
-- Versioning applied (World Bible to v2.10). This Index serves as living changelog hub.
-- Continent name set to **Elyndria** for consistency in Geography and references.
+## Quick Navigation by Task
 
-**End of Campaign Index**  
-Update this file with every significant addition or cleanup. It ensures the project remains efficient, consistent, and easy to navigate long-term. Ready for play or further expansion.
+- **World lore/mechanics:** World Bible + relevant guideline
+- **Map, route, distance, or settlement placement:** Geography + World Bible
+- **City preparation:** relevant city profile + Geography + NPC database + City guideline
+- **NPC interaction:** NPC database + tracker + relevant city/quest
+- **Quest/session preparation:** starter/early-session file + tracker + NPC database + stat blocks + Quest guideline
+- **Combat:** stat-block repository + World Bible mechanics + Battle guideline
+- **Repository edit:** Governance + Skill + Pending Changes + target files + World Update guideline
+
+## Verified Safe Structural Work
+
+The following structural work is reflected in the current files:
+
+- map-aligned Elyndria geography;
+- corrected starter-quest filename;
+- corrected governance and file-loading instructions;
+- one staged approval workflow;
+- accurate active pending inventory;
+- archived logs clearly marked historical;
+- duplicate World Bible directory removed;
+- false completion claims removed from this Index;
+- major-document status metadata added.
+
+This section reports only structural work. It does not imply that the known canon or playability issues have been resolved.

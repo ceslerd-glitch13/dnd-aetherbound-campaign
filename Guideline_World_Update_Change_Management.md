@@ -1,86 +1,115 @@
-# Guideline: World Update & Change Management
-
-**Purpose**: This document provides a clear process for handling user-requested changes to the world (new cities, location shifts, new features, etc.). The goal is to keep the world consistent without questioning the user’s decisions.
-
 ---
+status: Reference
+authority: Approved Change Implementation Guideline
+version: 2.0
+last_reviewed: 2026-07-16
+---
+
+# Guideline: World Update and Change Management
+
+## Purpose
+
+This guideline explains how to apply an **approved** campaign change completely and consistently. `GOVERNANCE.md` and `SKILL.md` control whether an edit is still a proposal or has been approved for implementation.
 
 ## Core Rule
-**Do not question or push back on the user’s requested change.**  
-If the user says “add a city here” or “move this”, implement it. Then handle all the ripple effects.
 
----
+Respect the user's creative decision while protecting repository consistency.
 
-## Step-by-Step Process When a Change Is Requested
+- Do not debate the user's preferred direction merely because another design choice is possible.
+- Do flag an existing contradiction, missing decision, or mechanical consequence before implementation when it affects the requested result.
+- Do not silently choose between competing canon versions.
 
-### 1. Acknowledge and Confirm the Change
-- Briefly acknowledge what the user wants.
-- Do **not** ask “are you sure?” unless it would create an obvious contradiction with established lore (and even then, only suggest, never refuse).
+## Stage Before Editing
 
-### 2. Identify All Affected Documents
-Check and update these files as needed:
-- `DnD_Campaign_World_Bible.md` (main lore document)
-- `World_Geography.md` (map and geography details)
-- `Enemy_Encounters_Stat_Blocks.md` (if new enemies or guards are implied)
-- Any other relevant files (quest documents, etc.)
+Unless the user has already approved an exact documented batch:
 
-### 3. Update the World Bible (Primary Document)
-When adding or changing something:
-- Add the new element in the appropriate section.
-- If the change affects an **existing reference**, edit that reference.
-- Update distances, relationships, trade routes, or political impact if relevant.
-- Add any new key NPCs or locations that the change creates.
+1. Record the requested change in `Pending_Changes.md`.
+2. Name every affected file.
+3. Describe the exact change and required follow-up work.
+4. Wait for explicit approval before editing target files.
 
-**Example**:  
-User says: “There is now a new human city 30 miles north of Ravensport.”  
-→ Add the new city to the geography section.  
-→ Update distances from Ravensport.  
-→ Consider if it affects trade, patrols, or quests.  
-→ Add at least one notable NPC if it’s a key location.
+Read-only analysis and recommendations do not require a pending entry.
 
-### 4. Update Geography & Map Details
-- Add the new location with approximate coordinates or relative position.
-- Update any affected roads, rivers, or trade routes.
-- Adjust dead zone positions or descriptions if the change impacts them.
-- Update travel times if relevant.
+## Apply an Approved Change
 
-### 5. Handle Ripple Effects
-Ask yourself:
-- Does this change affect existing quests or plot hooks?
-- Does it change distances between cities?
-- Does it impact trade, politics, or military movement?
-- Does it create new key locations that need NPCs?
-- Should this be reflected in the city creation or map guidelines?
+### 1. Confirm the approved scope
 
-If yes → update those sections.
+- Re-read the approved pending entry or documented batch.
+- Apply only what was approved.
+- Ask for clarification only when the approved scope cannot be implemented without selecting an unresolved canon option.
 
-### 6. Keep Changes Minimal but Complete
-- Only add what is necessary for consistency.
-- Do **not** overbuild unless the user asks for more detail.
-- If the user later wants more depth on the new element, they can request it.
+### 2. Identify all affected authority files
 
-### 7. Final Check Before Responding
-Before giving the user the updated information, verify:
-- [ ] The change is reflected in the World Bible
-- [ ] Geography file is updated (if location-based)
-- [ ] Any existing references to the changed element have been edited
-- [ ] New key locations have at least one notable NPC (if appropriate)
-- [ ] The change is summarized clearly for the user
+Check, as applicable:
 
----
+- `DnD_Campaign_World_Bible.md`
+- `World_Geography.md`
+- relevant city profiles
+- `NPC_Backstory_Personality_file.md`
+- `Quests_Player_Decisions_Impacts.md`
+- quest and session files
+- `Enemy_Encounters_Stat_Blocks.md`
+- applicable guidelines
+- `Campaign_Index_and_Quick_Reference.md`
 
-## Examples of Common Changes
+Use the ownership table in `GOVERNANCE.md` to decide where the primary definition belongs.
 
-| User Request                        | What to Update                              | Documents to Touch                  |
-|-------------------------------------|---------------------------------------------|-------------------------------------|
-| “Add a new city 30 miles north of Ravensport” | New city entry, distances, possible trade impact | World Bible + World Geography      |
-| “Move the dwarven gate city farther north”   | Update location, distances, terrain         | World Bible + World Geography      |
-| “There’s now a major road between Faerindel and Ironforge” | Add road, update travel times               | World Geography                    |
-| “This dead zone is actually much larger”       | Update size and description                 | World Bible + World Geography      |
+### 3. Update the primary authority first
 
----
+- Add or revise the fact in its primary authority file.
+- Edit existing references rather than creating a parallel definition.
+- Update relationships, distances, trade, politics, military effects, NPCs, and quest dependencies when relevant.
 
-**Final Note**:
-This guideline exists so that when the world evolves (which it will), all changes are handled cleanly and consistently without requiring the user to re-explain context every time.
+### 4. Update geography when spatial
 
-The rule is simple:  
-**Implement the change → Update what’s affected → Keep everything consistent.**
+- Record the relative position or coordinates.
+- Update roads, rivers, ports, trade routes, and travel times.
+- Update dead-zone placement or route effects when applicable.
+- Preserve the map-interpretation rules in `World_Geography.md`.
+
+### 5. Apply ripple effects
+
+Check whether the approved change affects:
+
+- existing quests or hooks;
+- player-known information;
+- city services, trade, politics, or military movement;
+- NPC identities, motives, attitudes, or relationships;
+- encounter statistics or dead-zone variants;
+- status claims in the Campaign Index.
+
+Update only the files actually affected.
+
+### 6. Keep the change minimal but complete
+
+- Do not overbuild beyond the approved request.
+- Do not omit required synchronization.
+- Leave unresolved canon decisions visibly unresolved.
+
+### 7. Validate and close the batch
+
+Before reporting completion, verify:
+
+- [ ] The primary authority file was updated.
+- [ ] Geography was updated if spatial.
+- [ ] Existing references were synchronized.
+- [ ] New key locations or recurring NPCs have appropriate records.
+- [ ] Quest, tracker, and combat effects were addressed where applicable.
+- [ ] Every referenced filename exists.
+- [ ] The Campaign Index reflects the real current state.
+- [ ] The approved batch was archived.
+- [ ] `Pending_Changes.md` was reset.
+
+## Common Change Examples
+
+| Request | Primary update | Typical supporting updates |
+|---|---|---|
+| Add or move a city | World Bible and Geography | City profile, NPC database, quests, Index |
+| Add a major road | Geography | City trade/travel notes, quests, Index |
+| Change a dead zone | World Bible and Geography | Combat rules, nearby cities, quests, Index |
+| Change an NPC's role | NPC database | City profile, quests, tracker, Index |
+| Add a world mechanic | World Bible | Sessions, combat, items, tracker, Index |
+
+## Final Principle
+
+**Stage the exact proposal → receive approval → update the primary authority → synchronize every affected file → validate and archive the batch.**

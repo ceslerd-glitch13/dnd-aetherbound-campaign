@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: Ironforge City Detail
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Mandatory city sections remain incomplete
+---
 # Ironforge City Profile
 
 **Status**: Primary Dwarven Gate City  

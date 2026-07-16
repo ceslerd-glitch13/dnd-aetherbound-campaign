@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: Early Session Preparation
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Session 0 outline and branch concepts exist; Sessions 1–5 are incomplete
+---
 # Early Campaign Plan: Sessions 0–5 (Focused Starter Arc)
 
 **Campaign:** Untitled D&D Campaign  
@@ -5,10 +12,10 @@
 **Primary Location:** Ravensport and immediate surroundings (Docks, Grand Bazaar, Shrouded Wards, Gate Quarter). One optional path leads west toward Deepanvil.  
 **Core Philosophy:** Sandbox-style play with a strong central hook (the Resonance Medallion theft). Multiple branching paths that players can pursue in any order or combination. All paths seed the larger Aetherbound / dead zone / Aetheron plot without railroading. Players may never leave Ravensport if they choose urban-focused play.  
 **Design Notes**: 
-- Follows all existing Guidelines (check Enemy_Encounters_Stat_Blocks.md first for any new threats; use standard stat block format; pre-create key NPCs per NPC Character Creation Guideline).
-- Encounters use D&D Beyond / SRD / Monster Manual references for standard monsters (quick lookup during play). Partial homebrew adjustments noted for dead zones or campaign flavor. Some pre-filled skeletons for common Session 0–3 threats.
-- Map: Textual descriptions and key location relationships prioritized. Visual map creation is a known weak point; use narrative descriptions, simple diagrams, and player handouts based on text for now. Starter area (Ravensport districts + docks + one nearby dead zone) is fully detailed for self-contained play.
-- NPCs: Key quest-relevant NPCs pre-created below with full details per guideline. Master NPC file updated.
+- Intended to use the existing guidelines. Several mandatory quest, NPC, encounter, and cross-reference elements remain incomplete and must be verified before play.
+- Planned encounters may use official D&D references as baselines, but this file does not yet contain complete encounter templates or campaign-ready stat-block references.
+- Map and travel authority: use `World_Geography.md` and the Ravensport profile. This file does not yet contain a complete starter-area location guide.
+- NPCs: some key early NPCs have fuller entries in the master NPC database, but the NPC section below is not complete.
 - Branching: The medallion recovery is the inciting incident. Player choices (keep it, turn it in, ignore side hooks, pursue rumors) determine path. DM can weave paths together (e.g., smuggling ring involved in medallion theft; mining delivery uncovers related sabotage).
 - Beacon Core Note (Sweeping Update): Dead zones are caused by large beacon cores (Residuum + Mithral + specialized rune-engraved crystals) that absorb and syphon magic to Aetheron. Secret high-magic zone (~20 ft around core): advantage on spells, +2d10 heal/damage, effects last 10× longer. This is high-level/secret.
 
@@ -56,8 +63,8 @@
 
 ## Key NPCs (Pre-Created – See Master File for Full Integration)
 
-(Details as previously deepened with beacon core references for Silas Crowe and others.)
+**Status:** Incomplete. Use `NPC_Backstory_Personality_file.md` for existing early NPC records. This section still needs a verified list of which NPCs appear in each branch and what each NPC knows, wants, and reveals.
 
 ---
 
-**End of Early Sessions Plan** (Updated with beacon core mechanics for consistency).
+**End of Early Sessions Plan** — Draft outline; the beacon-core note remains an unresolved proposal and does not override the World Bible.

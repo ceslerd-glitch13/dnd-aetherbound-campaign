@@ -1,3 +1,10 @@
+---
+status: Active Reference
+authority: Quest Decision Attitude and Session Tracking
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Template exists; known pre-play quest and attitude records are not yet seeded
+---
 # Quests, Player Decisions & Impacts Tracker
 
 **Purpose**: Living document to track quests, player decisions, progression, and NPC relationships/attitudes. Designed for easy long-term recall and DM reference.

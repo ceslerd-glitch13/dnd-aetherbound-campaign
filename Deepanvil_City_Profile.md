@@ -1,3 +1,10 @@
+---
+status: Draft
+authority: Deepanvil City Detail
+version: 1.0
+last_reviewed: 2026-07-16
+review_state: Mandatory city sections remain incomplete
+---
 # Deepanvil City Profile
 
 **Status**: Major Dwarven Mining Settlement (inside a Magic Dead Zone)  
