@@ -1,7 +1,7 @@
 ---
 status: Active Reference
 authority: Proposed Change Staging
-version: 3.3
+version: 3.4
 last_reviewed: 2026-07-16
 ---
 
@@ -9,11 +9,245 @@ last_reviewed: 2026-07-16
 
 ## Purpose
 
-This file contains proposed repository changes that have not yet been implemented. Individual Batch C decisions may be marked approved while the full batch remains under development. It is not canon until the approved changes are applied to their authority files.
+This file contains proposed repository changes that have not yet been implemented. Individual decisions may be marked approved while the larger batch remains under discussion. It is not canon until the approved batch is applied to the authority files.
 
 Read `GOVERNANCE.md` and `SKILL.md` before using this file.
 
 ## Active Proposed Changes
+
+### Batch B-01 — Dead zones, divine power, and magical transport
+
+- **Requested outcome:** Establish one consistent rule explaining how dead zones suppress magic, magical transport, divine perception, divine manifestations, and gods physically present inside a zone.
+- **Affected files:**
+  - `DnD_Campaign_World_Bible.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - `Enemy_Encounters_Stat_Blocks.md`
+- **Exact edits by file:**
+  - `DnD_Campaign_World_Bible.md`: Replace the contradictory statements about gods and dead zones with the following canon framework:
+    - A dead zone prevents magical energy from entering, leaving, or remaining stable within its boundary.
+    - Spellcasting and magical item effects fail inside the zone unless a separately approved exception applies.
+    - Teleportation, portals, dimensional travel, magical communication, scrying, divination, divine observation, and similar effects fail when either endpoint or required path lies inside a dead zone because magic is required at both ends.
+    - Existing or lingering magical effects end immediately or decay far faster than normal after entering the zone, according to the specific effect and DM judgment.
+    - A deity outside the zone is not harmed at its source but cannot project power, perception, miracles, avatars, or magical influence through the boundary.
+    - A deity, true manifestation, avatar, or other divine being physically present inside a dead zone experiences magical drain. The drain does not directly injure or kill the deity, but it suppresses external reinforcement and gradually exhausts accessible divine power.
+    - In the theoretical case of extraordinarily prolonged isolation inside a dead zone, with no worship, divine energy, or magical reinforcement able to reach the deity, the deity could eventually lose its godhood. This is a description of the zone's maximum effect, not a current campaign event.
+    - Magic items are normally suppressed rather than permanently destroyed, unless a specific item or event states otherwise.
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`: Align all dead-zone explanations with the World Bible rule above. Do not imply that magical transport, divine observation, or outside spell support can freely cross a dead-zone boundary. Preserve beacon-core details as unresolved until Batch B-02 is approved.
+  - `Enemy_Encounters_Stat_Blocks.md`: Add encounter guidance stating that magical creatures, summoned beings, avatars, ongoing magical effects, magical movement, and magical escape abilities are suppressed or drained inside dead zones. Exact creature-specific consequences remain subject to the stat-block guideline and DM judgment.
+- **Cross-reference and validation work:**
+  - Search for statements that gods are unaffected by dead zones or can manifest freely inside them and replace them with the approved framework.
+  - Search for teleportation, portal, scrying, communication, summoning, and divine-intervention references involving dead zones.
+  - Do not resolve the Resonance Medallion or beacon-core exception in this change; those require separate decisions.
+- **Canon decisions required:** None for this proposal. The dead-zone and godhood interpretation was approved during Batch B discussion.
+- **Status:** Decision approved; awaiting completion and approval of the full Batch B implementation set.
+
+
+### Batch B-02 — Beacon-core resonance field
+
+- **Requested outcome:** Preserve the intended 20-foot supercharged-magic area around an active beacon core while defining exact casting cost, risk, duration, damage, and healing mechanics.
+- **Affected files:**
+  - `DnD_Campaign_World_Bible.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - `Enemy_Encounters_Stat_Blocks.md`
+- **Exact edits by file:**
+  - `DnD_Campaign_World_Bible.md`: Add the following beacon-core canon:
+    - An active beacon core draws magical energy from the surrounding dead zone and transmits it to the Aetherian home world.
+    - Within **20 feet** of the active core, the concentration of gathered magic creates a supercharged resonance field where ordinary spellcasting becomes possible despite the surrounding dead zone.
+    - The field is not inherently destabilizing, but channeling its concentrated magic is difficult. Every spellcast requires a Constitution check using the spell's original level: **DC 10 + original spell level**; cantrips use **DC 10**.
+    - On a failed check, the spell produces wild-magic behavior or another unintended outcome chosen by the DM according to the spell, caster, target, and situation.
+    - On a successful check, the spell consumes a slot equal to half its original level, rounded up:
+      - 2nd → 1st
+      - 3rd → 2nd
+      - 4th → 2nd
+      - 5th → 3rd
+      - 6th → 3rd
+      - 7th → 4th
+      - 8th → 4th
+      - 9th → 5th
+    - First-level spells are treated as cantrips for slot expenditure while cast inside the field and may be cast without consuming a spell slot.
+    - The caster must still know or prepare the spell and must normally be capable of casting spells of that original level. The field reduces cost; it does not teach or unlock higher-level spells.
+    - The spell retains its original spell level for Counterspell, Dispel Magic, concentration, scaling, and all other rules except slot expenditure.
+    - A spell cast inside the field has **twice its normal duration** while its maintained effect remains within the 20-foot radius.
+    - When the spell's subject, maintained area, or relevant magical effect leaves the field, divide its remaining enhanced duration by two. This restores the spell to the duration it would effectively have without continued resonance support.
+    - A damaging spell deals an additional **1d6 force damage** to each creature it damages, once per creature per casting, not once per ray, missile, attack roll, or separate damage instance.
+    - A healing spell restores an additional **1d6 hit points** to each creature it heals, once per creature per casting.
+    - The flat 1d6 increase is intentional: it materially improves weaker spells while having proportionally less effect on stronger spells.
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`: Replace the abbreviated beacon-core note with the exact mechanics above and identify the rule as hidden, high-level campaign information unless discovered in play.
+  - `Enemy_Encounters_Stat_Blocks.md`: Add a beacon-core environmental-effects reference for encounters occurring within 20 feet of an active core, including the Constitution check, reduced slot cost, doubled duration while maintained inside the field, duration reversion on exit, and flat damage/healing increase.
+- **Cross-reference and validation work:**
+  - Remove or revise any statement that the core grants automatic advantage on spells or a flat +2d10 bonus.
+  - Preserve the normal dead-zone rules everywhere outside the 20-foot resonance field.
+  - Ensure teleportation and other magical transport can operate only if the spell is cast and both required endpoints can sustain magic; leaving the core field into the surrounding dead zone can still cause the transport to fail.
+  - Apply the extra 1d6 only once per affected creature per spellcasting to prevent multi-hit spells from multiplying the bonus.
+- **Canon decisions required:** None for this proposal. Radius, casting check, reduced slot cost, duration rule, and damage/healing bonuses were approved during Batch B discussion.
+- **Status:** Decision approved; awaiting completion and approval of the full Batch B implementation set.
+
+
+### Batch B-03 — Resonance Medallion and Aetherian crystal-orb mechanics
+
+- **Requested outcome:** Define the Resonance Medallion as a housing for an unmarked Aetherian crystal orb and establish exact rules for its protection field, stored energy, spellcasting use, recharge, exhaustion interaction, and technological classification.
+- **Affected files:**
+  - `Captain_Ruriks_Request_Session_0-1.md`
+  - `DnD_Campaign_World_Bible.md`
+  - `NPC_Backstory_Personality_file.md`
+  - `Quests_Player_Decisions_Impacts.md`
+- **Exact edits by file:**
+  - `DnD_Campaign_World_Bible.md`: Expand Aetherian crystal technology into two related orb types:
+    - **Inscribed orbs** contain internal runes and hold one predetermined spell of up to 3rd level. They can cast that stored spell when charged and can also serve as the active spell component in specialized Aetherian gun-like devices.
+    - **Unmarked orbs** contain concentrated raw magical energy without a preset spell. They function as rechargeable batteries, resonance sources, and power intermediaries for Aetherian devices or creatures able to draw directly from them.
+    - Specialized Aetherian gun-like devices combine one inscribed orb with one or more unmarked orbs. The inscribed orb defines the spell, while the unmarked orbs provide additional energy for repeated casting or upcasting.
+    - A fully charged unmarked orb has **24 charges**.
+    - A depleted orb fully recharges over **24 hours** while exposed to usable ambient magic, regaining **1 charge per hour**.
+    - It cannot recharge inside a normal dead zone unless another approved source of usable magic is present.
+    - One fully charged unmarked orb therefore equals either **24 hours of dead-zone field operation** or the energy cost of **one 3rd-level spell**, before accounting for mixed use.
+    - **Veyne's Aetheron travel array** uses exactly **three Aetherite crystals**:
+      - one rune-inscribed crystal containing the planar-transit formula and Aetheron destination key;
+      - two fully charged unmarked crystal orbs acting as batteries.
+    - The inscribed crystal's **standalone output** remains limited to 3rd-level power. Its more complex transit formula cannot activate without the additional unmarked batteries.
+    - The completed three-crystal array has 72 charges available. A Plane Shift-equivalent effect requires 56 charges, so two crystals alone are insufficient and all three crystals must be connected for activation.
+    - One successful trip consumes 56 charges from the combined array. The remaining 16 charges stay in the connected crystal pool unless another effect, failed activation, or campaign event consumes them.
+    - The unmarked orb hidden in the Resonance Medallion was being delivered to Veyne as one of the battery components needed for this travel system.
+  - `Captain_Ruriks_Request_Session_0-1.md`: Replace the vague Resonance Medallion description with these exact rules:
+    - The silver medallion is only a concealed protective housing. The valuable component is the smooth, unmarked crystal orb inside it.
+    - The orb requires **no attunement**.
+    - While carried, worn, mounted, or placed, the orb creates a **5-foot-radius resonance field centered on itself**.
+    - The field affects the holder and any creature directly adjacent to the orb.
+    - The orb spends **1 charge per hour** while maintaining this field inside a dead zone. This is one charge for the field as a whole, not one charge per protected creature.
+    - While charges remain, creatures inside the field are protected from the dead zone's direct magical drain and may cast spells by drawing power from the orb.
+    - A spell cast through the orb consumes **8 charges per spell level**:
+      - 1st level: 8 charges
+      - 2nd level: 16 charges
+      - 3rd level: 24 charges
+    - The crystal system described here does not independently support spells above 3rd level. Effects beyond that limit require multiple power sources, larger infrastructure, or another separately approved mechanism.
+    - **Cantrips consume no charges.** They cannot be upcast and do not draw from the orb's spell-level battery cost.
+    - The caster must still know or prepare the spell and must normally be capable of casting it. The orb supplies magical energy; it does not teach spells or grant new spell levels.
+    - Instantaneous spell effects may resolve normally when powered by the orb.
+    - Ongoing, concentration, or persistent magical effects remain stable only while the relevant caster, target, or maintained effect remains within the orb's 5-foot field. Leaving the field inside a dead zone subjects the effect immediately to the normal dead-zone suppression rules.
+    - Magical transport requires usable magic at every necessary endpoint. The orb can support the endpoint within its field, but teleportation, portals, or planar travel still fail if another required endpoint lies in an unprotected dead zone.
+    - While protected by a charged orb, creatures do not accumulate Magical Exhaustion from the dead zone. If the orb reaches 0 charges, normal dead-zone effects begin immediately; protected time does not retroactively create exhaustion.
+    - The orb may be removed from the medallion and used as a portable battery, stationary resonance source, component in machinery, or power source for an Aetherian weapon.
+  - `NPC_Backstory_Personality_file.md`: Update any NPC knowledge, motives, secrets, or dialogue concerning the stolen medallion so informed NPCs understand that the medallion is merely a housing and that the unmarked orb is the valuable Aetherian technology.
+  - `Quests_Player_Decisions_Impacts.md`: Track possession, current charge total, recharge time, use inside dead zones, spell-energy expenditure, and any transfer of the orb between the medallion, a character, or another device.
+- **Cross-reference and validation work:**
+  - Replace references that treat the necklace itself as the source of power.
+  - Align the existing Aetherite crystal and Aetherian weapon descriptions with the inscribed-orb/unmarked-orb distinction.
+  - Ensure charge use is cumulative: hourly field maintenance and spellcasting both draw from the same 24-charge pool.
+  - Ensure the field is centered on the physical orb, not permanently tied to a wearer.
+  - Preserve the distinction between the portable 5-foot resonance field and the beacon core's 20-foot supercharged field.
+  - Align Veyne's travel references with the three-crystal array: one inscribed transit crystal plus two unmarked battery orbs.
+  - Do not introduce a separate transit artifact when the established Aetherite crystal system can perform the function.
+- **Canon decisions required:** None for this proposal. Classification, range, lack of attunement, 24-charge capacity, 24-hour recharge, protection cost, 3rd-level maximum, spell costs, and free cantrips were approved during Batch B discussion.
+- **Status:** Decision approved; awaiting completion and approval of the full Batch B implementation set.
+
+
+### Batch B-04 — Ravensport government and military command
+
+- **Requested outcome:** Replace the conflicting Ravensport councils and military chains with one government that preserves the city's intended mixed civic, commercial, magical, and gate-security leadership.
+- **Affected files:**
+  - `DnD_Campaign_World_Bible.md`
+  - `Ravensport_City_Profile.md`
+  - `NPC_Backstory_Personality_file.md`
+  - `Enemy_Encounters_Stat_Blocks.md`
+  - `Captain_Ruriks_Request_Session_0-1.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - any other starter or session material that names Ravensport officials
+- **Exact edits by file:**
+  - `DnD_Campaign_World_Bible.md`: Replace all conflicting Ravensport government and military lists with this canonical structure:
+    - **Lord Protector Elara Voss** is Ravensport's current civilian ruler and chairs the City Council. She controls civil administration, diplomacy, taxation, appointments, and emergency civilian authority.
+    - **Harlan Voss** is the retired former Lord Protector and Elara's father. He may advise privately but holds no operational command or governing vote unless Elara formally delegates a temporary duty.
+    - **Gate Warden Seraphine Vale** is a voting council member responsible for gate-security policy, defensive readiness, Iron Talon doctrine, and coordination between military branches.
+    - **Master of Trade Vorn Ironvein** is a voting council member representing merchant guilds, dimensional commerce, tariffs, logistics, and major trade interests.
+    - **Archmage Lirael Starveil** is a voting council member responsible for the Arcane Wardens, magical threats, dimensional research, and technical advice concerning the gate.
+    - **Captain of the City Guard Thorne Blackwood** is a voting council member responsible for ordinary law enforcement, district patrols, investigations, and civil order outside the gate fortress.
+    - **Gate Commander Kael Thorne** is the operational commander of the gate fortress and the Iron Talons. He reports to Gate Warden Seraphine Vale, executes approved security policy, and has tactical authority during an active gate emergency.
+    - Kael Thorne is not a permanent voting member of the City Council, but attends security sessions and may exercise emergency tactical command within the gate complex.
+    - Kael Thorne and Thorne Blackwood are unrelated; the similarity between Kael's surname and Blackwood's given name is coincidental.
+    - Remove or replace the conflicting active offices and command roles assigned to Lord Harlan Voss, Lady Elara Voss as Spymaster, Captain-General Marcus Hale, Commander Kael "Ironwall" Thorne as an independent supreme commander, and any duplicate council lists.
+    - Standardize the **Iron Talons at 200 active members total**, organized as four companies of 50 under Kael's operational command and Seraphine's strategic oversight.
+    - Preserve approximately 1,800 total active military personnel: approximately 1,000 assigned to gate-fortress security and approximately 800 assigned to city-wide guard duties. Synchronize component totals so Iron Talons are not counted twice.
+  - `Ravensport_City_Profile.md`: Replace the Leadership and Government summaries with the canonical structure above. Clearly distinguish the City Council, the city guard, the Arcane Wardens, and operational gate command.
+  - `NPC_Backstory_Personality_file.md`: Consolidate each official into one identity and role. Reclassify Harlan Voss as retired. Add or revise concise profiles for Elara Voss, Seraphine Vale, Vorn Ironvein, Lirael Starveil, Thorne Blackwood, and Kael Thorne using their canonical responsibilities.
+  - `Enemy_Encounters_Stat_Blocks.md`: Align guard categories and command notes with the new chain. Standard city guards answer to Thorne Blackwood; Arcane Wardens answer to Lirael Starveil; Iron Talons and gate-fortress forces answer operationally to Kael Thorne under Seraphine Vale's strategic authority.
+  - starter/session material: Replace references to superseded offices or commanders. Use the specific official appropriate to the scene rather than referring vaguely to a conflicting "High Council."
+- **Cross-reference and validation work:**
+  - Search for Harlan Voss, Elara Voss, Seraphine Vale, Vorn Ironvein, Lirael Starveil, Thorne Blackwood, Kael Thorne, Marcus Hale, Iron Talons, Gate Wardens, City Council, and High Council.
+  - Ensure the same person does not simultaneously hold conflicting civilian, intelligence, commercial, magical, and military positions.
+  - Ensure the 200 Iron Talons are not also presented as 280 elsewhere.
+  - Preserve Ravensport's intended government model: one civilian ruler supported by a mixed council, with separate civil and gate-security chains.
+- **Canon decisions required:** None for this proposal. The user authorized corrective consolidation as long as the original intended functions are preserved.
+- **Status:** Decision approved; awaiting completion and approval of the full Batch B implementation set.
+
+### Batch B-05 — Captain Elandor "Blackscale" Rurik
+
+- **Requested outcome:** Establish one Captain Rurik who retains the intended functions of Rusty Anchor proprietor, experienced sailor, and starter-quest giver.
+- **Affected files:**
+  - `Ravensport_City_Profile.md`
+  - `NPC_Backstory_Personality_file.md`
+  - `Captain_Ruriks_Request_Session_0-1.md`
+  - `Quests_Player_Decisions_Impacts.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - any other file referring to Captain Rurik Voss or Captain Rurik
+- **Exact edits by file:**
+  - All affected files: Standardize the character as **Captain Elandor "Blackscale" Rurik**, human male.
+  - `Ravensport_City_Profile.md`: Replace Captain Rurik Voss as proprietor of The Rusty Anchor with Elandor Rurik.
+  - `NPC_Backstory_Personality_file.md`: Remove the duplicate Captain Rurik Voss entry rather than creating a second character. Retain and refine Elandor Rurik's fuller profile.
+  - `Captain_Ruriks_Request_Session_0-1.md`: Use Elandor Rurik consistently as the quest giver and owner of The Rusty Anchor.
+  - `Quests_Player_Decisions_Impacts.md`: Track all Rurik relationships, rewards, debts, ship consequences, and quest outcomes under Elandor Rurik's single identity.
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`: Replace any shortened or conflicting identity with Elandor Rurik.
+  - Character clarification:
+    - Elandor is a veteran independent ship captain and tavern proprietor.
+    - He is **semi-retired from routine sailing**, not fully retired. He still owns his ship and accepts selective, profitable, or sensitive cargo contracts, which explains the medallion delivery.
+    - "Captain" remains an earned title and common form of address.
+    - He is not a member of the Voss ruling family.
+    - Preserve his black eyepatch, weathered sailor appearance, blunt but fair temperament, concern for his crew and livelihood, minor past smuggling connections, and friendly relationship with Lirael "Silverthorn."
+- **Cross-reference and validation work:**
+  - Search for `Captain Rurik Voss`, `Rurik Voss`, `Captain Rurik`, `Elandor Rurik`, `Blackscale`, and `The Rusty Anchor`.
+  - Ensure only one active proprietor and one starter-quest giver exists.
+  - Ensure references to his ship and selective cargo work do not describe him as completely retired.
+  - Preserve Voss-family intrigue through Elara Voss and Lirael "Silverthorn," not through Rurik.
+- **Canon decisions required:** None for this proposal. The user authorized corrective consolidation and has no attachment to the duplicate AI-generated identities.
+- **Status:** Decision approved; awaiting completion and approval of the full Batch B implementation set.
+
+
+### Batch B-06 — Aether terminology and Veyne's organization
+
+- **Requested outcome:** Establish one vocabulary for the realm, its people, its technology, and Veyne's secret organization while removing accidental AI-generated variants.
+- **Affected files:**
+  - all canon, city, NPC, quest, session, encounter, navigation, and campaign-reference files using Aether-related terminology
+- **Exact terminology:**
+  - **Aetheron** — the world or realm where the advanced civilization resides and where beacon-harvested magic is sent. The term may also describe that civilization collectively when the meaning is clear.
+  - **Aetheronian** — singular adjective or person associated with Aetheron.
+  - **Aetheronians** — the people of Aetheron.
+  - **Aetherite** — the magical crystal material and the broad technological tradition constructed from or powered by that material.
+  - **Aetherite crystal/orb** — a physical crystal device, whether rune-inscribed or unmarked.
+  - **Aetherite technology** — weapons, beacons, gates, power systems, and other devices created through Aetheronian crystal engineering.
+  - **Aetherbound** — retire as the in-world name of Veyne's organization. It may remain temporarily as the repository or campaign working title until a separate title decision is made.
+  - **Veyne's organization** — use this neutral description in canon until an intentional secret-society name is selected. Do not invent another faction name during cleanup.
+  - **Aetherian / Aetherians** — retire as undefined accidental variants. Replace with Aetheronian, Aetheronians, Aetherite, or Aetheron according to context.
+  - **Aetherite people / the Aetherites** — retire when referring to a population. Aetherite describes material or technology, not ethnicity or nationality.
+- **Exact edits by usage:**
+  - Replace “Aetherian home world” with **Aetheron**.
+  - Replace “Aetherian people” with **Aetheronians**.
+  - Replace “Aetherian weapon,” “Aetherian crystal,” or similar technological wording with **Aetherite weapon**, **Aetherite crystal**, or **Aetherite technology**.
+  - Replace “created by the Aetherites” with **created by the Aetheronians**.
+  - Replace in-world references to an “Aetherbound faction” with **Veyne's organization** until it receives an approved name.
+  - Preserve the distinction that using Aetherite technology does not make a person Aetheronian.
+- **Veyne relationship to Aetheron:**
+  - Lord Cassian Veyne is the primary campaign antagonist and leader of the unnamed secret organization pursuing his goals.
+  - Veyne has physically traveled to Aetheron using the approved three-crystal Aetherite travel array.
+  - His access to Aetheron and Aetherite technology gives him genuine knowledge beyond ordinary Elyndrian scholars.
+  - His organization is not automatically synonymous with the Aetheronian civilization and should not be described as representing all Aetheronians.
+  - The exact Aetheronian individuals, institutions, or factions interacting with Veyne may be developed later without changing this terminology standard.
+- **Cross-reference and validation work:**
+  - Search case-insensitively for Aetheron, Aetheronian, Aetheronians, Aetherite, Aetherian, Aetherians, Aetherites, and Aetherbound.
+  - Correct each occurrence according to meaning rather than performing a blind global replacement.
+  - Synchronize terminology in the World Bible, geography, NPC database, quest files, early-session plan, city profiles, stat blocks, and campaign index.
+  - Keep player-facing language vague where the characters have not yet learned the true names.
+- **Canon decisions required:** A permanent name for Veyne's secret organization may be selected later. Until then, “Veyne's organization” is the approved neutral wording.
+- **Status:** Terminology approved; organization name intentionally deferred. Awaiting implementation with the rest of Batch B.
+
+
+## Batch C — Playability and template completion
 
 ### Batch C-01 — Basic Services: Ravensport and Deepanvil
 
@@ -427,6 +661,152 @@ Read `GOVERNANCE.md` and `SKILL.md` before using this file.
 - **Canon decisions required:** None. The user delegated authority to consolidate duplicates, resolve collisions, and complete playable profiles.
 - **Status:** Approved working correction set; ready for inclusion in the final Batch C package.
 
+
+### Batch C-07 — Returned-orb consequence and five open-world fallback quests
+
+- **Requested outcome:** Preserve the possibility that the party persuades Rurik to complete the delivery despite Maelis's warning, and provide five independent quests that can reconnect an uncooperative or highly exploratory party to the campaign's central story.
+- **Affected files:**
+  - `Captain_Ruriks_Request_Session_0-1.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - `Quests_Player_Decisions_Impacts.md`
+  - `NPC_Backstory_Personality_file.md`
+  - `Enemy_Encounters_Stat_Blocks.md` when encounters are prepared
+  - relevant city profiles and geography references
+- **Design limitation:** These are quest-ready frameworks, not fixed multi-session scripts. Expand only the quest the players actually pursue.
+
+#### Outcome — Rurik returns the orb despite Maelis's warning
+
+- After Maelis recognizes the unmarked Aetherite power orb and recommends that it remain lost, Rurik initially leans toward refusing Silas.
+- The party may still argue that Rurik should honor the contract, avoid provoking Silas, or return the object under controlled conditions.
+- Suggested social difficulty:
+  - **DC 16 Charisma (Persuasion)** if the party merely argues that the property belongs to the client.
+  - **DC 13** if they offer to attend the exchange, protect Rurik, document the handoff, or provide another concrete safeguard.
+  - No roll is needed when the DM judges that the party presents overwhelming practical evidence or accepts meaningful responsibility for the consequences.
+- On success:
+  - Rurik contacts Silas and completes the delivery.
+  - The party receives the agreed reward.
+  - Maelis does not create a public confrontation, but clearly believes the decision is dangerous.
+  - Silas regards the party as competent, potentially useful, and worth observing.
+  - Veyne's organization gains another fully charged battery for its established three-crystal transit system, allowing Veyne to prepare or complete another crossing to Aetheron.
+  - The party loses immediate access to the orb but does not lose access to the main story.
+- Relationship consequences:
+  - Rurik remains friendly if the party acted honestly and helped protect his crew.
+  - Maelis becomes cautious rather than hostile. She may still warn the party when she learns that Silas or his patron is moving unusually quickly.
+  - Silas may later approach the party with paid work, misinformation, or a test of loyalty.
+- Campaign consequence:
+  - Veyne's schedule advances. Beacon-related operations, unfamiliar technology, or coordinated activity may appear sooner.
+  - This is not a campaign failure state. It changes who holds the resource and how quickly the antagonist can act.
+
+## Five Open-World Quest Options
+
+### Quest 1 — The Vanished Supply Caravan
+
+- **Discovery:** A posting at The Caravan Outfitter, a request from Mara Reed or Brogan Ashdelve, or dockside rumors about overdue Deepanvil supplies.
+- **Objective:** Locate a missing caravan carrying food, medicine, replacement lift parts, precision tools, and rescue equipment to Deepanvil.
+- **Visible stakes:** Deepanvil's poorer districts will face shortages, while delayed medical and rescue supplies may cost lives.
+- **Core complication:** The caravan was not attacked for money. False road markers diverted it to a concealed transfer point where selected mechanical components were removed and the survivors were restrained or driven off.
+- **Main-story connection:** The stolen components are useful for regulating or constructing a small beacon installation. Shipping marks connect the theft indirectly to buyers associated with Silas.
+- **Possible resolutions:** Rescue survivors, recover supplies, track the diverted components, negotiate with hired transport thieves, or expose falsified route records.
+- **Reward:** Payment from Deepanvil trade representatives, improved access to dwarven services, and a reliable western contact.
+- **Failure consequence:** Deepanvil suffers a temporary supply shortage and Veyne's organization receives the components without interference.
+
+### Quest 2 — The Blue Lantern Auction
+
+- **Discovery:** Corvin Rook offers a rumor, Maelis hears of a private sale, or the party notices invitations marked with a blue lantern symbol.
+- **Objective:** Infiltrate or observe a secret Shrouded Wards auction selling restricted magical and dimensional goods.
+- **Visible stakes:** Stolen property, dangerous planar specimens, and unregistered magical devices are about to enter private hands.
+- **Core complication:** One lot consists of Aetherite shards and a damaged device whose true value is known only to a concealed buyer representing Veyne's organization.
+- **Main-story connection:** The buyer's payment records, coded instructions, or courier route identify other Aetherite purchases and western transfers.
+- **Possible resolutions:** Pose as buyers, steal the ledger, expose the auction to Thorne Blackwood, bargain with Nyra Vell, replace the target lot, or follow the successful bidder.
+- **Reward:** Recovered valuables, criminal intelligence, a favor from city authorities or Nyra, and access to the auction's buyer records.
+- **Failure consequence:** The device reaches Veyne's network, but witnesses and payment trails remain available for later investigation.
+
+### Quest 3 — The Third Alarm
+
+- **Discovery:** A public rumor after three unusual Heart alarms, a discreet request from Captain Thorne Blackwood, or a warning passed through Maelis.
+- **Objective:** Determine why three separate gate incursions produced nearly identical behavior and timing.
+- **Visible stakes:** Routine incursions are expected; coordinated testing of the Heart's defenses is not.
+- **Core complication:** Each contained creature carried or had embedded within it the same small manufactured marker. The marker is physical, survives anti-magic screening, and was not created by the creatures themselves.
+- **Main-story connection:** The markers record response times, anti-magic activation, and defensive movement, suggesting that an intelligent outside force is testing gate procedures. Their material resembles components used in Aetherite systems without conclusively identifying the maker.
+- **Possible resolutions:** Analyze the marker, interview Heart personnel, trace its material through local workshops, inspect where the creatures emerged, or identify someone attempting to purchase defense-response information.
+- **Reward:** Official trust, restricted but temporary access to relevant Heart records, and a favor from Ravensport security leadership.
+- **Failure consequence:** The testing continues, giving the hostile observer better information about the Heart's defenses.
+
+### Quest 4 — The Silent Orchard
+
+- **Discovery:** A request from Maera Thornwhisper, a Faerindel trade envoy seeking neutral investigators, or merchants reporting that valuable medicinal shipments have stopped.
+- **Objective:** Investigate an orchard and medicinal grove where growth, healing magic, and natural magical activity have begun fading in geometric patches.
+- **Visible stakes:** The affected plants supply important medicines and restorative compounds throughout the region.
+- **Core complication:** The damage is not disease, pollution, or a natural dead-zone expansion. Buried conduits are drawing usable magical energy away from the grove toward an unknown destination.
+- **Main-story connection:** The conduits are an early or experimental version of beacon-harvesting technology. Records or construction methods indicate outside funding and mixed elven, dwarven, and human expertise.
+- **Possible resolutions:** Remove the conduits, follow them to a collection point, preserve them for study, expose a compromised contractor, or allow controlled operation to identify who returns.
+- **Reward:** Medicines, healing assistance, Faerindel goodwill, and access to a knowledgeable magical or botanical specialist.
+- **Failure consequence:** The grove's output declines and the hidden collection system continues operating, creating future shortages and a stronger beacon network.
+
+### Quest 5 — The Unclaimed Workshop
+
+- **Discovery:** A landlord reports unpaid rent, Ironforge representatives ask about a missing engineer, or a mechanical accident exposes a sealed basement workshop in Ravensport.
+- **Objective:** Determine what happened to the missing craftsperson and secure the machinery left behind.
+- **Visible stakes:** The workshop contains dangerous unfinished mechanisms, proprietary dwarven designs, and equipment that could injure nearby residents.
+- **Core complication:** The craftsperson was hired to combine reliable anti-magic-compatible machinery with an unfamiliar blue-crystal power interface. They disappeared after realizing the client had concealed the project's true purpose.
+- **Main-story connection:** The design is a portable regulator for beacon equipment or an Aetherite-powered weapon platform. Notes refer to a formal intermediary rather than naming Veyne.
+- **Possible resolutions:** Find and protect the engineer, dismantle the prototype, complete it as bait, turn it over to Ironforge, sell it, or follow the client's retrieval team.
+- **Reward:** Payment, a mechanical prototype or service credit, Ironforge goodwill, and technical evidence connecting conventional engineering to Aetherite infrastructure.
+- **Failure consequence:** Veyne's organization recovers the prototype and the missing engineer remains at risk, but the design may reappear later in enemy equipment.
+
+## Open-World Use Rules
+
+- All five quests can exist simultaneously as rumors, postings, private requests, or developing problems.
+- Do not force the party toward the orb, Silas, Deepanvil, or a beacon after they refuse those leads.
+- Each quest must stand on its own with a clear local reason to care.
+- Every quest contains at least one recoverable connection to the central plot, but players may complete it without understanding that connection immediately.
+- Failed checks do not erase a quest. They change cost, timing, witnesses, opposition, or which clue survives.
+- Failure does not end the campaign. It advances the antagonist, worsens a local problem, or moves evidence elsewhere.
+- Prepare encounter statistics only after the party selects a quest and their level, approach, and party composition are known.
+- **Canon decisions required:** None. The user approved an open-world structure with five fallback quests and on-demand expansion.
+- **Status:** Approved working framework.
+
+
+### Batch C-08 — Starter combat roster and quest-state tracking
+
+- **Requested outcome:** Complete the remaining starter-arc preparation by adding actionable combat statistics, optional opposition for every prepared quest, an early-Veyne encounter contingency, branch statuses, baseline NPC attitudes, and Veyne-organization interest tracking.
+- **Affected files:**
+  - `Enemy_Encounters_Stat_Blocks.md`
+  - `Quests_Player_Decisions_Impacts.md`
+  - `Captain_Ruriks_Request_Session_0-1.md`
+  - `Early_Sessions_Plan_Sessions_0_to_5.md`
+  - `NPC_Backstory_Personality_file.md`
+- **Replacement drafts:**
+  - Use `Enemy_Encounters_Stat_Blocks_Batch_C_Working.md` as the working replacement for the encounter file.
+  - Use `Quests_Player_Decisions_Impacts_Batch_C_Working.md` as the working replacement for the quest tracker.
+- **Encounter additions:**
+  - Complete attack bonuses, damage, CR, roles, relevant abilities, tactics, evidence, and dead-zone variants.
+  - Retain actionable guard entries for legal complications.
+  - Add only starter-relevant opposition: Dockside Lookout, Smuggler, Smuggler Enforcer, Route Thief, Silent Hand Operative, Aetherite Retrieval Specialist, Silas Crowe, Beacon Operator, Workshop Defense Automaton, Aetherite Survey Construct, Conduit Warden, Dead-Zone Stalker, and Marked Gate Beast.
+  - Add Lord Cassian Veyne as an explicitly unbalanced early-encounter contingency because open-world player choices may produce an unexpected confrontation.
+  - Do not use Veyne as a routine combat encounter. Preserve the possibility that exceptional planning can defeat him and change the campaign.
+  - Map possible enemies and noncombat complications to Captain Rurik's Request and all five fallback quests.
+- **Quest tracking additions:**
+  - Keep Captain Rurik's Request at **Not Started** before play.
+  - Add `Potential` and `Locked` branch states with exact unlock conditions.
+  - Add all five open-world quests as `Potential`.
+  - Add baseline attitudes for Rurik, Maelis, Silas, Nyra, Thorne Blackwood, Lirael Starveil, Brogan Ashdelve, and Veyne.
+  - Replace retired `Aetherbound interest` wording with **Veyne's Organization Interest**.
+  - Begin interest at level 0 before play and provide a six-state scale from Unaware through Elimination Authorized.
+  - Track orb ownership, charges, branch choices, organization interest, and session consequences in one place.
+- **Combat philosophy:**
+  - Conversations, investigation, stealth, bribery, escape, and surrender remain valid.
+  - Ordinary criminals generally avoid dying for cargo.
+  - Veyne's trained subordinates attempt to recover evidence and silence witnesses after the party knows too much.
+  - Failure advances threats or changes quests rather than ending the campaign.
+- **Cross-reference and validation work:**
+  - Synchronize `Lirael "Silverthorn"` to **Maelis "Silverthorn"**.
+  - Synchronize quest enemies and NPC names with the Batch C NPC master replacement.
+  - Add encounter references to the quest and early-session files without forcing fights.
+  - Do not add later-campaign enemies until the selected quest, party level, and approach are known.
+- **Canon decisions required:** None. The user approved optional combat for every quest, open-world consequences, lethal Veyne operatives when secrecy requires it, and an early BBEG encounter contingency.
+- **Status:** Approved working replacement set; completes the currently identified Batch C preparation tasks.
+
 ## Required Proposal Format
 
 ### Change title
@@ -488,4 +868,3 @@ After the user approves an exact proposal or documented batch:
 1. Apply the approved changes.
 2. Create the next numbered `Pending_Changes_Archived_XX.md` record with the approved scope and implementation result.
 3. Reset this file so **Active Proposed Changes** again reads `_No active proposals._`.
-
