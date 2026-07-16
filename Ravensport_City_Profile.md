@@ -1,9 +1,9 @@
 ---
 status: Draft
 authority: Ravensport City Detail
-version: 1.0
+version: 1.1
 last_reviewed: 2026-07-16
-review_state: Mandatory city sections and leadership conflicts remain unresolved
+review_state: Batch B leadership and Captain Rurik conflicts resolved; Batch C service and NPC detail remain pending
 ---
 # Ravensport City Profile
 
@@ -17,23 +17,26 @@ review_state: Mandatory city sections and leadership conflicts remain unresolved
 
 ## Leadership
 
-**Primary Ruler**  
-- **Lord Protector Harlan Voss** (Human male, Lawful Neutral)  
-  Aging but respected ruler. Focuses on keeping the gate secure and trade flowing.
+### Civil Government and City Council
 
-**Key Council / Figureheads**
-- **High Stewardess Elara Voss** (Human female, Lawful Good) – Harlan’s daughter. Handles day-to-day administration.
-- **Gate Warden Commander Seraphine Vale** (Elf female, Lawful Neutral) – Oversees all gate security and the Iron Talons.
-- **Master Merchant Guild Leader Vorn Ironvein** (Dwarf male, Neutral) – Represents merchant interests.
-- **Archmage Lirael Starveil** (Elf female, Neutral Good) – Leads the Arcane Wardens and advises on magical threats.
-- **Captain of the City Guard Thorne Blackwood** (Human male, Lawful Neutral) – Commands regular city patrols.
+- **Lord Protector Elara Voss** (Human female, Lawful Good) — Current civilian ruler and chair of the City Council. Oversees administration, diplomacy, taxation, appointments, and emergency civilian authority.
+- **Harlan Voss** (Human male, Lawful Neutral) — Retired former Lord Protector and Elara's father. Advises privately but holds no vote or operational command unless Elara temporarily delegates a duty.
+- **Gate Warden Seraphine Vale** (Elf female, Lawful Neutral) — Voting council member responsible for gate-security policy, defensive readiness, Iron Talon doctrine, and coordination between military branches.
+- **Master of Trade Vorn Ironvein** (Dwarf male, Neutral) — Voting council member representing merchant guilds, dimensional commerce, tariffs, logistics, and major trade interests.
+- **Archmage Lirael Starveil** (Elf female, Neutral Good) — Voting council member leading the Arcane Wardens and advising on magical threats and dimensional research.
+- **Captain of the City Guard Thorne Blackwood** (Human male, Lawful Neutral) — Voting council member commanding ordinary law enforcement, investigations, and district patrols outside the Heart.
+
+### Operational Gate Command
+
+- **Gate Commander Kael Thorne** (Human male) — Operational commander of the Heart and the Iron Talons. Reports to Seraphine Vale and holds tactical authority during an active gate emergency.
+- Kael attends relevant security sessions but is not a permanent voting council member.
+- Kael Thorne and Thorne Blackwood are unrelated.
 
 ---
-
 ## Key Locations & Named Proprietors
 
 **Inns & Taverns**
-- **The Rusty Anchor** – Popular with sailors, caravan guards, and adventurers. Run by **Captain Rurik Voss** (retired ship captain, Human male).
+- **The Rusty Anchor** – Popular with sailors, caravan guards, and adventurers. Run by **Captain Elandor “Blackscale” Rurik** (semi-retired independent ship captain, Human male).
 - **The Gilded Gate** – Upscale inn favored by wealthy traders and nobles. Run by **Innkeeper Selene Brightwater** (Half-elf female).
 
 **Shops**
@@ -76,17 +79,21 @@ Smaller, well-defended area for nobles and wealthy merchants.
 ---
 
 ## Defenses
-- Massive fortified walls around the Gate Quarter.
+
+- Massive fortified walls and controlled access around the Gate Quarter, commonly called the Heart.
 - 8 watchtowers along the inner walls.
-- ~1,800 total military personnel (1,000+ concentrated at the gate).
-- Elite Iron Talons (200) + Arcane Wardens (80 spellcasters).
-- Strong anti-magic and anti-teleportation wards around the gate.
-- Regular patrols throughout the city.
+- Approximately **1,800 active military personnel**:
+  - roughly 1,000 assigned to Heart and gate-fortress security;
+  - roughly 800 assigned to city-wide guard duties.
+- **200 elite Iron Talons**, organized into four companies of 50 under Kael Thorne's operational command and Seraphine Vale's strategic oversight.
+- **80 Arcane Wardens** under Lirael Starveil.
+- Standard city guards answer to Thorne Blackwood.
+- Strong physical fortifications, controlled anti-magic areas, anti-teleportation wards, alarms, and dimensional containment around the gate.
+- Heavy gate-security procedures are concentrated inside the Heart rather than imposed across ordinary city districts.
 
 ---
-
 ## Immediate Plot Hooks
-1. Captain Rurik has lost an important shipment (starter quest).
+1. Captain Elandor “Blackscale” Rurik has lost the Resonance Medallion and the unmarked Aetherite orb concealed inside it (starter quest).
 2. Strange activity reported near one of the nearby dead zones.
 3. A merchant claims someone is smuggling dangerous items through the gate.
 4. Tensions rising between city guards and dock workers over wages.

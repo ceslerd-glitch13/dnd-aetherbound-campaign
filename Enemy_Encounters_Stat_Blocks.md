@@ -1,13 +1,22 @@
 ---
 status: Draft
 authority: Custom Combat Statistics
-version: 1.0
+version: 1.1
 last_reviewed: 2026-07-16
-review_state: Current entries are not yet fully actionable under the battle guideline
+review_state: Batch B command and environmental rules synchronized; actionable attacks and abilities remain incomplete
 ---
 # Enemy Encounters Stat Blocks
 **Campaign:** Untitled D&D Campaign  
 **Purpose:** Running compilation of enemies, guards, and NPCs for quick reference during play.
+
+---
+
+## Ravensport Command Reference
+
+- Standard Ravensport city guards answer to **Captain Thorne Blackwood**.
+- Arcane Wardens answer to **Archmage Lirael Starveil**.
+- The **200 Iron Talons** answer operationally to **Gate Commander Kael Thorne** under **Gate Warden Seraphine Vale's** strategic authority.
+- Kael Thorne commands tactical operations inside the Heart; he is not the civilian ruler or a permanent voting council member.
 
 ---
 
@@ -105,8 +114,38 @@ Roll 1d8 or choose:
 4. Religious or family trinket
 5. Weapon or piece of armor in good condition
 6. Healing potion or minor potion
-7. Contraband or suspicious item (Aetherbound related)
+7. Contraband or suspicious item connected to Veyne's organization
 8. Nothing of value
+
+---
+
+
+## Dead-Zone Encounter Rules
+
+Use the World Bible as the authority for dead-zone mechanics.
+
+- Spellcasting and active magic-item functions fail without an approved resonance source.
+- Concentration and active ongoing effects end or become suppressed when their sustaining magic cannot remain connected.
+- Magical movement, teleportation, summoning, portals, and magical escape abilities fail when a required endpoint is unprotected.
+- Elementals, fey, fiends, projected avatars, and similar magical beings have disadvantage on ability checks and attack rolls and take 1d6 force damage per minute outside combat or per round during combat, unless a creature-specific entry says otherwise.
+- Permanent physical improvements do not reverse merely because an object enters the zone; active magical enhancements are suppressed.
+- Divine projection, direct observation, miracles, and active divine abilities are blocked.
+- A charged resonance orb can create a 5-foot exception, but it does not automatically bypass a deliberate anti-magic field.
+
+---
+
+## Beacon-Core Encounter Field
+
+Within 20 feet of an active beacon core:
+
+- Spellcasting is possible despite the surrounding dead zone.
+- Each cast requires a Constitution check: DC 10 + original spell level; cantrips DC 10.
+- Failure creates wild magic or another DM-chosen unintended outcome and uses the normal slot cost.
+- Success halves slot cost, rounded up; 1st-level spells use no slot.
+- The spell keeps its original level for all other rules.
+- Duration is doubled while the relevant effect remains within the field; halve remaining duration when it leaves.
+- Damaging spells add 1d6 force damage once per affected creature per casting.
+- Healing spells add 1d6 healing once per affected creature per casting.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Setting-Wide Lore and Mechanics
-version: 2.9.1
+version: 3.0
 last_reviewed: 2026-07-16
-review_state: Structural cleanup complete; unresolved canon conflicts are listed in the Campaign Index
+review_state: Batch B canon synchronization complete; Batch C city playability work remains pending
 ---
 
 # D&D Campaign World Bible
@@ -40,40 +40,67 @@ review_state: Structural cleanup complete; unresolved canon conflicts are listed
 
 There are **10 known city-sized magic dead zones** on this continent.
 
-### Key Properties
-- These zones completely suppress **all magic**.
-- No spellcasting works inside them — arcane, divine, warlock pacts, sorcerous bloodlines, etc.
-- The suppression affects **all beings**:
-  - Wizards, sorcerers, clerics, druids, paladins, warlocks
-  - Demons and other extraplanar creatures
-  - Even gods would eventually lose their magical power if they remained inside long enough
-- The zones **drain magical potential** from anything that enters. It does not kill living creatures, but it leaves them magically exhausted or powerless while inside.
-- Most people treat the dead zones as a simple fact of life. Only ancient scholars and forbidden texts hint at their true origin.
+### Core Principle
 
-### Society & Economy Inside Dead Zones
-- Highly technologically and industrially advanced due to complete reliance on non-magical solutions.
-- Complex machinery, engineering, mining operations, pulley systems, levers, advanced farming techniques, and manufacturing thrive here — often outperforming magic-dependent regions in consistency, scale, and reliability.
-- These zones have become **havens for criminals and fugitives** hiding from magical society. Scrying, teleportation assassination, and other divination-based pursuits are impossible inside.
-- Most residents are law-abiding industrial workers and engineers, but certain districts are dangerous. Travelers who wander into the wrong areas may encounter organized crime, black markets, or underground gangs. The zones maintain a tense but functional order enforced by local militias and technological security.
+A dead zone prevents magical energy from entering, leaving, or remaining stable within its boundary. The zone suppresses active magic rather than erasing completed physical changes.
+
+### Key Properties
+
+- Spellcasting fails inside a normal dead zone unless an approved resonance source creates a local exception.
+- Concentration ends when the caster or maintained effect can no longer receive the magic required to sustain it.
+- Active functions of magic items are suppressed. The item is not normally destroyed and resumes functioning after leaving the zone unless another effect damaged or drained it.
+- Teleportation, portals, planar travel, magical communication, scrying, divination, divine observation, and similar effects fail when a required endpoint or magical connection lies inside an unprotected dead zone.
+- Summoned creatures, projected avatars, ongoing magical effects, and magical movement or escape abilities are suppressed or drained.
+- Magical creatures such as elementals, fey, and fiends are weakened by prolonged exposure and may suffer the mechanical drain described in Section 8.
+- Dead zones do not erase a completed physical result that no longer requires magical energy. Magically refined alloys, permanently shaped components, physically hardened materials, balanced tools, reinforced structures, and completed bodily alterations remain as physical properties.
+- A device that still requires active magic—such as a flaming weapon, self-moving tool, levitating platform, magical communicator, extradimensional container, or automatic repair effect—does not function inside the zone.
+- Most people treat dead zones as a fact of life. Only ancient scholars and forbidden records hint at their true origin.
+
+### Divine Power and Gods
+
+- A deity outside a dead zone is unharmed at its source, but cannot project spells, miracles, omens, direct perception, avatars, or magical intervention through the boundary.
+- Divine casters retain their faith, knowledge, training, and nonmagical abilities, but active divine spell expression and Channel Divinity are suppressed.
+- A deity, true manifestation, avatar, or other divine being physically present inside a dead zone experiences magical drain.
+- The drain does not directly injure or kill a deity. It isolates the being from outside worship, divine reinforcement, and projected power while steadily exhausting the divine energy available inside the zone.
+- In the theoretical case of extraordinarily prolonged isolation, a deity could eventually lose enough accessible power to lose its godhood. This describes the maximum possible effect of a dead zone, not a current campaign event.
+
+### Society and Economy Inside Dead Zones
+
+- Dead-zone communities are technologically and industrially advanced because they cannot depend on active magic.
+- They use superior engineering, standardized replacement parts, magically perfected materials manufactured elsewhere, advanced medicine, mechanical transport, physical security, and highly practiced maintenance.
+- Nonmagical services may be faster, cheaper, or more reliable than comparable services in magic-dependent settlements.
+- Dead zones can shelter criminals and fugitives from magical tracking, but most residents are law-abiding workers, engineers, merchants, and families.
+- Local order is maintained through militias, physical investigation, mechanical locks, conventional communication, and technological security.
 
 ---
+## 3. Aetheron and the Origin of the Dead Zones
 
-## 3. The Aetheron Dimension (The True Cause)
+### Standard Terminology
+
+- **Aetheron** — the closed parallel world or realm receiving the magic harvested by the beacon network.
+- **Aetheronian / Aetheronians** — a person, people, or cultural practice originating in Aetheron.
+- **Aetherite** — the magical crystal material and the broader technology constructed from or powered by it.
+- **Veyne's organization** — the unnamed secret organization created by Lord Cassian Veyne. `Aetherbound` remains only the campaign/repository working title unless a later canon decision gives it another use.
+- **Aetherian / Aetherians** — retired accidental variants. Use Aetheronian, Aetheronians, Aetherite, or Aetheron according to meaning.
 
 ### Background
-- **Aetheron** is a highly advanced, magic-obsessed civilization from a closed-off parallel dimension.
-- They developed powerful technology capable of **absorbing and draining magic** from other dimensions on a massive scale.
-- Centuries ago, they deliberately **destroyed this world's dimensional gate** to prevent any possibility of retaliation or resistance.
-- The 10 dead zones are a direct, lingering side-effect of their magic-draining technology.
-- Because the gate was destroyed so long ago, knowledge of Aetheron has faded into rumor and ancient legend. Most modern people have no idea the dead zones were artificially created.
+
+- Aetheron is home to a highly advanced civilization whose magical and technological development centers on Aetherite systems.
+- Aetheronian technology can absorb, concentrate, store, and transmit magic across dimensional boundaries.
+- Centuries ago, the connection between Elyndria and Aetheron was deliberately destroyed or sealed to prevent retaliation and resistance.
+- The ten dead zones are produced by hidden beacon cores that collect magic from Elyndria and send it to Aetheron.
+- Knowledge of Aetheron has faded into rumor and restricted scholarship. Most people do not know that the dead zones are artificial.
 
 ### Current Status
-- There is **no active dimensional gate** to Aetheron.
-- Any attempt to reach their dimension (if someone even discovered how) would result in immediate teleportation to a heavily secured prison/checkpoint (essentially magical TSA).
-- Aetheron remains the hidden root cause of the world's magic problems.
+
+- There is no public, stable dimensional gate connecting Elyndria to Aetheron.
+- Known or suspected routes to Aetheron terminate at heavily secured arrival points.
+- Lord Cassian Veyne has nevertheless traveled physically to Aetheron using the three-crystal Aetherite array described in Section 6.
+- Veyne's access gives him genuine knowledge of Aetheron and Aetherite technology, but his organization must not be treated as representing all Aetheronians.
+- No confirmed civilization-wide Aetheronian invasion plan is known. Veyne believes that weakening Elyndria could attract, enable, or persuade hostile interests in Aetheron.
+- The exact Aetheronian individuals, institutions, or factions connected to Veyne remain intentionally undefined.
 
 ---
-
 ## 4. Dimensional Gates & Gate Cities
 
 There are currently **three active dimensional gates** on the continent. These gates are used primarily for **trade** with other dimensions but are **heavily fortified** against invasion.
@@ -157,35 +184,60 @@ These three cities are very large, extremely well-defended, and function almost 
 
 ---
 
-## 6. Unique Magic Items of This World
+## 6. Aetherite Crystal Technology
 
-### Aetherite Crystals
-- **Appearance**: Small, fine, blue crystal-like stones with intricate runes etched on the **inside** (not visible from outside).
-- **Function**: 
-  - Passively absorbs ambient magic from the surrounding area.
-  - Recharges daily.
-  - Stores enough magic to cast **one specific pre-set spell** (determined by the rune etched inside).
-- **Limitations**:
-  - Each crystal is tied to **one spell only**.
-  - Cannot store **Dispel Magic** or any anti-magic effect (the crystal would destroy itself trying to cast it).
-- **Lore Origin**: Created by the Aetherites. These crystals are one of the main reasons Aetheron became such a magical powerhouse — they harvest magic from other dimensions and store it in these crystals.
+Aetherite describes both the crystal material and the larger technological tradition created by the Aetheronians.
 
-### Aetherite Gun (Handheld Focus Device)
-- **Appearance**: A gun-like handheld device/focus, designed to work with Aetherite Crystals.
-- **Function**:
-  - You slot one **rune-etched Aetherite Crystal** into the device as the active spell.
-  - The device can automatically pull magic from **blank reserve crystals** stored inside it.
-  - This allows the user to:
-    - Cast the etched spell **multiple times** without waiting for daily recharge.
-    - **Upcast** the spell by using additional stored magic.
-- **Lore**: A technological/magical hybrid device inspired by Aetherite crystal technology. It turns the single-use nature of regular Aetherite Crystals into a more sustainable magic system.
+### Shared Crystal Rules
+
+- A standard portable Aetherite crystal has a maximum capacity of **24 charges**.
+- A depleted crystal regains **1 charge per hour** while exposed to usable ambient magic and therefore recharges fully in 24 hours.
+- A crystal does not recharge inside a normal dead zone unless an approved resonance source supplies usable magic.
+- Spell energy is valued at **8 charges per spell level**:
+  - 1st level: 8 charges
+  - 2nd level: 16 charges
+  - 3rd level: 24 charges
+- Standard portable crystal systems do not independently power effects above 3rd level.
+- Aetherite crystals cannot safely contain *Dispel Magic* or another effect whose purpose is to destroy or negate the crystal's own sustaining magic.
+
+### Rune-Inscribed Crystals
+
+- Internal runes define one predetermined spell or encoded magical function.
+- The runes are engraved inside the crystal and are not normally visible from the exterior.
+- A fully charged standard inscribed crystal can independently cast its encoded effect if that effect is no greater than 3rd level.
+- The crystal's own 24-charge capacity can also contribute to a larger connected array.
+- A complex encoded formula may exceed the crystal's standalone output, but it cannot activate without enough connected battery crystals.
+
+### Unmarked Crystal Orbs
+
+- An unmarked orb contains concentrated raw magical energy without a predetermined spell.
+- It functions as a rechargeable battery, resonance source, or power intermediary.
+- Unmarked orbs can supply energy to inscribed crystals, Aetherite weapons, machinery, resonance fields, or creatures able to draw from them directly.
+
+### Aetherite Focus Weapons and Devices
+
+- A typical gun-like Aetherite focus uses one rune-inscribed crystal to define the effect and one or more unmarked orbs to provide additional energy.
+- Reserve energy permits repeated casting or upcasting without changing the spell encoded in the inscribed crystal.
+- The device is a magical-technological focus rather than a separate source of magic.
+
+### Veyne's Three-Crystal Travel Array
+
+Veyne's travel method uses exactly three existing Aetherite crystals rather than a unique fourth artifact:
+
+1. One fully charged rune-inscribed crystal contains the planar-transit formula and Aetheron destination key.
+2. Two fully charged unmarked orbs act as additional batteries.
+3. The three connected crystals provide **72 charges** in total.
+4. A successful Plane Shift-equivalent trip to Aetheron consumes **56 charges**.
+5. Two crystals provide only 48 charges and cannot activate the transit formula.
+6. After one successful trip, 16 charges remain in the connected pool unless another effect or failed activation consumes them.
+
+The unmarked orb hidden inside the Resonance Medallion was being delivered to Veyne as one of the two battery components required by this array.
 
 ---
-
 ## 7. Current Status & Notes
 
-- This document contains **all** world-building information discussed in the July 2026 session.
-- The project is starting from scratch with a clean foundation.
+- This document contains the approved setting-wide canon currently synchronized through Batch B.
+- Detailed city playability, expanded NPC profiles, and later-session preparation remain active development work.
 - Future sessions can expand on:
   - Specific city details and NPCs
   - Plot hooks involving the dead zones or Aetheron
@@ -205,28 +257,64 @@ This campaign runs on **Dungeons & Dragons 5th Edition** as the core ruleset, wi
 - Character creation follows standard 5e (Point Buy, Standard Array, or Rolling as agreed).
 
 ### Magic Dead Zones Mechanics (Homebrew)
-- **Inside a Dead Zone**:
-  - All spellcasting fails automatically (including magic items that produce spell effects, racial traits with spell-like abilities, etc.).
-  - Concentration spells end immediately upon entering.
-  - Magical creatures (e.g., elementals, fey, fiends) suffer disadvantage on ability checks and attack rolls, and take 1d6 force damage per minute (or per round in combat) from magical drain.
-  - Divine casters feel cut off from their gods; clerics/paladins may lose Channel Divinity after prolonged exposure.
-  - **Exit Effect**: Creatures leaving a dead zone suffer "Magical Exhaustion" (similar to a level of exhaustion, but magical in nature) for 1 hour. This can stack.
-- Dead zones do **not** affect non-magical technology, mundane weapons, or purely physical abilities.
 
+- **Spellcasting:** All spells fail inside a normal dead zone unless a beacon-core or charged resonance field provides an approved local exception.
+- **Concentration and ongoing effects:** Concentration ends and active magical effects are suppressed when the magic required to sustain them cannot remain connected.
+- **Magic items:** Active magical functions are suppressed; completed physical improvements remain.
+- **Magical creatures:** Elementals, fey, fiends, projected avatars, and similar beings have disadvantage on ability checks and attack rolls and take 1d6 force damage per minute outside combat or per round during combat, unless a creature-specific rule states otherwise.
+- **Divine abilities:** Divine spellcasting, Channel Divinity, Divine Intervention, projected miracles, and direct divine observation fail.
+- **Magical transport:** Teleportation, portals, and planar travel fail if a required endpoint is inside an unprotected dead zone.
+- **Magical Exhaustion:** A creature exposed without protection suffers one level of Magical Exhaustion for 1 hour after leaving. Repeated exposures may stack at the DM's discretion.
+- **Resonance protection:** Time protected by a functioning resonance orb does not retroactively produce Magical Exhaustion.
+- **Anti-magic distinction:** A dead-zone resonance orb is not automatically capable of overriding a deliberately created anti-magic field.
+
+### Beacon-Core Resonance Field
+
+An active beacon core creates a supercharged field within **20 feet** while it draws surrounding magic and transmits it to Aetheron.
+
+- Ordinary spellcasting becomes possible within the field despite the surrounding dead zone.
+- Every spellcast requires a Constitution check: **DC 10 + the spell's original level**; cantrips use DC 10.
+- On a failed check, the spell produces wild-magic behavior or another unintended result chosen by the DM according to the spell and situation. The cast does not receive the reduced slot cost.
+- On a successful check, the spell consumes half its normal slot level, rounded up:
+  - 1st level: no spell slot
+  - 2nd level: 1st-level slot
+  - 3rd level: 2nd-level slot
+  - 4th level: 2nd-level slot
+  - 5th level: 3rd-level slot
+  - 6th level: 3rd-level slot
+  - 7th level: 4th-level slot
+  - 8th level: 4th-level slot
+  - 9th level: 5th-level slot
+- The caster must know or prepare the spell and normally be able to cast spells of its original level.
+- The spell retains its original level for Counterspell, Dispel Magic, scaling, concentration, and every rule except slot expenditure.
+- A spell cast inside the field has twice its normal duration while the relevant caster, target, area, or maintained effect remains in the field.
+- When the maintained effect leaves the field, divide its remaining enhanced duration by two.
+- A damaging spell deals an additional **1d6 force damage** to each creature it damages, once per creature per casting.
+- A healing spell restores an additional **1d6 hit points** to each creature it heals, once per creature per casting.
+- The flat 1d6 bonus intentionally benefits weaker spells proportionally more than stronger spells.
+
+### Resonance Orb and Medallion Mechanics
+
+- The medallion is only a concealed housing for a smooth unmarked Aetherite orb.
+- The orb requires no attunement and creates a **5-foot-radius resonance field centered on itself**.
+- The field protects the holder and any creature directly adjacent to the orb.
+- Maintaining the field inside a dead zone costs **1 charge per hour for the field as a whole**, not per creature.
+- While charges remain, protected creatures avoid direct dead-zone drain and may cast spells by drawing from the orb.
+- Spells cost 8 charges per spell level, up to 3rd level. Cantrips consume no charges and cannot be upcast.
+- The caster must still know or prepare the spell and normally be capable of casting it.
+- Instantaneous effects resolve normally. Ongoing, concentration, or persistent effects remain stable only while the relevant caster, target, or effect remains within the field.
+- The orb can support one endpoint of magical transport, but another endpoint inside an unprotected dead zone still causes the transport to fail.
+- A fully charged orb therefore provides either 24 hours of field operation or one 3rd-level spell before mixed use is considered.
+- The orb can be removed from the medallion and used as a portable battery, stationary resonance source, or Aetherite device component.
 ### Aetherite Items Mechanics (Homebrew)
-**Aetherite Crystal**
-- Wondrous item, rarity varies (common to rare).
-- As described in Section 6. Can be used as a spell focus or consumed to cast the stored spell once (at the level determined by the crystal's power).
-- Crafting/attunement may require arcana checks or downtime.
 
-**Aetherite Gun (Handheld Focus Device)**
-- Weapon (firearm)/Wondrous item hybrid, rarity rare+.
-- Requires proficiency with firearms (or homebrew "Aetherite Artificer" training).
-- Holds 1 active crystal + up to 4 reserve blank crystals.
-- Allows repeated casting and upcasting as described. Treat extra charges as spell slots for upcasting.
-- **Reload**: 1 action to swap crystals.
-- Potential for misfires or crystal shattering on critical failures in high-magic areas.
+Use the charge, inscription, battery, focus-device, resonance-orb, and travel-array rules in Section 6 and the dead-zone interaction rules above.
 
+- Individual items may require proficiency, specialized training, a mounting device, or a successful Arcana check.
+- A standard inscribed crystal does not require attunement merely to hold its encoded spell, but a specific device may impose its own requirement.
+- Aetherite focus weapons use one inscribed crystal and reserve battery crystals; extra energy supports repeated casting or upcasting.
+- Reloading or swapping a crystal normally requires an action unless a specific device states otherwise.
+- Misfires, crystal damage, or unintended magical outcomes should be defined by the specific device or encounter rather than assumed for every Aetherite item.
 ### Other Homebrew Considerations
 - Firearms / Renaissance tech level available in dwarven/urban areas (see DMG firearms rules as baseline).
 - Dimensional travel uses modified *Plane Shift* or gate-specific rituals.
@@ -236,7 +324,9 @@ This campaign runs on **Dungeons & Dragons 5th Edition** as the core ruleset, wi
 
 ## 9. Pantheon & Religion
 
-Gods in this world draw power from mortal belief and the actions of their followers. While gods themselves are not directly rivalrous, tensions arise when followers of one deity encroach on the domains or influence of another. The dead zones have little direct effect on true gods (they can still manifest power there if they choose), but the magical drain makes it deeply unpleasant and inefficient, so most avoid them.
+Gods in this world draw power from mortal belief and the actions of their followers. While gods themselves are not directly rivalrous, tensions arise when followers of one deity encroach on another deity's domains or influence.
+
+Dead zones block divine transmission, perception, spell expression, miracles, avatars, and reinforcement across their boundaries. A deity outside a zone is unharmed at its source. A deity or true manifestation physically present inside experiences gradual divine drain and, in a theoretical case of extraordinary isolation, could eventually lose its godhood without being directly killed by the zone.
 
 ### Major Deities
 
@@ -257,98 +347,53 @@ Gods in this world draw power from mortal belief and the actions of their follow
 - Symbol: A golden chalice overflowing with radiant light.
 
 ---
-
 ## 10. Key Locations – Ravensport (Primary Player Hub & Dimensional Gate Stronghold)
 
 **Overview**  
-Ravensport is the official human-controlled Gate City and the continent’s largest mixed-population trade hub. It is also the primary **dimensional gateway fortress** on the continent. The entire city is built around protecting and controlling the active dimensional gate. While prosperous and open for trade, the military focus is overwhelmingly on the gate itself — this is a stronghold first, a trade city second.
+Ravensport is the officially human-led Gate City and the continent's largest mixed-population trade hub. Its dimensional gate is contained inside the heavily fortified Heart. The dedicated Ravensport profile owns detailed city information; this section establishes only the setting-wide command structure and military scale.
 
-### Political Structure – Top-Down Chain of Command
+### Government and Council
 
-**Supreme Authority**  
-**Lord Harlan Voss** – City Lord & Gate Warden Supreme  
-- Ultimate civilian and military authority over Ravensport.  
-- Reports directly to no one on the continent (the gates are sovereign assets).  
-- Can declare martial law or mobilize the full guard in defense of the gate.
+- **Lord Protector Elara Voss** — Current civilian ruler and chair of the City Council. She controls civil administration, diplomacy, taxation, appointments, and emergency civilian authority.
+- **Harlan Voss** — Retired former Lord Protector and Elara's father. He advises privately but holds no governing vote or operational command unless Elara temporarily delegates a duty.
+- **Gate Warden Seraphine Vale** — Voting council member responsible for gate-security policy, defensive readiness, Iron Talon doctrine, and coordination between military branches.
+- **Master of Trade Vorn Ironvein** — Voting council member representing guilds, dimensional commerce, tariffs, logistics, and major trade interests.
+- **Archmage Lirael Starveil** — Voting council member responsible for the Arcane Wardens, magical threats, dimensional research, and technical advice concerning the gate.
+- **Captain of the City Guard Thorne Blackwood** — Voting council member responsible for ordinary law enforcement, investigations, district patrols, and civil order outside the gate fortress.
+- **Gate Commander Kael Thorne** — Operational commander of the Heart and Iron Talons. He reports to Seraphine Vale and has tactical authority during an active gate emergency. He attends relevant council sessions but is not a permanent voting member.
+- Kael Thorne and Thorne Blackwood are unrelated.
 
-**High Council** (Advisory & Operational Leadership)  
-1. **Lady Elara Voss** – Spymaster & Internal Security (Voss family)  
-2. **Master Thorne Ironvein** – Chief Engineer & Infrastructure (Dwarven guilds)  
-3. **Archivist Vespera Moonwhisper** – Arcane & Dimensional Affairs (Elven expertise)  
-4. **Captain-General Marcus Hale** – Commander of All City & Gate Forces (Military)
+### Military Strength and Chain of Command
 
-**Military Chain of Command (Gate Defense Focus)**  
-- **Gate Commander** (Overall military commander of the gate fortress)  
-  - **Name**: Commander **Kael “Ironwall” Thorne** (Human male, veteran, level 16+ Fighter / Battle Master)  
-  - Reports directly to Captain-General Hale and Lord Voss.  
-  - Has authority over all gate military assets.
+Ravensport maintains approximately **1,800 active military personnel**:
 
-- **Elite Guard Captains** (4 Captains, each commanding a company)  
-  Each is a high-level veteran (minimum level 12, most 13–15):  
-  - Captain **Serena Vale** (Human female, level 14 Paladin) – Portal Defense Company  
-  - Captain **Drogath Stonefist** (Dwarf male, level 13 Fighter) – Engineering & Siege Defense  
-  - Captain **Lirael Starveil** (Elf female, level 12 Wizard) – Arcane Wardens  
-  - Captain **Marcus “Blackthorn” Reed** (Human male, level 13 Rogue/Fighter) – Internal Security & Counter-Intrusion  
+- **Heart and gate-fortress forces: approximately 1,000**
+  - 600 standard gate guards
+  - 200 elite Iron Talons
+  - 80 Arcane Wardens
+  - 120 specialist gate wardens, engineers, support personnel, and reserve defenders
+- **City-wide guard: approximately 800**
+  - District patrols, criminal investigations, civic security, and reinforcement duties
 
-- **Standard Guard Officers**  
-  Lieutenants and Sergeants handle day-to-day patrols and district security.
+The **200 Iron Talons** are organized into four companies of 50 under Kael Thorne's operational command and Seraphine Vale's strategic oversight. Standard city guards answer to Thorne Blackwood. Arcane Wardens answer to Lirael Starveil.
 
-### Guard & Military Strength – Full Breakdown
+### Gate Defenses
 
-**Total Active Military Personnel: ~1,800** (significantly higher than a normal city due to the gate)
+The Heart uses layered physical fortifications, controlled anti-magic areas, anti-teleportation and dimensional-anchor effects, wards, alarm systems, inspection chambers, internal tunnels, and rapid-response forces. Magical transit within the complex is available only while compatible suppression fields are inactive.
 
-**1. Gate Fortress Garrison (The Heart – ~1,000 troops)**  
-- This is where the **vast majority** of military power is concentrated.  
-- The dimensional gate is fully enclosed in a massive fortified complex (multiple rings of walls, towers, and anti-magic/anti-teleport wards).  
-- **Standard Gate Guards**: 600  
-- **Elite Iron Talons**: 200 (heavily armed and armored)  
-- **Arcane Wardens** (spellcasters): 80 (average 6th–8th level, with several 10th+)  
-- **Gate Wardens** (special elite unit): 120 (30 of which are elite spellcasters)
+### Lord Cassian Veyne's Secret Expansion Plan
 
-**Why so many patrols?**  
-The gate is a constant invasion risk. Patrols are high because:  
-- Continuous monitoring of the gate for unauthorized activations or breaches.  
-- Layered security rings around the gate complex.  
-- Regular sweeps of the Portal Quarter for spies, smugglers, or planar creatures.  
-- 24/7 shifts ensure no lapse in vigilance.
+Lord Cassian Veyne is the campaign's primary antagonist and leader of an unnamed secret organization.
 
-**2. City-Wide Guard (~800)**  
-- Standard city patrols, district security, and support for the gate if needed.  
-- Lower density outside the gate district.
-
-**Elite Guard Structure**  
-- **Iron Talons** (Elite): 280 total  
-  - 4 Companies, each led by one of the Captains above.  
-  - Captains are level 12–15.  
-  - Gate Commander Kael Thorne is level 16+ (the official minimum for this critical post).
-
-**Magic Defenses at the Gate (Fortress Against Dimensional Invasion)**  
-The gate complex is one of the most heavily warded locations on the continent. Key protections include:
-
-- **Permanent Anti-Magic Field** generators (powered by Aetherite crystals and bound elementals) in key chambers — suppresses hostile magic from the other side.
-- **Dimensional Anchor** and **Forbiddance** effects layered across the gate chamber (prevents unauthorized planar travel or summoning).
-- **Glyphs of Warding** and **Symbol** spells on all access points (explosive, stunning, or banishment effects tuned against extraplanar creatures).
-- **Scrying wards** and **Nondetection** fields throughout the complex.
-- **Contingency** and **Alarm** spells tied to elite mages on constant watch.
-- **Physical fortifications**: Multiple concentric walls, murder holes, portcullises, and choke points designed to funnel invaders into kill zones.
-- **Rapid Response**: Elite companies can be at the gate in under 2 minutes via internal tunnels and teleport pads (restricted to authorized personnel).
-
-The philosophy is simple: If something comes through the gate uninvited, it dies in the first chamber.
+- He is expanding the hidden beacon network near strategic outposts and dimensional gates.
+- His work requires planning, excavation, reinforcement, Aetherite components, and access to sites capable of supporting beacon cores.
+- If left unchecked, the project could drain enough magic to weaken gates and civilization.
+- Veyne has traveled to Aetheron using a three-crystal array and believes a sufficiently weakened Elyndria could attract or enable hostile Aetheronian intervention.
+- The Aetheronians as a whole are not established as supporters of Veyne.
+- Veyne is excavating beneath his manor for a suitable beacon site. Discovery would expose a critical operation of Veyne's organization.
+- The unmarked orb carried inside the stolen Resonance Medallion was intended as one of the batteries for Veyne's next Aetheron transit.
 
 ---
-
-**Lord Cassian Veyne's Secret Expansion Plan**  
-Lord Veyne has begun a long-term project to **expand the network of beacons** across the continent. His targets include strategic locations near **key outposts and the dimensional gates** themselves.  
-- This is a slow, careful process requiring extensive planning, excavation, and reinforcement.  
-- Players have time to discover and stop him, but if left unattended for too long, the gates could fall or civilization could be severely set back as magic is further drained.  
-- The Aetherians themselves have **no immediate plans to conquer** this world, but Veyne believes that if the world is sufficiently weakened, he may be able to motivate them to launch a full-scale strike.  
-
-He is secretly excavating deep beneath his own manor to locate a geologically and magically suitable site. Once found, he plans to heavily reinforce the location before installing and activating a new beacon. Discovery of this excavation would be catastrophic for the Aetherbound.
-
----
-
----
-
 ## Related Documents and Guidelines
 
 ### Governance and navigation
@@ -388,6 +433,6 @@ When working within a dedicated subject, use the ownership hierarchy in `GOVERNA
 
 ---
 
-**End of World Bible v2.9.1**
+**End of World Bible v3.0**
 
-Structural cleanup in v2.9.1 removed duplicate navigation and stale file references. No unresolved lore conflict was decided in this revision.
+Version 3.0 implements the approved Batch B canon decisions for dead zones, beacon cores, Aetherite crystals, Veyne, Ravensport leadership, Captain Rurik, and terminology.

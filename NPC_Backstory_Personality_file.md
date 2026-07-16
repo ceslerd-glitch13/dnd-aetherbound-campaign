@@ -1,89 +1,100 @@
 ---
 status: Draft
 authority: NPC Identity and Personality Detail
-version: 1.0
+version: 1.1
 last_reviewed: 2026-07-16
-review_state: Useful profiles exist; duplicate identities and leadership synchronization remain unresolved
+review_state: Batch B Ravensport identities and leadership synchronized; Batch C collision cleanup and profile expansion remain pending
 ---
 # NPC Backstory & Personality File (Master Database)
 
 **Purpose**: Living master reference for all named NPCs across the campaign. Sorted by city and role. Includes both major and minor characters for consistency and historic reference. Update this file whenever new locations or personnel are added.
 
-**Important Note on NPC Naming & Disambiguation (July 2026 Cleanup)**: Several names repeat across cities (e.g., Lirael, Vesper, Helga, Thrain, Garrick, Brannok, Drogath, Vorn). These are distinct individuals. Always distinguish by full title, role, and location (e.g., "Lirael Starveil of Ravensport – Archmage" vs. "Lirael Moonveil of Faerindel – Captain of the Wardens"). This prevents confusion during play. New or deepened entries for early campaign (Sessions 0–5) have been added below with full details per NPC Creation Guideline (appearance, personality/role, story hook + motivation, secret, quirk, connections). Cross-reference with Early_Sessions_Plan_Sessions_0_to_5.md and city profiles.
+**Important Note on NPC Naming & Disambiguation:** Batch B resolves Ravensport leadership and the duplicate Captain Rurik. Batch C remains responsible for the broader cross-city name-collision cleanup, proprietor separation, and three-line profile expansion.
 
 ---
 
 ## Ravensport
 
 ### Leadership
-- **Lord Protector Harlan Voss** (Human male, Lawful Neutral)  
-  Aging ruler focused on gate security and trade stability. Father of Elara Voss.
 
-- **High Stewardess Elara Voss** (Human female, Lawful Good)  
-  Harlan’s daughter and primary administrator. Efficient and compassionate.
+- **Lord Protector Elara Voss** (Human female, Lawful Good)  
+  Current civilian ruler and chair of the City Council. Efficient, compassionate, and responsible for administration, diplomacy, taxation, appointments, and emergency civilian authority.
 
-- **Gate Warden Commander Seraphine Vale** (Elf female, Lawful Neutral)  
-  Oversees gate security and the Iron Talons. Highly disciplined.
+- **Harlan Voss** (Human male, Lawful Neutral)  
+  Retired former Lord Protector and Elara's father. Advises privately but holds no vote or operational command unless Elara temporarily delegates a duty.
+
+- **Gate Warden Seraphine Vale** (Elf female, Lawful Neutral)  
+  Voting council member responsible for gate-security policy, defensive readiness, Iron Talon doctrine, and coordination between military branches.
+
+- **Master of Trade Vorn Ironvein** (Dwarf male, Neutral)  
+  Voting council member representing merchant guilds, dimensional commerce, tariffs, logistics, and major trade interests.
 
 - **Archmage Lirael Starveil** (Elf female, Neutral Good)  
-  Leads the Arcane Wardens. Advisor on magical threats.
+  Voting council member, leader of the Arcane Wardens, and advisor on magical threats and dimensional research.
 
 - **Captain of the City Guard Thorne Blackwood** (Human male, Lawful Neutral)  
-  Commands regular city patrols.
-
-### Shopkeepers & Merchants
-- **Captain Rurik Voss** (Human male) – Owner of The Rusty Anchor. Retired ship captain. Starter quest giver.
-- **Innkeeper Selene Brightwater** (Half-elf female) – Owner of The Gilded Gate.
-- **Master Armorer Thrain Stonehand** (Dwarf male) – Owner of Iron & Thread.
-- **Weaponsmith Garrick Ironclad** (Dwarf male) – Owner of Blade & Bolt.
-- **Apothecary Mirael Thornwood** (Human female) – Owner of Essence & Elixir.
-- **Fence Vesper Crowe** (Human male) – Owner of Last Chance Curios (pawn shop/fence).
-- **Trader Harlan Reed** (Human male) – Owner of The Caravan Outfitter.
+  Voting council member commanding ordinary law enforcement, investigations, and district patrols outside the Heart.
 
 ### Military / Elite
-- **Captain Kael Thorne** (Human male, level 16+) – Gate Commander of the Iron Talons.
-- Multiple Iron Talon Captains (level 12–15).
+
+- **Gate Commander Kael Thorne** (Human male)  
+  Operational commander of the Heart and the 200 Iron Talons. Reports to Gate Warden Seraphine Vale and has tactical authority during active gate emergencies. He is not a permanent voting council member.
+- Kael Thorne and Thorne Blackwood are unrelated.
+- The Iron Talons are organized into four companies of 50.
+
+### Shopkeepers & Merchants
+
+- **Captain Elandor “Blackscale” Rurik** (Human male) — Owner of The Rusty Anchor, semi-retired independent ship captain, and starter-quest giver.
+- **Innkeeper Selene Brightwater** (Half-elf female) — Owner of The Gilded Gate.
+- **Archmage Lirael Starveil** (Elf female) — Currently listed as proprietor of the Arcane Emporium; Batch C will separate senior offices from routine shop operation.
+- **Master Armorer Thrain Stonehand** (Dwarf male) — Owner of Iron & Thread.
+- **Weaponsmith Garrick Ironclad** (Dwarf male) — Owner of Blade & Bolt.
+- **Apothecary Mirael Thornwood** (Human female) — Owner of Essence & Elixir.
+- **Fence Vesper Crowe** (Human male) — Owner of Last Chance Curios.
+- **Trader Harlan Reed** (Human male) — Owner of The Caravan Outfitter.
 
 ### Criminal Elements
-- Various low-level criminals and smugglers in the Shrouded Wards (not yet named).
 
-### Quest-Relevant & Early Campaign NPCs (Deepened for Sessions 0–5)
-These support the branching paths in Early_Sessions_Plan_Sessions_0_to_5.md. Full details provided per NPC Creation Guideline. May be encountered early.
+- Various low-level criminals and smugglers operate in the Shrouded Wards.
+- Deliberate gate sabotage is not treated as ordinary criminal activity; it indicates an exceptional or civilization-level threat.
+
+### Quest-Relevant & Early Campaign NPCs
+
+These NPCs support the branching paths in `Early_Sessions_Plan_Sessions_0_to_5.md`.
 
 - **Captain Elandor “Blackscale” Rurik** (Human male, owner of The Rusty Anchor)  
-  **Appearance**: Grizzled human with black eyepatch, weathered sea coat, anchor tattoo on forearm.  
-  **Personality + Role**: Blunt but fair retired ship captain and tavern owner. Cares deeply about his ship, crew, and reputation.  
-  **Story Hook**: Hired to deliver the Resonance Medallion; it was stolen from his strongroom. Offers reward and room/board for recovery.  
-  **Deeper Details**: Motivation – Protect his livelihood and avoid losing his ship to the impatient client. Secret – Has minor past connections to dockside smuggling but has gone legitimate. Quirk – Calls everyone "lad" or "lass" regardless of age or race. Connections – Friendly with Lirael "Silverthorn"; owes subtle favor to Voss family interests.
+  **Appearance**: Grizzled human with black eyepatch, weathered sea coat, and anchor tattoo on his forearm.  
+  **Personality + Role**: Blunt but fair semi-retired ship captain and tavern owner. He still owns his ship and accepts selective cargo contracts. He is not related to the Voss family.  
+  **Story Hook**: An unmarked Aetherite orb hidden inside a silver medallion was stolen from his strongroom before delivery to Silas Crowe.  
+  **Deeper Details**: Motivation – Protect his livelihood, crew, ship, and reputation. Secret – Minor past connections to dockside smuggling, though he has largely gone legitimate. Quirk – Calls everyone "lad" or "lass." Connections – Friendly with Lirael "Silverthorn"; owes a subtle favor to Voss family interests.
 
 - **Lirael "Silverthorn"** (Half-elf female, waitress and information broker at The Rusty Anchor)  
   **Appearance**: Friendly half-elf with silver-threaded hair, always moving between tables with a tray; sharp, observant eyes.  
-  **Personality + Role**: Chatty and helpful on the surface; skilled information broker posing as staff. Secretly gathers intelligence for the Voss family while enjoying dock freedom.  
-  **Story Hook**: Provides rumors about the medallion theft, Shrouded Wards smuggling ring, western caravan troubles (Deepanvil path), and odd "blue crystal" activity. Excellent source for all branching paths.  
-  **Deeper Details**: Motivation – Prove her worth to the Voss family while maintaining independence. Secret – Distant relative of the ruling Voss family; knows more about gate security and potential Aetherbound activity than she publicly admits. Quirk – Mixes nautical slang with subtle elven phrases when excited or sharing sensitive info. Connections – Reports to High Stewardess Elara Voss indirectly; friendly with Rurik.
+  **Personality + Role**: Chatty and helpful on the surface; secretly gathers information for Elara Voss while maintaining her dockside independence.  
+  **Story Hook**: Provides rumors about the medallion theft, Shrouded Wards smugglers, western caravan trouble, and unusual blue crystals.  
+  **Deeper Details**: Motivation – Prove her informal intelligence network is valuable. Secret – Distant relative of the ruling Voss family. Quirk – Mixes nautical slang with elven phrases. Connections – Reports indirectly to Lord Protector Elara Voss; friendly with Rurik.
 
-- **Silas Crowe (The Mysterious Client / Veyne's Agent)** (Human male, polished fixer)  
-  **Appearance**: Well-dressed in dark, understated clothing; silver ring with subtle blue crystal inlay; always accompanied by 1–2 discreet bodyguards. Cold, precise demeanor.  
-  **Personality + Role**: Calculating and impatient agent for powerful interests tied to Lord Cassian Veyne’s network. Hired Rurik for the medallion delivery.  
-  **Story Hook**: The "very important client." Will pursue the medallion if not returned promptly and can become patron or antagonist depending on player choices (especially if kept).  
-  **Deeper Details**: Motivation – Advance Veyne’s secret beacon expansion by acquiring stabilizing Aetherite-related artifacts. Secret – Fully aware of the medallion’s true buffer properties and its connection to Aetheron technology. Quirk – Never uses contractions; speaks in formal, measured sentences. Connections – Reports to or serves Lord Cassian Veyne’s interests; may have ties to the smuggling ring.
+- **Silas Crowe — Veyne's Agent** (Human male, polished fixer)  
+  **Appearance**: Well-dressed in dark, understated clothing; silver ring with a blue crystal inlay; normally accompanied by one or two discreet bodyguards.  
+  **Personality + Role**: Calculating, formal, and impatient agent of Lord Cassian Veyne's unnamed organization. Commissioned Rurik's delivery.  
+  **Story Hook**: Will pursue the stolen orb through negotiation, pressure, or violence if it is not delivered.  
+  **Deeper Details**: Motivation – Complete Veyne's next Aetheron transit. Secret – Knows the unmarked orb is one of two batteries required by Veyne's three-crystal travel array. Quirk – Never uses contractions. Connections – Reports to Veyne and may have ties to the smuggling ring.
 
-- **Vesper "the Thread" Crowe (Smuggling Ring Leader)** (Human or half-elf, mid-30s, Shrouded Wards)  
-  **Appearance**: Unassuming figure in layered cloaks and scarves; sharp intelligent eyes; carries concealed blades and a small Aetherite shard as a "lucky charm." Scar across one cheek.  
-  **Personality + Role**: Charismatic and ruthless leader of the Shrouded Wards smuggling network. Controls movement of restricted or "special" goods, including potential Aetherite-related items.  
-  **Story Hook**: Likely involved in or benefited from the medallion theft; now moving similar tech or gate contraband. Primary antagonist or target for the urban smuggling path.  
-  **Deeper Details**: Motivation – Profit, power, and control over the flow of dead zone and gate technology on the black market. Secret – Has (or had) a deal or blackmail arrangement with Veyne’s agents; the medallion theft may have been commissioned. Quirk – Collects small mechanical trinkets and fidgets with them constantly during conversations. Connections – Rival or uneasy associate of Fence Vesper Crowe (Last Chance Curios); possible link to the mysterious client.
+- **Vesper "the Thread" Crowe — Smuggling Ring Leader** (Human or half-elf, mid-30s)  
+  **Appearance**: Unassuming figure in layered cloaks and scarves with a cheek scar, concealed blades, and a small Aetherite shard used as a lucky charm.  
+  **Personality + Role**: Charismatic and ruthless leader controlling movement of restricted goods and information through the Shrouded Wards.  
+  **Story Hook**: May have arranged or benefited from the medallion theft and can become an enemy, source, or temporary ally.  
+  **Deeper Details**: Motivation – Control profitable routes and black-market technology. Secret – Has dealt with Veyne's agents but does not fully trust them. Quirk – Constantly handles mechanical trinkets. Connections – Rival or uneasy associate of Fence Vesper Crowe; possible link to Silas.
 
-- **Garrick "Ironvein" Deepdelve (Deepanvil Caravan & Mining Liaison)** (Dwarf male)  
-  **Appearance**: Stocky dwarf with soot-stained beard and heavy work gloves; carries a mining pick as a walking stick or tool. Practical and no-nonsense.  
-  **Personality + Role**: Oversees supply runs and deliveries between Ravensport and the Deepanvil mines. Hires guards for dangerous western routes.  
-  **Story Hook**: Can offer or recommend the delivery job to Deepanvil (with subquests in the mines: cave-ins, sabotage, mechanical anomalies). Excellent contact for the western path.  
-  **Deeper Details**: Motivation – Keep the mines productive, safe, and profitable. Secret – Suspects deliberate sabotage or strange mechanical issues in the deeper tunnels (unknowingly approaching an Aetheron node per World Geography hidden plot). Quirk – Speaks in short, gruff sentences and often tests people with practical, hands-on challenges. Connections – Works with Deepanvil leadership (e.g., Trade Factor Vorn Hammerfall, Master Miner Garrick Deepdelve – note name similarity but distinct individual); reports issues back to Ravensport contacts.
+- **Garrick "Ironvein" Deepdelve — Deepanvil Caravan and Mining Liaison** (Dwarf male)  
+  **Appearance**: Stocky dwarf with a soot-stained beard, heavy work gloves, and a mining pick used as a walking staff.  
+  **Personality + Role**: Gruff, practical, and protective of supply crews; coordinates deliveries between Ravensport and Deepanvil.  
+  **Story Hook**: Can offer western caravan work and point the party toward cave-ins, mechanical anomalies, and hidden beacon activity.  
+  **Deeper Details**: Motivation – Keep the mines productive and safe. Secret – Suspects the official explanation for recent failures is incomplete. Quirk – Tests people through practical tasks. Connections – Works with Deepanvil leadership and Ravensport trade contacts.
 
-**Usage**: These NPCs can appear early via rumors at The Rusty Anchor or during investigation. Deepen further or add relationships as play progresses. Update master file and this section after sessions.
+**Usage**: These NPCs can appear through rumors, investigation, gate politics, and the branching starter paths. Batch C will resolve remaining cross-city name collisions and add three-line profiles for additional leaders and proprietors.
 
 ---
-
 ## Faerindel
 
 ### Leadership

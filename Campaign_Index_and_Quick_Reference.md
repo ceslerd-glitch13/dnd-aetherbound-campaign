@@ -1,9 +1,9 @@
 ---
 status: Reference
 authority: Repository Navigation and Verified Status
-version: 3.0
+version: 3.1
 last_reviewed: 2026-07-16
-review_state: Safe structural cleanup complete; canon decisions remain unresolved
+review_state: Batch B canon synchronized; Batch C playability and NPC completion remain active
 ---
 
 # Campaign Index and Quick Reference
@@ -19,7 +19,7 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 - **Campaign/repository name:** Aetherbound
 - **Continent:** Elyndria
 - **Rules foundation:** Dungeons & Dragons 5th Edition with targeted homebrew
-- **Current condition:** Structured campaign draft with partially synchronized canon
+- **Current condition:** Batch B setting canon is synchronized; Batch C city playability and NPC completion remain active proposals
 - **Geography:** Updated to match the Elyndria map and document all ten dead zones, major routes, ports, and canonical settlements
 - **Starter material:** Hook and branching concepts exist, but the starter quest and Sessions 1–5 are not yet complete enough to run without additional preparation
 
@@ -42,14 +42,14 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 | `GOVERNANCE.md` | Authority hierarchy, ownership, metadata, approval workflow | Reference |
 | `AGENTS.md` | Entry instructions for repository-aware assistants | Reference |
 | `SKILL.md` | Detailed campaign operating procedure | Reference |
-| `Pending_Changes.md` | Active unapproved proposals | Active Reference; currently empty |
+| `Pending_Changes.md` | Active unimplemented proposals | Active Reference; contains approved Batch C working decisions awaiting implementation |
 | `Pending_Changes_Archived_*.md` | Historical approved-change records | Historical |
 
 ### Core canon and reference
 
 | File | Purpose | Verified state |
 |---|---|---|
-| `DnD_Campaign_World_Bible.md` | Setting-wide lore and mechanics | Canon with unresolved conflicts flagged; structural duplicate removed |
+| `DnD_Campaign_World_Bible.md` | Setting-wide lore and mechanics | Canon; Batch B dead-zone, beacon, Aetherite, Veyne, terminology, and Ravensport decisions synchronized |
 | `World_Geography.md` | Elyndria placement, terrain, routes, waters, ports, travel, and dead zones | Canon; map-aligned |
 | `Campaign_Index_and_Quick_Reference.md` | Navigation and verified readiness | Reference |
 
@@ -57,11 +57,11 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 
 | File | Purpose | Verified state |
 |---|---|---|
-| `Ravensport_City_Profile.md` | Detailed primary hub | Draft; mandatory city sections remain incomplete and leadership conflicts remain unresolved |
+| `Ravensport_City_Profile.md` | Detailed primary hub | Draft; leadership synchronized, Batch C service and playable-detail sections pending |
 | `Deepanvil_City_Profile.md` | Western mining city inside the Deepanvil Dead Zone | Draft; mandatory city sections remain incomplete |
 | `Faerindel_City_Profile.md` | Central elven gate city | Draft; mandatory city sections remain incomplete |
 | `Ironforge_City_Profile.md` | Northern dwarven gate city | Draft; mandatory city sections remain incomplete |
-| `NPC_Backstory_Personality_file.md` | Named NPC database | Draft; useful early profiles exist, but identity and leadership conflicts remain |
+| `NPC_Backstory_Personality_file.md` | Named NPC database | Draft; Batch B Ravensport identities synchronized, Batch C collision cleanup and profile expansion pending |
 
 ### Quests, sessions, and tracking
 
@@ -69,7 +69,7 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 |---|---|---|
 | `Captain_Ruriks_Request_Session_0-1.md` | Starter hook and medallion theft | Draft; investigation, conflict, and outcomes remain incomplete |
 | `Early_Sessions_Plan_Sessions_0_to_5.md` | Session 0 outline and four branch concepts | Draft outline; not complete Sessions 1–5 preparation |
-| `Quests_Player_Decisions_Impacts.md` | Quest state, decisions, attitudes, and session record | Active Reference; template exists but known pre-play entries are not yet seeded |
+| `Quests_Player_Decisions_Impacts.md` | Quest state, decisions, attitudes, and session record | Active Reference; starter quest and Resonance Orb pre-play tracking seeded |
 | `Enemy_Encounters_Stat_Blocks.md` | Campaign combat repository | Draft; current entries lack required actionable attack/ability details |
 
 ### Guidelines
@@ -83,18 +83,19 @@ Read `GOVERNANCE.md` for authority order and `SKILL.md` for the operating proced
 
 Guidelines define mandatory, default, and optional content standards. They do not override approved canon.
 
-## Known Unresolved Canon Decisions
+## Current Open Decisions and Development Work
 
-Do not silently resolve these items:
+The former Batch B canon conflicts are resolved and synchronized. Do not reopen them without a new approved proposal.
 
-1. How gods and divine power interact with dead zones
-2. Whether beacon cores create a local magic exception and, if so, its mechanics
-3. Exact Resonance Medallion mechanics and relationship to Aetherite technology
-4. Ravensport government and military command structure
-5. The canonical identity of the Rusty Anchor's Captain Rurik
-6. Definitions of Aetheron, Aetherite, Aetherians/Aetheronians, and the Aetherbound
+Current work still includes:
 
-These decisions require a proposed canon batch and explicit approval before synchronization.
+1. A permanent in-world name for Veyne's secret organization
+2. A final campaign title if `Aetherbound` is replaced as the working title
+3. Batch C city services, trade, daily life, racial/gate interaction, and immediate-run NPC detail
+4. Batch C cross-city NPC collision cleanup and proprietor separation
+5. Completion of the starter investigation, Sessions 1–5, and actionable encounter stat blocks
+
+These items are active development work rather than contradictions in the implemented Batch B canon.
 
 ## Quick Navigation by Task
 
@@ -118,6 +119,7 @@ The following structural work is reflected in the current files:
 - archived logs clearly marked historical;
 - duplicate World Bible directory removed;
 - false completion claims removed from this Index;
-- major-document status metadata added.
+- major-document status metadata added;
+- approved Batch B canon synchronized across its authority files.
 
-This section reports only structural work. It does not imply that the known canon or playability issues have been resolved.
+Batch B canon decisions have also been synchronized. Playability, NPC expansion, session completion, and combat readiness remain in progress.

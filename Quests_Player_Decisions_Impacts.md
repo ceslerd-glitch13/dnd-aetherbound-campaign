@@ -1,9 +1,9 @@
 ---
 status: Active Reference
 authority: Quest Decision Attitude and Session Tracking
-version: 1.0
+version: 1.1
 last_reviewed: 2026-07-16
-review_state: Template exists; known pre-play quest and attitude records are not yet seeded
+review_state: Batch B starter quest and Resonance Orb tracking seeded; no player outcomes recorded
 ---
 # Quests, Player Decisions & Impacts Tracker
 
@@ -19,14 +19,48 @@ review_state: Template exists; known pre-play quest and attitude records are not
 ## Active Quests & Progression
 
 ### Current Active Quests
-- [List quests here with status: Not Started / In Progress / Completed]
-- Include quest giver, key NPCs involved, current status, and next steps.
+
+#### Captain Rurik's Request
+
+- **Status:** Not Started
+- **Quest giver:** Captain Elandor "Blackscale" Rurik
+- **Location:** The Rusty Anchor, Ravensport Docks
+- **Objective:** Recover the stolen silver medallion and the unmarked Aetherite orb concealed inside it.
+- **Known involved NPCs:** Rurik; Lirael "Silverthorn"; Silas Crowe; possible Shrouded Wards smugglers.
+- **Reward:** 50 gp upfront, 150 gp on return, one month of room and board, and future favors from Rurik.
+- **Immediate next steps:** Search the strongroom and docks, question staff, follow leads into the Grand Bazaar or Shrouded Wards, or seek identification of the item.
+- **Hidden consequence:** Returning the orb enables Veyne to complete one of the battery requirements for his three-crystal Aetheron travel array.
 
 ### Quest Progress Notes
 - Session-by-session updates on quest advancement.
 - Any branching paths or player choices that affect quest outcomes.
 
 ---
+
+## Resonance Orb State
+
+Update this section whenever the orb changes hands, expends charges, recharges, enters a dead zone, or is installed in another device.
+
+| Field | Current State |
+|---|---|
+| Holder / location | Stolen; current holder unknown |
+| Housing | Silver Resonance Medallion |
+| Orb type | Unmarked Aetherite battery orb |
+| Maximum charges | 24 |
+| Current charges | 24 unless play establishes prior use |
+| Dead-zone field cost | 1 charge per hour |
+| Spell-energy cost | 8 charges per spell level; maximum 3rd level |
+| Cantrip cost | 0 charges |
+| Recharge | 1 charge per hour in usable ambient magic |
+| Attunement | None |
+| Intended recipient | Silas Crowe for Lord Cassian Veyne |
+| Hidden purpose | One of two unmarked batteries in Veyne's three-crystal Aetheron travel array |
+
+### Orb Use Log
+
+| Session | Holder / Device | Starting Charges | Field Hours | Spell Use | Ending Charges | Notes |
+|---|---|---:|---:|---|---:|---|
+| Pre-play | Unknown thief | 24 | 0 | None known | 24 | Adjust if investigation establishes use |
 
 ## Player Decisions & Long-Term Impacts
 
@@ -36,7 +70,7 @@ review_state: Template exists; known pre-play quest and attitude records are not
 |         |          |                  |                  |       |
 
 ### Faction / World Reactions
-- How different factions (Aetherbound, city guards, elves, dwarves, etc.) react to player actions.
+- How Veyne's organization, city guards, elven institutions, dwarven institutions, and other groups react to player actions.
 - Reputation changes with specific groups or cities.
 
 ### Environmental / Plot Consequences
@@ -59,8 +93,11 @@ Track how individual NPCs feel toward the party or specific players.
   - Last Interaction: [Date/Session + summary]
 
 ### Key NPC Relationship Notes
-- Any evolving relationships, grudges, alliances, or romantic interests.
-- NPCs who are secretly affiliated with the Aetherbound or other factions.
+
+- **Captain Elandor "Blackscale" Rurik:** Neutral before play. Becomes friendly if the party makes a good-faith effort, protects his crew, or returns the orb. Becomes wary or hostile if the party lies about the item, endangers his ship, or keeps the orb after accepting payment.
+- **Silas Crowe:** Unknown to the party before play. His response depends primarily on whether the orb is delivered, withheld, exposed, or damaged.
+- Track evolving relationships, grudges, alliances, and romantic interests.
+- Note NPCs secretly affiliated with Veyne's organization or other factions.
 
 ---
 
