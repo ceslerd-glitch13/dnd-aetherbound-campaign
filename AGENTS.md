@@ -1,7 +1,7 @@
 ---
 status: Reference
 authority: Agent Entry Point
-version: 2.0
+version: 2.1
 last_reviewed: 2026-07-16
 ---
 
@@ -35,7 +35,9 @@ If file access fails, disclose the failure and do not fabricate campaign content
 - Read-only questions and audits do not require a pending entry.
 - Unapproved repository edits must be staged in `Pending_Changes.md` with exact files and exact changes.
 - Apply edits only after the user approves the pending entries or an already documented exact batch.
-- After implementation, archive the approved batch and reset the active pending file.
+- After implementation, run `python scripts/validate_repository.py --strict-warnings`.
+- Resolve validation errors before describing a batch as complete.
+- Archive the approved batch and reset the active pending file only after validation passes.
 - Use `Guideline_World_Update_Change_Management.md` for cross-file ripple checks after approval.
 
 ## Current Core Files

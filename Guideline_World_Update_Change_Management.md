@@ -1,7 +1,7 @@
 ---
 status: Reference
 authority: Approved Change Implementation Guideline
-version: 2.0
+version: 2.1
 last_reviewed: 2026-07-16
 ---
 
@@ -88,8 +88,15 @@ Update only the files actually affected.
 
 ### 7. Validate and close the batch
 
-Before reporting completion, verify:
+Before reporting completion, run:
 
+```bash
+python scripts/validate_repository.py --strict-warnings
+```
+
+Then verify:
+
+- [ ] The validation script completed successfully.
 - [ ] The primary authority file was updated.
 - [ ] Geography was updated if spatial.
 - [ ] Existing references were synchronized.

@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Spatial Geography
-version: 1.2
+version: 1.3
 last_reviewed: 2026-07-16
-review_state: Map-aligned; Batch C intercity trade dependencies synchronized; formal political borders remain undefined
+review_state: Map-aligned; ten known and eight hidden dead zones documented; formal political borders remain undefined
 ---
 # World Geography — Elyndria
 
@@ -21,7 +21,8 @@ The world map is the primary visual reference for the **relative position** of t
 - The settlement lists in the **World Bible** remain authoritative for the continent's 15 major cities and 20 minor cities.
 - Each canonical settlement exists only once, even if a name is accidentally repeated on the map.
 - Small repeated or altered labels near dead zones are treated as unnamed local outposts, holds, mines, or watch posts unless they are formally added to the World Bible.
-- The ten dead-zone names and placements in this file are authoritative when a map label is missing, duplicated, or slightly misplaced.
+- The ten publicly known dead-zone names and placements in this file are authoritative when a map label is missing, duplicated, or slightly misplaced.
+- **DM-only:** Eight additional faded gray patches on the canonical campaign map are real dead zones but are not recognized by any known mapping authority. The legend intentionally reports only the ten known zones.
 - Deepanvil is canonically located **inside** the Deepanvil Dead Zone, including its underground mining network, even if the faded boundary on a particular map rendering does not fully cover the city icon.
 - Roads and rivers should follow the map's intended routes rather than minor rendering gaps.
 - Formal political borders are not yet fixed. The map shows cultural influence and settlement patterns rather than sovereign national boundaries.
@@ -305,9 +306,11 @@ These routes are strategic lifelines as well as commercial corridors. No gate ci
 
 ---
 
-## 7. Magic Dead Zones — Exactly 10
+## 7. Magic Dead Zones — 10 Known, 8 Hidden
 
-All ten dead zones are approximately city-sized, visually represented by faded gray patches, and suppress magic according to the World Bible's current rules. Their boundaries may extend underground or beyond the visible map shading.
+### Publicly Known and Recorded Zones
+
+Elyndrian governments, scholars, navigators, and mapmakers recognize **10 named city-sized magic dead zones**. The map legend's `10 Total` statement is intentionally accurate from their perspective. These zones suppress magic according to the World Bible's current rules, and their boundaries may extend underground or beyond the visible shading.
 
 | # | Dead Zone | Placement and Geographic Effect |
 |---:|---|---|
@@ -322,13 +325,33 @@ All ten dead zones are approximately city-sized, visually represented by faded g
 | 9 | **Sunken Vale** | Southwestern interior north of Unityport and east of Hammerfall. Roads from the western mountains divert around or skirt the zone. |
 | 10 | **The Withered Shore** | Southwestern coast east of Unityport. The dead zone reaches the coast and creates an isolated, blighted shoreline. |
 
+### DM-Only: Eight Unrecorded Dead Zones
+
+The canonical campaign map contains **8 additional dead zones**, for **18 physical zones in total**. No known Elyndrian authority recognizes these eight regions as dead zones. In-world observers may dismiss the gray regions as wasteland, inaccessible terrain, damaged or decorative cartography, or unexplained local conditions. Their dead-zone nature, beacon cores, and eventual discovery are DM-only information.
+
+The following IDs are internal validation references, not public names. Permanent names should arise only through later approval or discovery during play.
+
+| Internal ID | Map Position | Stable Geographic Description |
+|---|---:|---|
+| H-01 | Patch 1 | Northwestern foothills west of Copperhold and southeast of Stonefist |
+| H-02 | Patch 3 | North-central forest southeast of Silvandar and northwest of Faerindel |
+| H-03 | Patch 6 | Northeastern forest east of Thalorien and north of Eldergrove |
+| H-04 | Patch 9 | Eastern riverlands east of Eldergrove and west-northwest of Ravensport |
+| H-05 | Patch 10 | Southwest-central forest between Moonshadow, Eloweth, and Lirael |
+| H-06 | Patch 11 | Western interior east of Stonewatch and west of Eloweth |
+| H-07 | Patch 12 | Central-southern forest east of Lirael and west of Arvandor |
+| H-08 | Patch 13 | South-central plains southeast of Dawnspire and north of Newbridge |
+
+Discovery of a hidden zone should update the quest tracker and relevant authority files. The public known count changes only after reliable information reaches and is accepted by mapping or governing institutions.
+
 ### Dead-Zone Route Effects
 
-- Most major roads curve around dead zones because the detour is usually safer and faster.
-- A few local roads enter zones to reach mines, engineering settlements, criminal refuges, or watch posts.
-- Deepanvil is the only established major city intentionally centered inside a dead zone.
-- Several small settlements and outposts exist on the edges of, or partially within, dead zones as shown on the map.
-- Two or three zones—especially Shiverstep Basin and remote portions of Frostwood Wastes—have little direct effect on major continental trade.
+- Most major roads curve around known dead zones because the detour is usually safer and faster.
+- A few local roads enter known zones to reach mines, engineering settlements, criminal refuges, or watch posts.
+- Deepanvil is the only established major city intentionally centered inside a publicly known dead zone.
+- Several small settlements and outposts exist on the edges of, or partially within, known zones as shown on the map.
+- Two or three known zones—especially Shiverstep Basin and remote portions of Frostwood Wastes—have little direct effect on major continental trade.
+- Routes near hidden zones may suffer unexplained failures, disappearances, detours, or folklore without anyone correctly identifying the cause.
 
 ---
 

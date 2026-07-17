@@ -1,3 +1,10 @@
+---
+status: Reference
+authority: City Creation Requirements
+version: 1.0
+last_reviewed: 2026-07-16
+---
+
 # City Creation Guidelines (Mandatory Reference)
 
 **Purpose**: This is the primary mandatory reference for creating or expanding any city in the campaign. These rules ensure consistency, immersion, and immediate playability.

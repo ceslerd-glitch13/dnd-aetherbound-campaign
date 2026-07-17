@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Setting-Wide Lore and Mechanics
-version: 3.1
+version: 3.2
 last_reviewed: 2026-07-16
-review_state: Batch C gate-city culture, dead-zone technology, and city playability canon synchronized
+review_state: Batch D known-versus-hidden dead-zone knowledge model synchronized
 ---
 
 # D&D Campaign World Bible
@@ -38,7 +38,9 @@ review_state: Batch C gate-city culture, dead-zone technology, and city playabil
 
 ## 2. Magic Dead Zones
 
-There are **10 known city-sized magic dead zones** on this continent.
+There are **10 known city-sized magic dead zones** on this continent. These are the zones named in accepted scholarship, government records, trade planning, and the map legend.
+
+**DM-only reality:** Elyndria physically contains **18 magic dead zones**. Eight additional zones appear on the canonical campaign map but are not recognized as dead zones by any known government, scholar, navigator, mapmaker, or outside divine observer. Their locations and nature are hidden campaign information until discovered through play. The map legend remains accurate as an in-world statement because it reports the ten accepted zones, not the full physical total.
 
 ### Core Principle
 
@@ -88,7 +90,7 @@ A dead zone prevents magical energy from entering, leaving, or remaining stable 
 - Aetheron is home to a highly advanced civilization whose magical and technological development centers on Aetherite systems.
 - Aetheronian technology can absorb, concentrate, store, and transmit magic across dimensional boundaries.
 - Centuries ago, the connection between Elyndria and Aetheron was deliberately destroyed or sealed to prevent retaliation and resistance.
-- The ten dead zones are produced by hidden beacon cores that collect magic from Elyndria and send it to Aetheron.
+- All eighteen physical dead zones—including the eight hidden from accepted world knowledge—are produced by hidden beacon cores that collect magic from Elyndria and send it to Aetheron.
 - Knowledge of Aetheron has faded into rumor and restricted scholarship. Most people do not know that the dead zones are artificial.
 
 ### Current Status

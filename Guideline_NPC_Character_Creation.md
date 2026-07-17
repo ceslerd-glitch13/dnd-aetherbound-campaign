@@ -1,3 +1,10 @@
+---
+status: Reference
+authority: NPC Creation Guideline
+version: 1.0
+last_reviewed: 2026-07-16
+---
+
 # Guideline: NPC & Character Creation (Key Locations)
 
 **Purpose**: This document explains how to create memorable and useful NPCs for important locations in your campaign. Focus on **key locations** only — not every single shop or house needs a named character.

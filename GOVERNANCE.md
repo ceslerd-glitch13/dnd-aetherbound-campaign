@@ -1,7 +1,7 @@
 ---
 status: Reference
 authority: Repository Governance
-version: 1.0
+version: 1.1
 last_reviewed: 2026-07-16
 ---
 
@@ -102,9 +102,11 @@ After approval:
 
 1. Apply only the approved changes.
 2. Perform the ripple and consistency checks in `Guideline_World_Update_Change_Management.md`.
-3. Update factual status in the Campaign Index.
-4. Archive the approved batch in the next numbered `Pending_Changes_Archived_XX.md` file.
-5. Reset `Pending_Changes.md` to an empty active template.
+3. Update factual status and file metadata in the Campaign Index.
+4. Run `python scripts/validate_repository.py --strict-warnings`.
+5. Resolve validation errors before closing the batch.
+6. Archive the approved batch in the next numbered `Pending_Changes_Archived_XX.md` file.
+7. Reset `Pending_Changes.md` to an empty active template.
 
 ## Safe Structural Changes vs. Canon Decisions
 
@@ -128,6 +130,7 @@ It must not claim that work was completed merely because it was planned, request
 
 Before completing an approved edit, verify:
 
+- `python scripts/validate_repository.py --strict-warnings` completes successfully;
 - every referenced filename exists;
 - authority files agree or unresolved conflicts are clearly flagged;
 - no active file depends on an unavailable “previous version”;

@@ -1,0 +1,52 @@
+name: Repository validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate Aetherbound repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Run repository validator
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/validate_repository.py \
+            --strict-warnings \
+            --json validation-results.json \
+            | tee validation-output.txt
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: repository-validation-report
+          path: |
+            validation-results.json
+            validation-output.txt
+          if-no-files-found: warn
+          retention-days: 14

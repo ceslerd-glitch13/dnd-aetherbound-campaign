@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "authority": "DM-only validation manifest for the canonical Elyndria map",
+  "last_reviewed": "2026-07-16",
+  "map": {
+    "path": "Elyndria_DND_World_Map.png",
+    "sha256": "f4dcd944eaf10184ceb8c56fb6ce0008d0ab9edc9af13376618978f0f63a29fe",
+    "public_legend_count": 10,
+    "visual_audit_note": "The map visibly contains eighteen gray dead-zone patches. Its legend intentionally reports the ten known zones as accepted in-world knowledge."
+  },
+  "counts": {
+    "known": 10,
+    "hidden": 8,
+    "actual": 18
+  },
+  "zones": [
+    {
+      "id": "K-01",
+      "map_patch": 7,
+      "known": true,
+      "public_name": "Deepanvil",
+      "position": "Central-west Western Mountains around Deepanvil and its mines."
+    },
+    {
+      "id": "K-02",
+      "map_patch": 8,
+      "known": true,
+      "public_name": "Westlake Wilds",
+      "position": "Southeast of Lake Aelorin, west of Lirael and south of Faerindel."
+    },
+    {
+      "id": "K-03",
+      "map_patch": 2,
+      "known": true,
+      "public_name": "Frostwood Wastes",
+      "position": "North-central interior between the northern dwarven belt and upper elven forests."
+    },
+    {
+      "id": "K-04",
+      "map_patch": 4,
+      "known": true,
+      "public_name": "Shiverstep Basin",
+      "position": "Far northeastern highlands beyond Runeforge."
+    },
+    {
+      "id": "K-05",
+      "map_patch": 5,
+      "known": true,
+      "public_name": "Greyfen Moor",
+      "position": "Northeastern interior east of Ironpeak and north of the upper Ravensport approaches."
+    },
+    {
+      "id": "K-06",
+      "map_patch": 14,
+      "known": true,
+      "public_name": "Thornhollow",
+      "position": "East-southeast interior, southwest of Ravensport and north of Havenport."
+    },
+    {
+      "id": "K-07",
+      "map_patch": 17,
+      "known": true,
+      "public_name": "Silent Fen",
+      "position": "Far southeastern lowlands west of Havenport."
+    },
+    {
+      "id": "K-08",
+      "map_patch": 18,
+      "known": true,
+      "public_name": "Duskmarsh",
+      "position": "South-central wetlands between Newbridge, Borderwatch, and southeastern routes."
+    },
+    {
+      "id": "K-09",
+      "map_patch": 15,
+      "known": true,
+      "public_name": "Sunken Vale",
+      "position": "Southwestern interior north of Unityport and east of Hammerfall."
+    },
+    {
+      "id": "K-10",
+      "map_patch": 16,
+      "known": true,
+      "public_name": "The Withered Shore",
+      "position": "Southwestern coast east of Unityport."
+    },
+    {
+      "id": "H-01",
+      "map_patch": 1,
+      "known": false,
+      "public_name": null,
+      "position": "Northwestern foothills west of Copperhold and southeast of Stonefist."
+    },
+    {
+      "id": "H-02",
+      "map_patch": 3,
+      "known": false,
+      "public_name": null,
+      "position": "North-central forest southeast of Silvandar and northwest of Faerindel."
+    },
+    {
+      "id": "H-03",
+      "map_patch": 6,
+      "known": false,
+      "public_name": null,
+      "position": "Northeastern forest east of Thalorien and north of Eldergrove."
+    },
+    {
+      "id": "H-04",
+      "map_patch": 9,
+      "known": false,
+      "public_name": null,
+      "position": "Eastern riverlands east of Eldergrove and west-northwest of Ravensport."
+    },
+    {
+      "id": "H-05",
+      "map_patch": 10,
+      "known": false,
+      "public_name": null,
+      "position": "Southwest-central forest between Moonshadow, Eloweth, and Lirael."
+    },
+    {
+      "id": "H-06",
+      "map_patch": 11,
+      "known": false,
+      "public_name": null,
+      "position": "Western interior east of Stonewatch and west of Eloweth."
+    },
+    {
+      "id": "H-07",
+      "map_patch": 12,
+      "known": false,
+      "public_name": null,
+      "position": "Central-southern forest east of Lirael and west of Arvandor."
+    },
+    {
+      "id": "H-08",
+      "map_patch": 13,
+      "known": false,
+      "public_name": null,
+      "position": "South-central plains southeast of Dawnspire and north of Newbridge."
+    }
+  ]
+}

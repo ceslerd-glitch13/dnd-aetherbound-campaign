@@ -1,3 +1,10 @@
+---
+status: Reference
+authority: Geography and Map Creation Guideline
+version: 1.0
+last_reviewed: 2026-07-16
+---
+
 # Guideline: World Geography & Map Creation
 
 **Purpose**: This document provides a checklist of what should be included when designing a fantasy world map or regional geography. It helps ensure maps are functional, immersive, and useful for both DM and players.

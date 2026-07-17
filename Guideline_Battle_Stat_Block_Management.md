@@ -1,3 +1,10 @@
+---
+status: Reference
+authority: Combat Preparation Guideline
+version: 1.0
+last_reviewed: 2026-07-16
+---
+
 # Guideline: Battle & Stat Block Management
 
 **Purpose**: This document provides a clear process for handling stat blocks and combat encounters. It ensures consistency across the campaign, especially when battles are requested in different conversations or chats.

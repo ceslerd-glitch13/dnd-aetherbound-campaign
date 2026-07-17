@@ -3,7 +3,7 @@ name: dnd-campaign-helper
 description: Repository operating manual for the Aetherbound D&D campaign. Use for campaign lore, NPCs, quests, player decisions, combat, cities, geography, and repository edits.
 status: Reference
 authority: Campaign Operating Procedure
-version: 2.0
+version: 2.1
 last_reviewed: 2026-07-16
 ---
 
@@ -91,10 +91,12 @@ When the user explicitly approves the active proposals or a previously documente
 1. Re-read the current target files before editing.
 2. Apply only the approved scope.
 3. Run the ripple checks in `Guideline_World_Update_Change_Management.md`.
-4. Update the Campaign Index to reflect only the verified final state.
-5. Create the next numbered archived change record.
-6. Reset `Pending_Changes.md` to an empty active template.
-7. Report exactly what changed and identify any decisions that remain unresolved.
+4. Update the Campaign Index to reflect only the verified final state and exact metadata versions/statuses.
+5. Run `python scripts/validate_repository.py --strict-warnings`.
+6. Resolve validation errors before closing the batch.
+7. Create the next numbered archived change record.
+8. Reset `Pending_Changes.md` to an empty active template.
+9. Report exactly what changed and identify any decisions that remain unresolved.
 
 If repository write access is unavailable, produce a patch or replacement files and clearly state that nothing was committed.
 
@@ -115,6 +117,7 @@ Before answering or committing:
 - [ ] Real files were inspected.
 - [ ] Authority and status metadata were respected.
 - [ ] Relevant tracker/profile/guideline files were checked.
+- [ ] `python scripts/validate_repository.py --strict-warnings` passed for repository changes.
 - [ ] Contradictions were flagged rather than silently resolved.
 - [ ] All referenced filenames and paths exist.
 - [ ] No unavailable previous-version placeholder is being relied upon.

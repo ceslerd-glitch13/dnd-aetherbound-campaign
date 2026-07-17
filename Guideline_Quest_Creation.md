@@ -1,3 +1,10 @@
+---
+status: Reference
+authority: Quest Creation Guideline
+version: 1.0
+last_reviewed: 2026-07-16
+---
+
 # Guideline: Quest Creation
 
 **Purpose**: This document provides a reusable framework for creating quests in a fantasy RPG campaign. It focuses on structure, discovery, and consistency without relying on campaign-specific terms.

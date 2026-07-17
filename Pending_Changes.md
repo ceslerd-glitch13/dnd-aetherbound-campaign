@@ -1,8 +1,9 @@
 ---
 status: Active Reference
 authority: Proposed Change Staging
-version: 4.0
+version: 5.0
 last_reviewed: 2026-07-16
+review_state: Batch D implemented and archived; no active proposals
 ---
 
 # Pending Changes — Active
