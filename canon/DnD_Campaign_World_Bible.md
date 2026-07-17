@@ -439,38 +439,38 @@ Lord Cassian Veyne is the campaign's primary antagonist and leader of an unnamed
 
 ### Governance and navigation
 
-- **GOVERNANCE.md** — Authority hierarchy, document ownership, status definitions, and approval workflow.
-- **AGENTS.md** — Entry instructions for repository-aware assistants.
-- **SKILL.md** — Detailed campaign operating procedure.
-- **Campaign_Index_and_Quick_Reference.md** — Verified navigation and project status; does not override canon.
-- **Pending_Changes.md** — Unapproved proposals only.
+- **../GOVERNANCE.md** — Authority hierarchy, document ownership, status definitions, and approval workflow.
+- **../AGENTS.md** — Entry instructions for repository-aware assistants.
+- **../SKILL.md** — Detailed campaign operating procedure.
+- **../Campaign_Index_and_Quick_Reference.md** — Verified navigation and project status; does not override canon.
+- **../Pending_Changes.md** — Unapproved proposals only.
 
 ### City profiles
 
-- **Ravensport_City_Profile.md** — Detailed Ravensport profile.
-- **Faerindel_City_Profile.md** — Detailed Faerindel profile.
-- **Ironforge_City_Profile.md** — Detailed Ironforge profile.
-- **Deepanvil_City_Profile.md** — Detailed Deepanvil profile.
+- **../cities/Ravensport_City_Profile.md** — Detailed Ravensport profile.
+- **../cities/Faerindel_City_Profile.md** — Detailed Faerindel profile.
+- **../cities/Ironforge_City_Profile.md** — Detailed Ironforge profile.
+- **../cities/Deepanvil_City_Profile.md** — Detailed Deepanvil profile.
 
 ### Core reference files
 
 - **World_Geography.md** — Elyndria's spatial relationships, settlements, terrain, routes, waters, ports, travel, and dead zones.
-- **NPC_Backstory_Personality_file.md** — Named NPC database.
-- **Quests_Player_Decisions_Impacts.md** — Quest, decision, attitude, and session tracker.
-- **Enemy_Encounters_Stat_Blocks.md** — Campaign custom-stat repository.
-- **Captain_Ruriks_Request_Session_0-1.md** — Draft starter quest.
-- **Early_Sessions_Plan_Sessions_0_to_5.md** — Draft early-campaign outline.
+- **../npcs/NPC_Backstory_Personality_file.md** — Named NPC database.
+- **../quests/Quests_Player_Decisions_Impacts.md** — Quest, decision, attitude, and session tracker.
+- **../combat/Enemy_Encounters_Stat_Blocks.md** — Campaign custom-stat repository.
+- **../quests/Captain_Ruriks_Request_Session_0-1.md** — Draft starter quest.
+- **../quests/Early_Sessions_Plan_Sessions_0_to_5.md** — Draft early-campaign outline.
 
 ### Guidelines
 
-- **City_Creation_Guidelines.md**
-- **Guideline_World_Geography_Map_Creation.md**
-- **Guideline_NPC_Character_Creation.md**
-- **Guideline_Battle_Stat_Block_Management.md**
-- **Guideline_Quest_Creation.md**
-- **Guideline_World_Update_Change_Management.md**
+- **../guidelines/City_Creation_Guidelines.md**
+- **../guidelines/Guideline_World_Geography_Map_Creation.md**
+- **../guidelines/Guideline_NPC_Character_Creation.md**
+- **../guidelines/Guideline_Battle_Stat_Block_Management.md**
+- **../guidelines/Guideline_Quest_Creation.md**
+- **../guidelines/Guideline_World_Update_Change_Management.md**
 
-When working within a dedicated subject, use the ownership hierarchy in `GOVERNANCE.md`. Do not treat this directory as a second independent definition of detailed city, NPC, quest, or geography facts.
+When working within a dedicated subject, use the ownership hierarchy in `../GOVERNANCE.md`. Do not treat this directory as a second independent definition of detailed city, NPC, quest, or geography facts.
 
 ---
 

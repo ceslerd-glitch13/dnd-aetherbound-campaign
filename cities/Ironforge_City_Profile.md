@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Ironforge City Detail
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C city playability, trade, daily life, and NPC synchronization complete
+version: 2.2
+last_reviewed: 2026-07-17
+review_state: Batch H shop inventories and industrial permit guidance cross-referenced
 ---
 
 # Ironforge City Profile
@@ -73,7 +73,9 @@ Markets, banks, gem exchanges, dimensional-goods warehouses, freight terminals, 
 - **Deepward Armory — Hargin Shieldthane:** Approved military and defensive equipment. Hargin recognizes stolen Deep Guard gear and restricted maker's marks.
 - **Gemcutter's Hall — Runa Gemheart:** Fine gems, jewelry, rune settings, and precision crystal work. Runa can examine unfamiliar crystal structures without activating them.
 
-Full profiles are owned by `NPC_Backstory_Personality_file.md`.
+Full profiles are owned by `../npcs/NPC_Backstory_Personality_file.md`.
+
+Table-ready mundane equipment, specialist stock, permit goods, black-market guidance, and settlement availability are maintained in `../items/Shop_Inventory_and_Items.md`. This city profile remains authoritative for location identity, proprietor, trade role, and local restrictions.
 
 ---
 
@@ -104,6 +106,18 @@ Common Ironforge applications include:
 - defensive mechanisms combining physical engineering with enchantment.
 
 Enchantments enhance strong physical designs. They do not replace them.
+
+---
+
+## DM Scene Anchors
+
+These working locations support prepared hooks without fixing exact tunnels, levels, or encounter maps.
+
+- **Copperglass Workshop:** An independent workshop on the boundary between the Trade Caverns and the Forges, beneath civilian housing. Its copper-framed front glass is cracked from an internal accident. This is the primary location for **The Unclaimed Workshop**.
+- **Ash Rail Spur:** A disused freight tunnel behind Copperglass Workshop that provides a concealed loading route and evidence of the missing engineer's removal.
+- **Foundry Receiving Hall Three:** A loud weighing and distribution floor near the Great Forge Public Works. It anchors the **Missing Alloy** hook and its contradictory delivery records.
+- **Emberforge Pattern Vault:** A secured archive beneath a restricted forge office containing physical templates, rune layouts, and controlled manufacturing instructions. It anchors the **Escaped Design** hook.
+- **Deep Guard Drill Gallery:** A reinforced training corridor near, but outside, the most restricted Gate Heart areas. It anchors the **Defense Knowledge** hook and shows where physical and magical defenses are tested together.
 
 ---
 

@@ -13,6 +13,21 @@ Before changing campaign material, read:
 3. [`Pending_Changes.md`](Pending_Changes.md)
 4. The relevant campaign and guideline files
 
+## Repository Layout
+
+- `canon/` — setting-wide lore and spatial canon
+- `cities/` — featured city profiles and urban scene anchors
+- `npcs/` — canonical NPC identities, personalities, and relationships
+- `quests/` — prepared quests, sessions, decisions, and live campaign tracking
+- `combat/` — actionable custom encounters and stat blocks
+- `items/` — shops, store inventories, and item availability
+- `guidelines/` — campaign creation and change-management rules
+- `history/` — approved pending-change archives
+- `assets/maps/` — canonical map assets
+- `scripts/` and `validation/` — repository checking tools and manifests
+
+Root-level operating files remain visible so users and assistants can always find governance, active Pending changes, validation instructions, and the Campaign Index.
+
 ## Working With ChatGPT
 
 ChatGPT currently does **not** directly commit or push changes to this repository.
@@ -32,7 +47,7 @@ The normal workflow is:
 ## Important Upload Rules
 
 - Upload the **extracted files**, not the ZIP itself.
-- Preserve folder paths, especially `.github/workflows/`, `scripts/`, and `validation/`.
+- Preserve all folder paths, especially `canon/`, `cities/`, `quests/`, `history/`, `.github/workflows/`, `scripts/`, and `validation/`.
 - Use the changed-files ZIP for normal updates.
 - Do not overwrite the entire repository with an older complete-repository ZIP.
 - Creating or downloading a package does not mean GitHub has changed.
@@ -57,12 +72,13 @@ See [`VALIDATION.md`](VALIDATION.md) for details.
 
 | Subject | Primary file |
 |---|---|
-| Setting lore and mechanics | [`DnD_Campaign_World_Bible.md`](DnD_Campaign_World_Bible.md) |
-| Geography and dead zones | [`World_Geography.md`](World_Geography.md) |
+| Setting lore and mechanics | [`canon/DnD_Campaign_World_Bible.md`](canon/DnD_Campaign_World_Bible.md) |
+| Geography and dead zones | [`canon/World_Geography.md`](canon/World_Geography.md) |
 | Current repository status | [`Campaign_Index_and_Quick_Reference.md`](Campaign_Index_and_Quick_Reference.md) |
-| NPCs | [`NPC_Backstory_Personality_file.md`](NPC_Backstory_Personality_file.md) |
-| Quest decisions and consequences | [`Quests_Player_Decisions_Impacts.md`](Quests_Player_Decisions_Impacts.md) |
-| Custom encounters | [`Enemy_Encounters_Stat_Blocks.md`](Enemy_Encounters_Stat_Blocks.md) |
+| NPCs | [`npcs/NPC_Backstory_Personality_file.md`](npcs/NPC_Backstory_Personality_file.md) |
+| Quest decisions and consequences | [`quests/Quests_Player_Decisions_Impacts.md`](quests/Quests_Player_Decisions_Impacts.md) |
+| Custom encounters | [`combat/Enemy_Encounters_Stat_Blocks.md`](combat/Enemy_Encounters_Stat_Blocks.md) |
+| Shops and item availability | [`items/Shop_Inventory_and_Items.md`](items/Shop_Inventory_and_Items.md) |
 | Active proposals | [`Pending_Changes.md`](Pending_Changes.md) |
 
 ## Batch Completion Checklist

@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Deepanvil City Detail
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C city playability, trade, daily life, and NPC synchronization complete
+version: 2.2
+last_reviewed: 2026-07-17
+review_state: Batch H shop inventories and dead-zone purchasing guidance cross-referenced
 ---
 
 # Deepanvil City Profile
@@ -75,7 +75,9 @@ Warehouses, caravan offices, gem exchanges, surface-goods markets, and inspectio
 - **Stoneguard Security — Durn Shieldlock:** Private escorts, vault testing, physical security, and lock services. Durn can identify specialized bypass tools.
 - **The Deep Market:** Open exchange for ore, gemstones, mechanical parts, masterwork mundane equipment, imported food, and surface luxuries.
 
-Full profiles are owned by `NPC_Backstory_Personality_file.md`.
+Full profiles are owned by `../npcs/NPC_Backstory_Personality_file.md`.
+
+Table-ready mundane equipment, specialist stock, permit goods, black-market guidance, and settlement availability are maintained in `../items/Shop_Inventory_and_Items.md`. This city profile remains authoritative for location identity, proprietor, trade role, and local restrictions.
 
 ---
 
@@ -91,6 +93,17 @@ Full profiles are owned by `NPC_Backstory_Personality_file.md`.
 - **Legal help and permits:** The Mining Council and clan representatives handle claims, excavation permits, engineering ownership, labor disputes, contracts, and safety violations. Outsiders often need sponsorship for restricted areas.
 - **Hiring labor and guards:** Miners, engineers, mechanics, guards, tunnel guides, demolition experts, rescue teams, and repair specialists are readily available.
 - **Magical services:** Active spellcasting and active enchantment are not normally available. Items can be taken outside for magical manufacturing or treatment and returned when the resulting benefit is a permanent physical property rather than an ongoing effect.
+
+---
+
+## DM Scene Anchors
+
+These working locations support prepared hooks without fixing exact shaft coordinates or encounter maps.
+
+- **Shaft Twelve — Lower Survey Gate:** A reinforced survey door at the restricted edge of the Great Shafts. It anchors the **Worked Depths** hook and the unnatural stonework beyond it.
+- **Brassmantle Test Hall:** A mechanical testing facility in the Forges where tools, supports, and alloys are pushed to controlled failure. It anchors the **Impossible Tool Failures** hook.
+- **Old Vent Seven:** An officially sealed ventilation route branching from the Great Shafts. Replaced bolts and fresh scratches show recent illegal entry and anchor the **Sealed-Tunnel Entry** hook.
+- **Gearwright Below-Lab:** A basement workspace beneath Gearwright's Workshop where Pell keeps unstable experiments. It anchors the **Hidden Energy Signal** hook and stores repeated depth readings.
 
 ---
 

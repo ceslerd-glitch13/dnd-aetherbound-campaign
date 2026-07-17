@@ -1,9 +1,9 @@
 ---
 status: Active Reference
 authority: Proposed Change Staging
-version: 5.0
-last_reviewed: 2026-07-16
-review_state: Batch D implemented and archived; no active proposals
+version: 7.0
+last_reviewed: 2026-07-17
+review_state: Batch H shop and equipment integration archived; no active proposals
 ---
 
 # Pending Changes — Active
@@ -34,5 +34,5 @@ _No active proposals._
 After the user approves an exact proposal or documented batch:
 
 1. Apply the approved changes.
-2. Create the next numbered `Pending_Changes_Archived_XX.md` record with the approved scope and implementation result.
+2. Create the next numbered `history/Pending_Changes_Archived_XX.md` record with the approved scope and implementation result.
 3. Reset this file so **Active Proposed Changes** again reads `_No active proposals._`.

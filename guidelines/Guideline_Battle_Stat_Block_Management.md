@@ -14,7 +14,7 @@ last_reviewed: 2026-07-16
 ## Core Principle
 **Always check the existing repository first.**  
 The master file is:  
-**`Enemy_Encounters_Stat_Blocks.md`**
+**`../combat/Enemy_Encounters_Stat_Blocks.md`**
 
 This file contains all custom and campaign-specific stat blocks (guards, NPCs, monsters, etc.).
 
@@ -23,7 +23,7 @@ This file contains all custom and campaign-specific stat blocks (guards, NPCs, m
 ## Step-by-Step Process When a Battle or Stat Block Is Requested
 
 ### 1. Check the Existing Repository First
-- Open and search `Enemy_Encounters_Stat_Blocks.md`.
+- Open and search `../combat/Enemy_Encounters_Stat_Blocks.md`.
 - Look for the requested creature, NPC, or enemy type.
 - If it exists → Use or adapt the existing block.
 
@@ -37,7 +37,7 @@ Follow this order:
      - D&D Beyond (official)
      - Basic Rules / System Reference Document (SRD)
    - Use the **official** version as the baseline.
-3. **Create a new entry** in `Enemy_Encounters_Stat_Blocks.md` using the campaign’s standard format (see below).
+3. **Create a new entry** in `../combat/Enemy_Encounters_Stat_Blocks.md` using the campaign’s standard format (see below).
 
 ### 3. Standard Stat Block Format (Use This Structure)
 When adding or creating a new stat block, include at minimum:
@@ -102,7 +102,7 @@ You do **not** need to copy every single ability from the Monster Manual unless 
 - [ ] Equipment / weapons are noted
 - [ ] Loot options are included
 - [ ] Any campaign-specific changes are documented
-- [ ] The block is added to `Enemy_Encounters_Stat_Blocks.md`
+- [ ] The block is added to `../combat/Enemy_Encounters_Stat_Blocks.md`
 
 ---
 

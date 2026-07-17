@@ -9,7 +9,7 @@ last_reviewed: 2026-07-16
 
 ## Purpose
 
-This guideline explains how to apply an **approved** campaign change completely and consistently. `GOVERNANCE.md` and `SKILL.md` control whether an edit is still a proposal or has been approved for implementation.
+This guideline explains how to apply an **approved** campaign change completely and consistently. `../GOVERNANCE.md` and `../SKILL.md` control whether an edit is still a proposal or has been approved for implementation.
 
 ## Core Rule
 
@@ -23,7 +23,7 @@ Respect the user's creative decision while protecting repository consistency.
 
 Unless the user has already approved an exact documented batch:
 
-1. Record the requested change in `Pending_Changes.md`.
+1. Record the requested change in `../Pending_Changes.md`.
 2. Name every affected file.
 3. Describe the exact change and required follow-up work.
 4. Wait for explicit approval before editing target files.
@@ -42,17 +42,17 @@ Read-only analysis and recommendations do not require a pending entry.
 
 Check, as applicable:
 
-- `DnD_Campaign_World_Bible.md`
-- `World_Geography.md`
+- `../canon/DnD_Campaign_World_Bible.md`
+- `../canon/World_Geography.md`
 - relevant city profiles
-- `NPC_Backstory_Personality_file.md`
-- `Quests_Player_Decisions_Impacts.md`
+- `../npcs/NPC_Backstory_Personality_file.md`
+- `../quests/Quests_Player_Decisions_Impacts.md`
 - quest and session files
-- `Enemy_Encounters_Stat_Blocks.md`
+- `../combat/Enemy_Encounters_Stat_Blocks.md`
 - applicable guidelines
-- `Campaign_Index_and_Quick_Reference.md`
+- `../Campaign_Index_and_Quick_Reference.md`
 
-Use the ownership table in `GOVERNANCE.md` to decide where the primary definition belongs.
+Use the ownership table in `../GOVERNANCE.md` to decide where the primary definition belongs.
 
 ### 3. Update the primary authority first
 
@@ -65,7 +65,7 @@ Use the ownership table in `GOVERNANCE.md` to decide where the primary definitio
 - Record the relative position or coordinates.
 - Update roads, rivers, ports, trade routes, and travel times.
 - Update dead-zone placement or route effects when applicable.
-- Preserve the map-interpretation rules in `World_Geography.md`.
+- Preserve the map-interpretation rules in `../canon/World_Geography.md`.
 
 ### 5. Apply ripple effects
 
@@ -105,7 +105,7 @@ Then verify:
 - [ ] Every referenced filename exists.
 - [ ] The Campaign Index reflects the real current state.
 - [ ] The approved batch was archived.
-- [ ] `Pending_Changes.md` was reset.
+- [ ] `../Pending_Changes.md` was reset.
 
 ## Common Change Examples
 

@@ -3,7 +3,7 @@
   "authority": "DM-only validation manifest for the canonical Elyndria map",
   "last_reviewed": "2026-07-16",
   "map": {
-    "path": "Elyndria_DND_World_Map.png",
+    "path": "assets/maps/Elyndria_DND_World_Map.png",
     "sha256": "f4dcd944eaf10184ceb8c56fb6ce0008d0ab9edc9af13376618978f0f63a29fe",
     "public_legend_count": 10,
     "visual_audit_note": "The map visibly contains eighteen gray dead-zone patches. Its legend intentionally reports the ten known zones as accepted in-world knowledge."

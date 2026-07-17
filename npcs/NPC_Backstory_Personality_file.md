@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: NPC Identity and Personality Detail
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C identity consolidation, proprietor separation, and playable profiles complete
+version: 2.1
+last_reviewed: 2026-07-17
+review_state: Batch E quest-utility NPCs and scene-anchor relationships synchronized
 ---
 
 # NPC Backstory & Personality File — Master Database
@@ -22,7 +22,7 @@ This is the master identity and roleplaying reference for named NPCs. City profi
   - **Personality + Role**
   - **Story Hook**
 - Minor employees and one-scene NPCs may remain unnamed until play makes them important.
-- Titles describe authority, not character level. Combat statistics belong in `Enemy_Encounters_Stat_Blocks.md`.
+- Titles describe authority, not character level. Combat statistics belong in `../combat/Enemy_Encounters_Stat_Blocks.md`.
 
 # Ravensport
 
@@ -157,6 +157,18 @@ This is the master identity and roleplaying reference for named NPCs. City profi
 - **Story Hook:** May have arranged or benefited from the medallion theft and can become an enemy, reluctant source, or temporary ally.
 
 **Extended details:** Nyra values control of routes more than individual cargo. She has dealt with Veyne's agents but does not trust them and suspects their plans threaten the criminal economy she depends upon.
+
+### Brask Morrow — Lantern House Doorman
+
+- **Appearance:** Broad human man in a plain dark coat, seated on a reinforced stool with auction invitations stacked beneath one heavy hand.
+- **Personality + Role:** Quiet, controlled, and visibly difficult to move; he checks invitations and recognizes regular Lantern House buyers.
+- **Story Hook:** Wants auction nights to remain orderly and can deny, delay, or quietly permit entry when convinced that doing so creates less trouble.
+
+### Iven Pell — Lantern House Tally Clerk
+
+- **Appearance:** Nervous human clerk behind a barred counting booth, surrounded by lot cards, payment chits, and courier slips arranged with obsessive precision.
+- **Personality + Role:** Watchful, anxious, and better at records than deception; he logs buyers, lots, payments, and courier arrangements for the Blue Lantern Auction.
+- **Story Hook:** Values his personal safety more than loyalty and can expose buyer identities or transfer routes if protected, pressured, or given a believable escape.
 
 ### Orren Pike — Frightened Dockworker and Immediate Thief
 
@@ -355,6 +367,22 @@ This is the master identity and roleplaying reference for named NPCs. City profi
 - **Appearance:** Dwarven woman with magnifying lenses, jeweled ear cuffs, and hands steady enough to carve runes inside small stones.
 - **Personality + Role:** Patient, ambitious, and fascinated by unfamiliar materials; she cuts gems and prepares precision crystal settings.
 - **Story Hook:** Can examine Aetherite crystals without activating them and may identify evidence that several fragments originated from the same device.
+
+---
+
+## Workshop Quest NPCs
+
+### Nollin Brasswire — Missing Independent Engineer
+
+- **Appearance:** Lean gnome with copper-lensed goggles, close-cropped hair, and burn marks across a coat fitted with compact tool loops.
+- **Personality + Role:** Inventive, private, and stubbornly independent; specializes in compact mechanisms designed to function during anti-magic suppression.
+- **Story Hook:** Rented Copperglass Workshop and disappeared after being hired to connect mundane machinery to an unfamiliar blue-crystal power interface.
+
+### Hesta Rivetcloak — Copperglass Landlord
+
+- **Appearance:** Square-built dwarven woman carrying a ring of property keys, a folded inspection slate, and a dust mask hanging from one shoulder.
+- **Personality + Role:** Practical, direct, and protective of her tenants; operates the warehouse offices adjoining Copperglass Workshop and knows every legal access route.
+- **Story Hook:** Wants the unstable machinery secured before it harms nearby residents and can provide keys, lease records, complaints, and the first evidence of the concealed Ash Rail Spur access.
 
 ---
 

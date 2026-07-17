@@ -1,21 +1,21 @@
 ---
 status: Draft
 authority: Starter Quest Preparation
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C opening scene, investigation, recovery, return decision, and consequences are ready to run
+version: 2.1
+last_reviewed: 2026-07-17
+review_state: Batch E starter scenes and information-source locations are ready to run
 ---
 
 # Captain Rurik's Request — Session 0 / Session 1 Starter
 
 **Campaign:** Untitled D&D Campaign  
 **Recommended starting level:** 1  
-**Primary location:** The Rusty Anchor and Ravensport Docks  
+**Primary location:** The Rusty Anchor, The Wayward Gull, and Ravensport Docks
 **Quest type:** Investigation with social, stealth, chase, and optional combat resolutions
 
 ## Quest Summary
 
-Captain Elandor “Blackscale” Rurik hires the party to recover a silver medallion stolen from his ship's strongroom. Neither he nor the party initially knows that the medallion is only a protective housing for an unmarked Aetherite power orb intended for Silas Crowe and Lord Cassian Veyne.
+Captain Elandor “Blackscale” Rurik hires the party to recover a silver medallion stolen from the strongroom aboard his working ship, **The Wayward Gull**. Neither he nor the party initially knows that the medallion is only a protective housing for an unmarked Aetherite power orb intended for Silas Crowe and Lord Cassian Veyne.
 
 The quest is designed to introduce Ravensport, normal gate-city life, the party's first recurring allies, and the campaign's central mystery without forcing the party to keep, return, or study the orb.
 
@@ -58,7 +58,7 @@ Do not ask for fear checks. The moment demonstrates that gate danger is serious,
 
 ## Rurik Before the Offer
 
-Rurik is not waiting in a corner for adventurers. He is reviewing a damaged cargo manifest, speaking quietly with a crew member, and checking the key to his ship's strongroom.
+Rurik is not waiting in a corner for adventurers. He is reviewing a damaged cargo manifest, speaking quietly with a crew member, and checking the key to the strongroom aboard **The Wayward Gull**, his working ship moored at South Pier.
 
 Maelis notices that the characters appear capable and, more importantly, are not tied to Rurik's crew, the dock guilds, or the local criminal groups. She quietly suggests that outsiders may be useful.
 
@@ -111,7 +111,7 @@ Read or paraphrase:
 
 The party may immediately:
 
-- inspect the ship's strongroom;
+- inspect the strongroom aboard **The Wayward Gull** at South Pier;
 - question Rurik's crew;
 - speak with Mira, Jorik, or Maelis;
 - examine unloading records;
@@ -129,6 +129,8 @@ Session 0 should end after the party chooses its first meaningful lead. Do not f
 The party has three independent clue routes. Failed checks change how quickly or cleanly information is obtained; they do not stop the quest.
 
 ## Route 1 — The Strongroom
+
+**The Wayward Gull** is moored at South Pier near the Rusty Anchor. A narrow loading ramp, tired deckhands, and a newly replaced strongroom lock make the correct ship and evidence scene easy to identify.
 
 The party can discover:
 
@@ -164,6 +166,8 @@ Suggested checks:
 
 Bribes, kindness, intimidation, or favors can replace a roll when appropriate.
 
+Witnesses can also direct the party to **Netmaker's Bunkhouse**, a crowded temporary-worker boarding house on the Docks/Shrouded Wards boundary where Orren rented a room. His debts, outdated badge, and neighbors who saw the gray-scarved runner provide recoverable leads.
+
 ## Route 3 — Records and Street Leads
 
 The unloading roster contains:
@@ -193,11 +197,11 @@ He knows:
 - the smugglers knew the ship, strongroom, unloading schedule, and exact box;
 - he knows nothing about Aetherite technology, Veyne, or Aetheron.
 
-Orren may flee, confess, bargain for protection, or lead the party to the recovery location. He is not a fanatical enemy and should not fight to the death.
+Orren is most easily found through **Netmaker's Bunkhouse**, though he may already be hiding, moving between dockside contacts, or attempting to flee. He may confess, bargain for protection, or lead the party to the recovery location. He is not a fanatical enemy and should not fight to the death.
 
-## Recovery Location — Abandoned Sailmaker's Loft
+## Recovery Location — Old Gull Sailworks
 
-The medallion is held in a concealed loft while smugglers arrange a buyer.
+The medallion is held in a concealed upper loft while smugglers arrange a buyer. The building stands beside a narrow Shrouded Wards canal, roughly inland from East Pier. A faded white gull remains painted over the front doors, hanging sailcloth conceals the loft access, and a canal-side loading entrance provides a second way inside.
 
 The party may:
 
@@ -211,7 +215,7 @@ The party may:
 
 ### Possible Opposition
 
-Use `Enemy_Encounters_Stat_Blocks.md` as appropriate:
+Use `../combat/Enemy_Encounters_Stat_Blocks.md` as appropriate:
 
 - Dockside Lookouts;
 - Smugglers;

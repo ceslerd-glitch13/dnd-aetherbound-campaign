@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Repository Governance
-version: 1.1
-last_reviewed: 2026-07-16
+version: 1.2
+last_reviewed: 2026-07-17
 ---
 
 # Aetherbound Repository Governance
@@ -30,9 +30,9 @@ If repository access is unavailable, the assistant must disclose that limitation
 When documents disagree, use this order:
 
 1. **`GOVERNANCE.md`** — repository process, status meanings, authority ownership, and approval workflow.
-2. **`DnD_Campaign_World_Bible.md`** — setting-wide lore, history, world mechanics, and campaign-wide facts.
-3. **`World_Geography.md`** — spatial relationships, terrain, roads, rivers, ports, distances, and dead-zone placement.
-4. **Dedicated authority files** — detailed city profiles, NPC database, quest files, tracker, and combat repository within their defined scopes.
+2. **`canon/DnD_Campaign_World_Bible.md`** — setting-wide lore, history, world mechanics, and campaign-wide facts.
+3. **`canon/World_Geography.md`** — spatial relationships, terrain, roads, rivers, ports, distances, and dead-zone placement.
+4. **Dedicated authority files** — detailed city profiles, NPC database, quest files, tracker, combat repository, and shop/item inventory within their defined scopes.
 5. **`Campaign_Index_and_Quick_Reference.md`** — navigation and factual project status only. It does not override canon.
 6. **Session plans and drafts** — preparation material. New claims in a draft do not become canon until approved and synchronized.
 7. **`Pending_Changes.md`** — proposals only; never canon.
@@ -44,13 +44,14 @@ If two files at the same level conflict, do not silently select one. Report the 
 
 | Subject | Primary authority | Supporting files |
 |---|---|---|
-| Setting-wide lore and world mechanics | `DnD_Campaign_World_Bible.md` | Geography, profiles, quests |
-| Terrain, placement, routes, and distance | `World_Geography.md` | World Bible, city profiles |
-| Detailed city operations and locations | Relevant `*_City_Profile.md` | World Bible, Geography, NPC database |
-| NPC identity, personality, and relationships | `NPC_Backstory_Personality_file.md` | City profiles, quests, tracker |
-| Current quest state, decisions, attitudes, and session outcomes | `Quests_Player_Decisions_Impacts.md` | Quest and session files |
+| Setting-wide lore and world mechanics | `canon/DnD_Campaign_World_Bible.md` | Geography, profiles, quests |
+| Terrain, placement, routes, and distance | `canon/World_Geography.md` | World Bible, city profiles |
+| Detailed city operations and locations | Relevant `cities/*_City_Profile.md` | World Bible, Geography, NPC database |
+| NPC identity, personality, and relationships | `npcs/NPC_Backstory_Personality_file.md` | City profiles, quests, tracker |
+| Current quest state, decisions, attitudes, and session outcomes | `quests/Quests_Player_Decisions_Impacts.md` | Quest and session files |
 | Quest design and prepared scenes | Dedicated quest/session file | Tracker, NPC database, city profile |
-| Combat-ready custom statistics | `Enemy_Encounters_Stat_Blocks.md` | World mechanics and encounter files |
+| Combat-ready custom statistics | `combat/Enemy_Encounters_Stat_Blocks.md` | World mechanics and encounter files |
+| Shop identities, inventories, prices, and item availability | `items/Shop_Inventory_and_Items.md` | City profiles, quests, and world mechanics |
 | Project navigation and readiness | `Campaign_Index_and_Quick_Reference.md` | All current files |
 
 Supporting summaries must point back to the primary authority rather than creating a second independent definition.
@@ -101,11 +102,11 @@ Implementation may begin when the user explicitly approves:
 After approval:
 
 1. Apply only the approved changes.
-2. Perform the ripple and consistency checks in `Guideline_World_Update_Change_Management.md`.
+2. Perform the ripple and consistency checks in `guidelines/Guideline_World_Update_Change_Management.md`.
 3. Update factual status and file metadata in the Campaign Index.
 4. Run `python scripts/validate_repository.py --strict-warnings`.
 5. Resolve validation errors before closing the batch.
-6. Archive the approved batch in the next numbered `Pending_Changes_Archived_XX.md` file.
+6. Archive the approved batch in the next numbered `history/Pending_Changes_Archived_XX.md` file.
 7. Reset `Pending_Changes.md` to an empty active template.
 
 ## Safe Structural Changes vs. Canon Decisions

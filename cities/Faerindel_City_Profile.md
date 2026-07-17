@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Faerindel City Detail
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C city playability, trade, daily life, and NPC synchronization complete
+version: 2.2
+last_reviewed: 2026-07-17
+review_state: Batch H shop inventories and protected-material restrictions cross-referenced
 ---
 
 # Faerindel City Profile
@@ -75,7 +75,9 @@ An open-air commercial district offering enchanted crafts, medicine, fine woodwo
 - **Gateward Traders — Perrin Brightpath:** Approved dimensional goods, imported machinery, and foreign materials. Perrin is friendly and obsessively correct about paperwork.
 - **Moonstone Jewels — Elira Moonwhisper:** Jewelry, protective amulets, and precision crystal settings. Elira can recognize unusual crystal workmanship.
 
-Full profiles are owned by `NPC_Backstory_Personality_file.md`.
+Full profiles are owned by `../npcs/NPC_Backstory_Personality_file.md`.
+
+Table-ready mundane equipment, specialist stock, permit goods, black-market guidance, and settlement availability are maintained in `../items/Shop_Inventory_and_Items.md`. This city profile remains authoritative for location identity, proprietor, trade role, and local restrictions.
 
 ---
 
@@ -92,6 +94,18 @@ Full profiles are owned by `NPC_Backstory_Personality_file.md`.
 - **Legal help and permits:** Council scribes, interpreters, trade officials, and advocates handle gate documents, research permissions, technology imports, land access, and harvesting rights. Outsiders may need local sponsorship.
 - **Hiring labor and guards:** Rangers, trackers, herbalists, translators, craftspeople, mechanics, porters, and escorts may be hired. Active Wardens cannot be privately employed.
 - **Magical services:** Enchantment, identification, healing, magical tailoring, scroll work, protective charms, druidic services, and research are highly developed. High-quality magic is common, but reliable nonmagical alternatives are also unusually available.
+
+---
+
+## DM Scene Anchors
+
+These working locations support prepared hooks while leaving exact local placement and layouts flexible.
+
+- **Stillbloom Orchard:** A medicinal grove beyond the southern edge of the Verdant Ward where cultivated land meets older forest. Rows of pale flowering trees make the geometric magical-depletion patches obvious. This is the primary location for **The Silent Orchard**.
+- **The Rain House:** A small irrigation and tool house near the center of Stillbloom Orchard. The buried conduit network passes beneath its floor, and old grove plans and maintenance records are stored here.
+- **Whitebark Hollow:** A protected forest site northwest of the Verdant Ward containing pale restricted trees and fibers. It anchors the **Protected Source** hook.
+- **South Quarantine Glasshouse:** A sealed greenhouse-like structure in the outer portion of Faerindel's Heart used to observe plants, spores, and small planar organisms. It anchors the **Quarantine Failure** hook.
+- **The Warden Muster Hall:** A long physical briefing hall in Ranger's Grove where patrol routes, sightings, incidents, and regional threats are displayed. It provides ranger reports and a practical briefing location.
 
 ---
 

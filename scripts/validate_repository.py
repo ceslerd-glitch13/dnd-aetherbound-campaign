@@ -29,6 +29,11 @@ EXPECTED_KNOWN_DEAD_ZONE_COUNT = 10
 EXPECTED_HIDDEN_DEAD_ZONE_COUNT = 8
 EXPECTED_ACTUAL_DEAD_ZONE_COUNT = 18
 DEAD_ZONE_MANIFEST = Path("validation/dead_zones.json")
+WORLD_BIBLE_PATH = Path("canon/DnD_Campaign_World_Bible.md")
+GEOGRAPHY_PATH = Path("canon/World_Geography.md")
+CITY_PROFILE_GLOB = "cities/*_City_Profile.md"
+NPC_MASTER_PATH = Path("npcs/NPC_Backstory_Personality_file.md")
+STAT_BLOCK_PATH = Path("combat/Enemy_Encounters_Stat_Blocks.md")
 EXPECTED_MAJOR_CITY_COUNT = 15
 EXPECTED_MINOR_CITY_COUNT = 20
 EXPECTED_TOTAL_CITY_COUNT = 35
@@ -207,15 +212,17 @@ class Validator:
                 seen.add(key)
                 examined += 1
 
-                if raw.strip("()") in {
+                candidate_raw = raw.strip("()<>`")
+                if candidate_raw in {
                     "Exact_File_Name.md", "*_City_Profile.md", "Pending_Changes_Archived_XX.md",
+                    "history/Pending_Changes_Archived_XX.md",
                     "validation-results.json", "validation-output.txt", "validation-report.json",
                 }:
                     continue
                 if raw.startswith(("http://", "https://", "mailto:")):
                     continue
 
-                target_raw = unquote(raw.strip("<>").lstrip("(").rstrip(")"))
+                target_raw = unquote(candidate_raw.strip("*"))
                 anchor: str | None = None
                 if "#" in target_raw:
                     target_raw, anchor = target_raw.split("#", 1)
@@ -229,12 +236,20 @@ class Validator:
                 matched_paths: list[Path] = []
                 if any(char in target_raw for char in "*?["):
                     pattern = target_raw
-                    matched_paths = [p for p in self.root.glob(pattern) if p.is_file()]
+                    matched_paths = [p for p in path.parent.glob(pattern) if p.is_file()]
+                    if not matched_paths and kind == "token":
+                        matched_paths = [p for p in self.root.glob(pattern) if p.is_file()]
                     exists = bool(matched_paths)
                 else:
                     exists = target.is_file()
                     if exists:
                         matched_paths = [target]
+                    elif kind == "token":
+                        root_target = (self.root / target_raw).resolve()
+                        if root_target.is_file():
+                            target = root_target
+                            matched_paths = [root_target]
+                            exists = True
 
                 if not exists:
                     if path.name == "Pending_Changes.md" and raw in declared_new_refs:
@@ -283,8 +298,8 @@ class Validator:
     # ------------------------------------------------------------------
     def check_counts(self) -> None:
         check = "dead-zone and city counts"
-        world = self.root / "DnD_Campaign_World_Bible.md"
-        geography = self.root / "World_Geography.md"
+        world = self.root / WORLD_BIBLE_PATH
+        geography = self.root / GEOGRAPHY_PATH
         index = self.root / "Campaign_Index_and_Quick_Reference.md"
         manifest_path = self.root / DEAD_ZONE_MANIFEST
         if not world.is_file() or not geography.is_file() or not index.is_file():
@@ -441,7 +456,7 @@ class Validator:
                 self.error(check, f"Cities present in Geography but absent from World Bible: {extra_geo}", geography)
 
         profile_names: list[str] = []
-        for profile in sorted(self.root.glob("*_City_Profile.md")):
+        for profile in sorted(self.root.glob(CITY_PROFILE_GLOB)):
             match = re.search(r"^#\s+(.+?)\s+City Profile\s*$", self.text(profile), re.M)
             if match:
                 profile_names.append(match.group(1).strip())
@@ -468,7 +483,7 @@ class Validator:
     # ------------------------------------------------------------------
     def check_city_headings(self) -> None:
         check = "mandatory city headings"
-        profiles = sorted(self.root.glob("*_City_Profile.md"))
+        profiles = sorted(self.root.glob(CITY_PROFILE_GLOB))
         if not profiles:
             self.error(check, "No city profile files were found.")
             return
@@ -496,9 +511,9 @@ class Validator:
     # ------------------------------------------------------------------
     def check_stat_blocks(self) -> None:
         check = "actionable stat blocks"
-        path = self.root / "Enemy_Encounters_Stat_Blocks.md"
+        path = self.root / STAT_BLOCK_PATH
         if not path.is_file():
-            self.error(check, "Enemy_Encounters_Stat_Blocks.md is missing.")
+            self.error(check, f"Stat-block repository is missing: {STAT_BLOCK_PATH.as_posix()}.")
             return
 
         blocks = split_h2_sections(self.text(path))
@@ -627,9 +642,9 @@ class Validator:
                     f"{[p.relative_to(self.root).as_posix() for p in owners]}",
                 )
 
-        npc_file = self.root / "NPC_Backstory_Personality_file.md"
+        npc_file = self.root / NPC_MASTER_PATH
         if not npc_file.is_file():
-            self.error(check, "NPC master file is missing.")
+            self.error(check, f"NPC master file is missing: {NPC_MASTER_PATH.as_posix()}.")
             return
         npc_headings = [title for hashes, title in HEADING_RE.findall(self.text(npc_file)) if len(hashes) == 3]
         npc_names = [canonical_npc_name(title) for title in npc_headings]
@@ -642,7 +657,7 @@ class Validator:
         location_owners: dict[str, list[tuple[Path, str]]] = defaultdict(list)
         proprietor_locations: dict[str, list[tuple[Path, str]]] = defaultdict(list)
 
-        for profile in sorted(self.root.glob("*_City_Profile.md")):
+        for profile in sorted(self.root.glob(CITY_PROFILE_GLOB)):
             title_match = re.search(r"^#\s+(.+?)\s+City Profile\s*$", self.text(profile), re.M)
             if title_match:
                 profile_city_owners[normalize_name(title_match.group(1))].append(profile)

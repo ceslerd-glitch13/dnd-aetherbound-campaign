@@ -1,9 +1,9 @@
 ---
 status: Active Reference
 authority: Quest Decision Attitude and Session Tracking
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Starter quest, open-world options, attitudes, orb state, and antagonist-interest tracking are seeded
+version: 2.1
+last_reviewed: 2026-07-17
+review_state: Batch E quest scene anchors synchronized; pre-play states remain unchanged
 ---
 
 # Quests, Player Decisions & Impacts Tracker
@@ -29,7 +29,8 @@ This is the living record of quests, player decisions, faction reactions, NPC at
 
 - **Status:** Not Started
 - **Quest giver:** Captain Elandor "Blackscale" Rurik
-- **Location:** The Rusty Anchor, Ravensport Docks
+- **Location:** The Rusty Anchor and The Wayward Gull at South Pier, Ravensport Docks
+- **Primary scene anchors:** The Wayward Gull -> Netmaker's Bunkhouse -> Old Gull Sailworks.
 - **Objective:** Recover the stolen silver medallion and the unmarked Aetherite power orb concealed inside it.
 - **Known involved NPCs:** Rurik; Maelis "Silverthorn"; Silas Crowe; Orren Pike; Corvin Rook; possible smugglers connected to Nyra Vell.
 - **Reward:** 50 gp upfront, 150 gp on recovery, one month of room and board, and future favors from Rurik.
@@ -57,6 +58,7 @@ These quests may be discovered even if the party ignores Rurik, loses the orb, r
 
 - **Status:** Potential
 - **Discovery:** Mara Reed, Brogan Ashdelve, a job posting, or rumors of overdue Deepanvil supplies.
+- **Primary scene anchors:** Deepanvil Freight Office -> Three-Cairn Fork -> Split-Wheel Ravine -> The Cold Kiln.
 - **Objective:** Locate the caravan, rescue survivors, and recover essential supplies.
 - **Main complication:** Selected mechanical components were diverted for beacon-related construction.
 - **Possible enemies:** Route thieves, a Silent Hand operative, or a Dead-Zone Stalker.
@@ -68,6 +70,8 @@ These quests may be discovered even if the party ignores Rurik, loses the orb, r
 
 - **Status:** Potential
 - **Discovery:** Corvin Rook, Maelis, a criminal invitation, or observation of unusual buyers.
+- **Primary scene anchors:** Last Chance Curios or the Rusty Anchor -> The Lantern House.
+- **Known involved NPCs:** Corvin Rook; Maelis "Silverthorn"; Brask Morrow; Iven Pell; Nyra Vell or her representatives; possible Silas involvement.
 - **Objective:** Infiltrate, observe, expose, or manipulate a private contraband auction.
 - **Main complication:** A Veyne representative wants damaged Aetherite technology.
 - **Possible enemies:** Lookouts, smugglers, an enforcer, a Retrieval Specialist, or Silas.
@@ -79,6 +83,7 @@ These quests may be discovered even if the party ignores Rurik, loses the orb, r
 
 - **Status:** Potential
 - **Discovery:** Repeated unusual Heart alarms, Captain Thorne Blackwood, or Maelis.
+- **Primary scene anchors:** Harbor Watchhouse -> West Response Annex -> North Intake Yard, Quarantine Passage Four, and Riverward Containment Court.
 - **Objective:** Determine why several incursions display the same timing and behavior.
 - **Main complication:** Physical markers are recording defensive responses.
 - **Possible enemies:** A Marked Gate Beast or a Silent Hand observer.
@@ -90,6 +95,7 @@ These quests may be discovered even if the party ignores Rurik, loses the orb, r
 
 - **Status:** Potential
 - **Discovery:** Faerindel healers, Maera Thornwhisper, a trade envoy, or interrupted medicine shipments.
+- **Primary scene anchors:** Verdant Apothecary -> Stillbloom Orchard -> The Rain House.
 - **Objective:** Investigate geometric zones of magical depletion in a medicinal grove.
 - **Main complication:** Buried conduits are harvesting magical energy.
 - **Possible enemies:** A Conduit Warden or Silent Hand operative.
@@ -100,7 +106,9 @@ These quests may be discovered even if the party ignores Rurik, loses the orb, r
 ### The Unclaimed Workshop
 
 - **Status:** Potential
-- **Discovery:** A landlord, Ironforge representatives, a mechanical accident, or a missing-person report.
+- **Discovery:** Hesta Rivetcloak, Ironforge representatives, a mechanical accident, or a missing-person report.
+- **Primary scene anchors:** Hesta Rivetcloak or an Ironforge contact -> Copperglass Workshop -> Ash Rail Spur.
+- **Known involved NPCs:** Hesta Rivetcloak; missing engineer Nollin Brasswire; Ironforge engineering contacts; possible retrieval personnel.
 - **Objective:** Find the missing craftsperson and secure unfinished machinery.
 - **Main complication:** The engineer was hired to connect anti-magic-compatible mechanics to Aetherite power.
 - **Possible enemies:** Workshop Automata, a Survey Construct, or Retrieval Specialist.

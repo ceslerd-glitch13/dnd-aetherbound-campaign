@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Agent Entry Point
-version: 2.1
-last_reviewed: 2026-07-16
+version: 2.2
+last_reviewed: 2026-07-17
 ---
 
 # Aetherbound Campaign Repository — Agent Instructions
@@ -38,23 +38,18 @@ If file access fails, disclose the failure and do not fabricate campaign content
 - After implementation, run `python scripts/validate_repository.py --strict-warnings`.
 - Resolve validation errors before describing a batch as complete.
 - Archive the approved batch and reset the active pending file only after validation passes.
-- Use `Guideline_World_Update_Change_Management.md` for cross-file ripple checks after approval.
+- Use `guidelines/Guideline_World_Update_Change_Management.md` for cross-file ripple checks after approval.
 
 ## Current Core Files
 
-- `DnD_Campaign_World_Bible.md`
-- `World_Geography.md`
-- `Campaign_Index_and_Quick_Reference.md`
-- `NPC_Backstory_Personality_file.md`
-- `Quests_Player_Decisions_Impacts.md`
-- `Enemy_Encounters_Stat_Blocks.md`
-- `Early_Sessions_Plan_Sessions_0_to_5.md`
-- `Captain_Ruriks_Request_Session_0-1.md`
-- `Ravensport_City_Profile.md`
-- `Deepanvil_City_Profile.md`
-- `Faerindel_City_Profile.md`
-- `Ironforge_City_Profile.md`
-- all applicable guideline files
+- `canon/` — World Bible and Geography
+- `cities/` — four featured city profiles
+- `npcs/` — canonical NPC master database
+- `quests/` — starter quest, early-session plan, and live tracker
+- `combat/` — custom encounter statistics
+- `items/` — shop and item inventory authority
+- `guidelines/` — campaign creation and update guidelines
+- `Campaign_Index_and_Quick_Reference.md` — verified navigation and status
 
 ## Style
 

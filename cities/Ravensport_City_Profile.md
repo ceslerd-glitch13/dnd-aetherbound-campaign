@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Ravensport City Detail
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C city playability, trade, daily life, and NPC synchronization complete
+version: 2.2
+last_reviewed: 2026-07-17
+review_state: Batch H shop inventories and permit/black-market guidance cross-referenced
 ---
 
 # Ravensport City Profile
@@ -94,7 +94,9 @@ A smaller, elevated district containing noble estates, wealthy merchant residenc
 - **Nyra “the Thread” Vell:** Pragmatic leader of a major Shrouded Wards smuggling network. She trades in routes, documents, and information more than loyalty.
 - **Brogan Ashdelve:** Dwarven caravan liaison coordinating supplies between Ravensport and Deepanvil.
 
-Full three-line profiles and relationship details are owned by `NPC_Backstory_Personality_file.md`.
+Full three-line profiles and relationship details are owned by `../npcs/NPC_Backstory_Personality_file.md`.
+
+Table-ready mundane equipment, specialist stock, permit goods, black-market guidance, and settlement availability are maintained in `../items/Shop_Inventory_and_Items.md`. This city profile remains authoritative for location identity, proprietor, trade role, and local restrictions.
 
 ---
 
@@ -110,6 +112,28 @@ Full three-line profiles and relationship details are owned by `NPC_Backstory_Pe
 - **Legal help and permits:** Advocates, scribes, translators, customs offices, and permit offices handle licenses, cargo declarations, gate documents, weapon permits, and commercial claims.
 - **Hiring labor and guards:** Sailors, dockworkers, caravan hands, translators, guides, licensed guards, mercenaries, and adventurers can be hired openly. Active city guards and Iron Talons cannot be hired privately.
 - **Magical services:** Components, scrolls, identification, minor enchantment, magical repair, and common magic are available through licensed practitioners. Teleportation, planar travel, powerful divination, summoning, and experimentation near the Heart are restricted.
+
+---
+
+## DM Scene Anchors
+
+These working locations give the DM a recognizable starting point without fixing exact streets, floorplans, travel times, or encounter layouts.
+
+### Starter Investigation
+
+- **The Wayward Gull:** Rurik's working ship, normally moored at South Pier near the Rusty Anchor. Its rear-deck strongroom is the starter quest's initial evidence scene; a narrow loading ramp, tired deckhands, and a newly replaced lock make it recognizable.
+- **Netmaker's Bunkhouse:** A crowded temporary-worker boarding house on the boundary between the Docks District and the Shrouded Wards. Orren Pike's rented room, evidence of his debts, the outdated dock badge, and witnesses to his gray-scarved contact can be found here.
+- **Old Gull Sailworks:** An abandoned canal-side sailmaker's building in the Shrouded Wards, roughly inland from East Pier. A faded white gull marks the doors, hanging canvas conceals the upper loft, and a canal loading entrance provides alternate access. This is the medallion recovery location.
+
+### Open-World Investigations
+
+- **The Lantern House:** An old lamp-oil warehouse beside a narrow Shrouded Wards canal. A blue-shaded lantern marks the side entrance on auction nights. This is the location of **The Blue Lantern Auction**.
+- **The Harbor Watchhouse:** A guard station between the Docks District and the secured approach to the Heart. It contains patrol offices, holding cells, evidence storage, and a public reporting desk, and serves as Captain Thorne Blackwood's practical investigative base.
+- **The West Response Annex:** A fortified records and equipment building just outside the Heart's primary civilian checkpoint. It holds response logs, recovered physical markers, damaged gear, and processed creature remains for **The Third Alarm**.
+- **North Intake Yard, Quarantine Passage Four, and Riverward Containment Court:** Three named Heart incident sites used in **The Third Alarm**. Their exact internal placement and layouts remain flexible.
+- **Customs Warehouse Seven:** A city-controlled holding warehouse directly behind Merchants' Pier for delayed, disputed, or suspicious cargo. It anchors the **Cargo Backlog** hook and its falsified clearance records.
+- **Red Wheel Freight Yard:** A freight-transfer yard on the inland edge of the Grand Bazaar, recognized by a large red wagon wheel over its gate. It anchors western-shipment records, after-hours transfers, and the **Western Transfers** hook.
+- **Deepanvil Freight Office:** A small stone-fronted office inside Red Wheel Freight Yard used by Brogan Ashdelve and other Deepanvil caravan representatives. It provides supply schedules, missing manifests, western-road contacts, and access to **The Vanished Supply Caravan**.
 
 ---
 

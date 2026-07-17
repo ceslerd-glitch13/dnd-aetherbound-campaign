@@ -1,9 +1,9 @@
 ---
 status: Canon
 authority: Spatial Geography
-version: 1.3
-last_reviewed: 2026-07-16
-review_state: Map-aligned; ten known and eight hidden dead zones documented; formal political borders remain undefined
+version: 1.4
+last_reviewed: 2026-07-17
+review_state: Batch E scene anchors and Batch G organized paths synchronized
 ---
 # World Geography — Elyndria
 
@@ -264,6 +264,14 @@ The most important transcontinental land route links the three gate-city regions
 **Ironforge region → Faerindel → Ravensport**
 
 Western branches connect Faerindel to Lake Aelorin and Deepanvil. Eastern branches parallel the main river through Riverglade and Eldergrove before entering Ravensport.
+
+### Western Caravan Quest Landmarks
+
+The following local landmarks support **The Vanished Supply Caravan**. They are route-level anchors rather than settlements and do not change the canonical city count. Their exact coordinates, minor connecting roads, and travel distances remain flexible for session preparation.
+
+- **Three-Cairn Fork:** A junction on the western branch toward Deepanvil, marked by three old stone cairns. During the quest, false markers create a convincing fourth route.
+- **Split-Wheel Ravine:** An old quarry-road ravine several miles beyond Three-Cairn Fork where the missing caravan and survivors can be found among damaged wagons.
+- **The Cold Kiln:** An abandoned lime kiln on a wooded rise overlooking Split-Wheel Ravine, used as a temporary transfer point for selected stolen components.
 
 ### Southern Trade Road
 

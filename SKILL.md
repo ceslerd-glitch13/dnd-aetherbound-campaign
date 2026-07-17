@@ -3,8 +3,8 @@ name: dnd-campaign-helper
 description: Repository operating manual for the Aetherbound D&D campaign. Use for campaign lore, NPCs, quests, player decisions, combat, cities, geography, and repository edits.
 status: Reference
 authority: Campaign Operating Procedure
-version: 2.1
-last_reviewed: 2026-07-16
+version: 2.2
+last_reviewed: 2026-07-17
 ---
 
 # Aetherbound Campaign Helper
@@ -50,8 +50,8 @@ For explanations, audits, summaries, and recommendations:
 
 When the user asks about an NPC, quest, player choice, reputation, or progression:
 
-1. Check `NPC_Backstory_Personality_file.md` for identity, motives, and connections.
-2. Check `Quests_Player_Decisions_Impacts.md` for current status, decisions, reactions, and attitudes.
+1. Check `npcs/NPC_Backstory_Personality_file.md` for identity, motives, and connections.
+2. Check `quests/Quests_Player_Decisions_Impacts.md` for current status, decisions, reactions, and attitudes.
 3. Check the relevant quest/session and city files.
 4. Cross-reference the World Bible for campaign-wide plot threads.
 5. Explain, when relevant:
@@ -67,8 +67,8 @@ Do not invent a tracker state when the tracker is empty. State that the informat
 
 Before using a custom stat block:
 
-1. Check `Enemy_Encounters_Stat_Blocks.md`.
-2. Follow `Guideline_Battle_Stat_Block_Management.md`.
+1. Check `combat/Enemy_Encounters_Stat_Blocks.md`.
+2. Follow `guidelines/Guideline_Battle_Stat_Block_Management.md`.
 3. Apply only dead-zone mechanics approved in the World Bible.
 4. If draft session material introduces a conflicting exception, flag it rather than applying it silently.
 5. Ensure the final encounter entry is actionable for the DM.
@@ -90,7 +90,7 @@ When the user explicitly approves the active proposals or a previously documente
 
 1. Re-read the current target files before editing.
 2. Apply only the approved scope.
-3. Run the ripple checks in `Guideline_World_Update_Change_Management.md`.
+3. Run the ripple checks in `guidelines/Guideline_World_Update_Change_Management.md`.
 4. Update the Campaign Index to reflect only the verified final state and exact metadata versions/statuses.
 5. Run `python scripts/validate_repository.py --strict-warnings`.
 6. Resolve validation errors before closing the batch.

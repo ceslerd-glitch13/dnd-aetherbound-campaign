@@ -1,9 +1,9 @@
 ---
 status: Draft
 authority: Early Session Preparation
-version: 2.0
-last_reviewed: 2026-07-16
-review_state: Batch C starter arc is open-world ready; expand only the quest the players actually choose
+version: 2.1
+last_reviewed: 2026-07-17
+review_state: Batch E open-world quest scene anchors synchronized for on-demand preparation
 ---
 
 # Early Campaign Plan — Sessions 0 to 5
@@ -67,7 +67,7 @@ Use only what fits the party's approach:
 - city guards arriving after public violence;
 - burning records or collapsing access as noncombat complications.
 
-The appropriate statistics are in `Enemy_Encounters_Stat_Blocks.md`.
+The appropriate statistics are in `../combat/Enemy_Encounters_Stat_Blocks.md`.
 
 ## Return Decision
 
@@ -88,6 +88,7 @@ These five quests can exist at the same time. They may appear as job postings, r
 ## 1. The Vanished Supply Caravan
 
 - **Discovery:** Mara Reed, Brogan Ashdelve, a job posting, or rumors of overdue Deepanvil supplies.
+- **Primary scene anchors:** Deepanvil Freight Office -> Three-Cairn Fork -> Split-Wheel Ravine -> The Cold Kiln.
 - **Objective:** Locate the missing caravan, rescue survivors, and recover food, medicine, lift parts, precision tools, and rescue equipment.
 - **Visible stakes:** Deepanvil shortages and endangered workers.
 - **Complication:** False road markers diverted the caravan so selected mechanical components could be removed.
@@ -100,6 +101,7 @@ These five quests can exist at the same time. They may appear as job postings, r
 ## 2. The Blue Lantern Auction
 
 - **Discovery:** Corvin Rook, Maelis, a criminal invitation, or observation of unusual buyers.
+- **Primary scene anchors:** Last Chance Curios or the Rusty Anchor -> The Lantern House. Brask Morrow controls entry; Iven Pell holds buyer, payment, and courier records.
 - **Objective:** Infiltrate, observe, expose, rob, or manipulate a private Shrouded Wards auction.
 - **Visible stakes:** Stolen cargo, dangerous planar specimens, and restricted devices entering private hands.
 - **Complication:** A concealed Veyne buyer wants damaged Aetherite technology.
@@ -112,6 +114,7 @@ These five quests can exist at the same time. They may appear as job postings, r
 ## 3. The Third Alarm
 
 - **Discovery:** Three unusual Heart incidents, a discreet request from Thorne Blackwood, or a warning from Maelis.
+- **Primary scene anchors:** Harbor Watchhouse -> West Response Annex -> North Intake Yard, Quarantine Passage Four, and Riverward Containment Court.
 - **Objective:** Determine why separate gate incursions display nearly identical behavior and timing.
 - **Visible stakes:** Routine incursions are expected; coordinated testing is not.
 - **Complication:** Each creature carries a manufactured physical marker recording defensive response times.
@@ -124,6 +127,7 @@ These five quests can exist at the same time. They may appear as job postings, r
 ## 4. The Silent Orchard
 
 - **Discovery:** Maera Thornwhisper, a Faerindel trade envoy, healers, or interrupted medicine shipments.
+- **Primary scene anchors:** Verdant Apothecary -> Stillbloom Orchard -> The Rain House.
 - **Objective:** Investigate geometric zones of magical depletion in a medicinal grove.
 - **Visible stakes:** Regional medicine production is declining.
 - **Complication:** Buried conduits are drawing magical energy away from the grove.
@@ -135,7 +139,8 @@ These five quests can exist at the same time. They may appear as job postings, r
 
 ## 5. The Unclaimed Workshop
 
-- **Discovery:** A landlord, Ironforge representatives, a mechanical accident, or a missing-person report.
+- **Discovery:** Hesta Rivetcloak, Ironforge representatives, a mechanical accident, or a missing-person report.
+- **Primary scene anchors:** Hesta Rivetcloak or an Ironforge contact -> Copperglass Workshop -> Ash Rail Spur.
 - **Objective:** Find a missing craftsperson and secure dangerous unfinished machinery.
 - **Visible stakes:** The workshop contains proprietary designs and unstable equipment near civilian housing.
 - **Complication:** The engineer was hired to connect anti-magic-compatible mechanics to an unfamiliar blue-crystal power interface.
@@ -144,6 +149,19 @@ These five quests can exist at the same time. They may appear as job postings, r
 - **Possible resolutions:** Rescue the engineer, dismantle the prototype, finish it as bait, turn it over to Ironforge, sell it, or follow the retrieval team.
 - **Reward:** Payment, engineering credit, prototype access, or Ironforge goodwill.
 - **Failure:** Veyne recovers the prototype and the missing engineer remains endangered.
+
+---
+
+# Supporting City Hook Anchors
+
+Use these locations when the party follows a related city hook rather than one of the five open-world quests:
+
+- **Ravensport:** Customs Warehouse Seven for **Cargo Backlog**; Red Wheel Freight Yard for **Western Transfers**.
+- **Faerindel:** Whitebark Hollow for **Protected Source**; South Quarantine Glasshouse for **Quarantine Failure**; the Warden Muster Hall for ranger briefings and coordinated-incursion reports.
+- **Ironforge:** Foundry Receiving Hall Three for **Missing Alloy**; Emberforge Pattern Vault for **Escaped Design**; Deep Guard Drill Gallery for **Defense Knowledge**.
+- **Deepanvil:** Shaft Twelve — Lower Survey Gate for **Worked Depths**; Brassmantle Test Hall for **Impossible Tool Failures**; Old Vent Seven for **Sealed-Tunnel Entry**; Gearwright Below-Lab for **Hidden Energy Signal**.
+
+These anchors provide names, general placement, and clue functions only. Exact layouts, travel times, and encounter maps remain session-level preparation.
 
 ---
 
@@ -169,7 +187,7 @@ Open-world choices may lead the party to Lord Cassian Veyne far earlier than exp
 - Veyne may negotiate, recruit, mislead, threaten, or order subordinates to act.
 - Once the party knows enough to threaten an operation, his trained personnel generally attempt recovery, capture, disappearance, or elimination.
 - Veyne is not scaled down merely because the party finds him early.
-- Use his contingency entry in `Enemy_Encounters_Stat_Blocks.md`.
+- Use his contingency entry in `../combat/Enemy_Encounters_Stat_Blocks.md`.
 - Provide believable opportunities for retreat, surrender, deception, distraction, or environmental escape.
 - If the party defeats him through extraordinary planning, alliances, luck, or dead-zone exploitation, accept the result and restructure the campaign around the power vacuum.
 
@@ -222,7 +240,7 @@ Before the next session:
 
 1. Confirm which quest or lead the players chose.
 2. Read the relevant city profile and NPC entries.
-3. Select only the likely encounter entries from `Enemy_Encounters_Stat_Blocks.md`.
+3. Select only the likely encounter entries from `../combat/Enemy_Encounters_Stat_Blocks.md`.
 4. Adjust enemy numbers to party level and approach.
 5. Prepare one guaranteed clue that survives failure.
 6. Update quest status, NPC attitudes, orb state, and Veyne's Organization Interest after play.

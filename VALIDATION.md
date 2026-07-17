@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Repository Validation Guide
-version: 1.1
-last_reviewed: 2026-07-16
+version: 1.2
+last_reviewed: 2026-07-17
 ---
 
 # Repository Validation
@@ -47,7 +47,7 @@ The validator checks:
 1. Internal Markdown links and filename references.
 2. Forbidden drafting markers in active Markdown.
 3. City counts and the dual dead-zone knowledge model.
-4. Mandatory headings in every `*_City_Profile.md` file.
+4. Mandatory headings in every `cities/*_City_Profile.md` file.
 5. Required fields, attack bonuses, and damage expressions in every CR-bearing stat block.
 6. Campaign Index version and metadata-status values against file front matter.
 7. Duplicate authority claims, canonical NPC entries, city-profile ownership, location ownership, and proprietor ownership.
