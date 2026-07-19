@@ -1,10 +1,10 @@
 ---
 name: dnd-campaign-helper
-description: Repository operating manual for the Aetherbound D&D campaign. Use for campaign lore, NPCs, quests, player decisions, combat, cities, geography, and repository edits.
+description: Repository operating manual for the Aetherbound D&D campaign. Use for campaign lore, NPCs, quests, player decisions, combat, creatures, random encounters, cities, geography, and repository edits.
 status: Reference
 authority: Campaign Operating Procedure
-version: 2.2
-last_reviewed: 2026-07-17
+version: 2.3
+last_reviewed: 2026-07-19
 ---
 
 # Aetherbound Campaign Helper
@@ -34,6 +34,8 @@ Do not load every file by default. Load all files needed to verify the specific 
 | NPC or relationship | NPC database, tracker, relevant city/quest/session files, NPC guideline |
 | Quest/session/progression | Dedicated quest/session file, tracker, NPC database, relevant city profile, stat blocks, Quest guideline |
 | Combat or encounter | Stat-block repository, relevant world mechanics, encounter/quest file, Battle guideline |
+| Creature lookup or placement | Targeted creature lookup, catalog entry, World Bible when mechanical, Geography when spatial, creature guideline |
+| Random encounter roll | Roll Table Index first, appropriate d6 table, every linked creature catalog entry, then official or custom statistics |
 | Geography/map | Geography, World Bible city/dead-zone lists, relevant city profiles, Geography guideline |
 | Repository edit/process | Governance, Pending Changes, target files, World Update guideline, Campaign Index |
 
@@ -72,6 +74,27 @@ Before using a custom stat block:
 3. Apply only dead-zone mechanics approved in the World Bible.
 4. If draft session material introduces a conflicting exception, flag it rather than applying it silently.
 5. Ensure the final encounter entry is actionable for the DM.
+
+## Creature Catalog and Random Encounters
+
+For a non-random creature question, do not open every category file. Start with the targeted view that matches the request:
+
+- exact name or category: `creatures/Creature_Catalog_Index.md`;
+- region, habitat, or city suitability: `creatures/lookups/Creature_Regional_Lookup.md`;
+- CR band or recommended party level: `creatures/lookups/Creature_Encounter_Lookup.md`;
+- dead-zone result, magical dependency, adjudication, or source: `creatures/lookups/Creature_Dead_Zone_and_Source_Lookup.md`;
+- complex machine filtering: `creatures/data/creatures.json` or `creatures/data/creatures.csv`.
+
+Whenever a random encounter roll is requested:
+
+1. Open `creatures/roll_tables/Roll_Table_Index.md`.
+2. Select the table directly or use `creatures/roll_tables/Roll_Table_Selection_Guide.md`.
+3. Roll 1d6 on the selected table.
+4. Open every creature link in the rolled result's **Catalog follow-up** column.
+5. Use those catalog records for CR, recommended level, placement, source, dead-zone behavior, strengths, and weaknesses.
+6. Open the owned official source or `combat/Enemy_Encounters_Stat_Blocks.md` for complete live combat statistics.
+
+A roll-table result is an encounter prompt, not automatic encounter balance or automatic setting canon. Follow `guidelines/Guideline_Creature_Catalog_Management.md`.
 
 ## Repository Change Workflow
 

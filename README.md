@@ -20,6 +20,7 @@ Before changing campaign material, read:
 - `npcs/` — canonical NPC identities, personalities, and relationships
 - `quests/` — prepared quests, sessions, decisions, and live campaign tracking
 - `combat/` — actionable custom encounters and stat blocks
+- `creatures/` — creature catalog, targeted lookups, structured data, and random encounter roll tables
 - `items/` — shops, store inventories, and item availability
 - `guidelines/` — campaign creation and change-management rules
 - `history/` — approved pending-change archives
@@ -47,7 +48,7 @@ The normal workflow is:
 ## Important Upload Rules
 
 - Upload the **extracted files**, not the ZIP itself.
-- Preserve all folder paths, especially `canon/`, `cities/`, `quests/`, `history/`, `.github/workflows/`, `scripts/`, and `validation/`.
+- Preserve all folder paths, especially `canon/`, `cities/`, `quests/`, `creatures/`, `history/`, `.github/workflows/`, `scripts/`, and `validation/`.
 - Use the changed-files ZIP for normal updates.
 - Do not overwrite the entire repository with an older complete-repository ZIP.
 - Creating or downloading a package does not mean GitHub has changed.
@@ -78,6 +79,8 @@ See [`VALIDATION.md`](VALIDATION.md) for details.
 | NPCs | [`npcs/NPC_Backstory_Personality_file.md`](npcs/NPC_Backstory_Personality_file.md) |
 | Quest decisions and consequences | [`quests/Quests_Player_Decisions_Impacts.md`](quests/Quests_Player_Decisions_Impacts.md) |
 | Custom encounters | [`combat/Enemy_Encounters_Stat_Blocks.md`](combat/Enemy_Encounters_Stat_Blocks.md) |
+| Creature discovery and planning | [`creatures/Creature_Catalog_Index.md`](creatures/Creature_Catalog_Index.md) |
+| Random encounter rolls | [`creatures/roll_tables/Roll_Table_Index.md`](creatures/roll_tables/Roll_Table_Index.md) |
 | Shops and item availability | [`items/Shop_Inventory_and_Items.md`](items/Shop_Inventory_and_Items.md) |
 | Active proposals | [`Pending_Changes.md`](Pending_Changes.md) |
 

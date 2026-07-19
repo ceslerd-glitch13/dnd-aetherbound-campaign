@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Agent Entry Point
-version: 2.2
-last_reviewed: 2026-07-17
+version: 2.3
+last_reviewed: 2026-07-19
 ---
 
 # Aetherbound Campaign Repository — Agent Instructions
@@ -47,9 +47,12 @@ If file access fails, disclose the failure and do not fabricate campaign content
 - `npcs/` — canonical NPC master database
 - `quests/` — starter quest, early-session plan, and live tracker
 - `combat/` — custom encounter statistics
+- `creatures/` — creature catalog, targeted lookup views, structured records, and random encounter roll tables
 - `items/` — shop and item inventory authority
 - `guidelines/` — campaign creation and update guidelines
 - `Campaign_Index_and_Quick_Reference.md` — verified navigation and status
+
+For random encounter requests, begin with `creatures/roll_tables/Roll_Table_Index.md`, roll first, then open the linked creature catalog entries before presenting or running the result.
 
 ## Style
 

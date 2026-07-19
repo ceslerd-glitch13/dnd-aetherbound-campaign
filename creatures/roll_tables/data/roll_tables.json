@@ -1,0 +1,3415 @@
+[
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 1,
+    "encounter_group": "2 Gray Oozes",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Gray Oozes",
+        "name": "Gray Ooze",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "gray-ooze"
+      }
+    ]
+  },
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 2,
+    "encounter_group": "1 Ochre Jelly + 2 Gray Oozes",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Ochre Jelly",
+        "name": "Ochre Jelly",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "ochre-jelly"
+      },
+      {
+        "count": 2,
+        "display_name": "Gray Oozes",
+        "name": "Gray Ooze",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "gray-ooze"
+      }
+    ]
+  },
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 3,
+    "encounter_group": "1 Gelatinous Cube",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Gelatinous Cube",
+        "name": "Gelatinous Cube",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "gelatinous-cube"
+      }
+    ]
+  },
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 4,
+    "encounter_group": "2 Ochre Jellies",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Ochre Jellies",
+        "name": "Ochre Jelly",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "ochre-jelly"
+      }
+    ]
+  },
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 5,
+    "encounter_group": "1 Black Pudding",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Black Pudding",
+        "name": "Black Pudding",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "black-pudding"
+      }
+    ]
+  },
+  {
+    "table_number": 1,
+    "table_title": "Approved Nonmagical Oozes",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Approved_Nonmagical_Oozes.md",
+    "roll": 6,
+    "encounter_group": "1 Black Pudding + 2 Gray Oozes",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Black Pudding",
+        "name": "Black Pudding",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "black-pudding"
+      },
+      {
+        "count": 2,
+        "display_name": "Gray Oozes",
+        "name": "Gray Ooze",
+        "catalog_file": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+        "entry_anchor": "gray-ooze"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 1,
+    "encounter_group": "1 Giant Constrictor Snake + 2 Giant Frogs",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Constrictor Snake",
+        "name": "Giant Constrictor Snake",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "giant-constrictor-snake"
+      },
+      {
+        "count": 2,
+        "display_name": "Giant Frogs",
+        "name": "Giant Frog",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-frog"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 2,
+    "encounter_group": "1 Giant Snapping Turtle + 2 Giant Toads",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Snapping Turtle",
+        "name": "Giant Snapping Turtle",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "giant-snapping-turtle"
+      },
+      {
+        "count": 2,
+        "display_name": "Giant Toads",
+        "name": "Giant Toad",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-toad"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 3,
+    "encounter_group": "2 Swarms of Quippers + 1 Giant Crocodile",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Swarms of Quippers",
+        "name": "Swarm of Quippers",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "swarm-of-quippers"
+      },
+      {
+        "count": 1,
+        "display_name": "Giant Crocodile",
+        "name": "Giant Crocodile",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-crocodile"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 4,
+    "encounter_group": "2 Killer Whales",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Killer Whales",
+        "name": "Killer Whale",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "killer-whale"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 5,
+    "encounter_group": "2 Plesiosaurs",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Plesiosaurs",
+        "name": "Plesiosaurus",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "plesiosaurus"
+      }
+    ]
+  },
+  {
+    "table_number": 2,
+    "table_title": "Freshwater Marsh and Deep Water Threats",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+    "roll": 6,
+    "encounter_group": "1 Giant Squid + 2 Hunter Sharks",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Squid",
+        "name": "Giant Squid",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "giant-squid"
+      },
+      {
+        "count": 2,
+        "display_name": "Hunter Sharks",
+        "name": "Hunter Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "hunter-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 1,
+    "encounter_group": "2 Myconid Adults + 4 Myconid Sprouts + 2 Shrieker Fungi",
+    "total_creatures": 8,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Myconid Adults",
+        "name": "Myconid Adult",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "myconid-adult"
+      },
+      {
+        "count": 4,
+        "display_name": "Myconid Sprouts",
+        "name": "Myconid Sprout",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "myconid-sprout"
+      },
+      {
+        "count": 2,
+        "display_name": "Shrieker Fungi",
+        "name": "Shrieker Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "shrieker-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 2,
+    "encounter_group": "1 Myconid Adult + 3 Violet Fungi",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Myconid Adult",
+        "name": "Myconid Adult",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "myconid-adult"
+      },
+      {
+        "count": 3,
+        "display_name": "Violet Fungi",
+        "name": "Violet Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "violet-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 3,
+    "encounter_group": "2 Assassin Vines + 2 Shrieker Fungi",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Assassin Vines",
+        "name": "Assassin Vine",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "assassin-vine"
+      },
+      {
+        "count": 2,
+        "display_name": "Shrieker Fungi",
+        "name": "Shrieker Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "shrieker-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 4,
+    "encounter_group": "3 Gas Spores + 2 Shrieker Fungi",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Gas Spores",
+        "name": "Gas Spore Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "gas-spore-fungus"
+      },
+      {
+        "count": 2,
+        "display_name": "Shrieker Fungi",
+        "name": "Shrieker Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "shrieker-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 5,
+    "encounter_group": "1 Assassin Vine + 4 Violet Fungi",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Assassin Vine",
+        "name": "Assassin Vine",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "assassin-vine"
+      },
+      {
+        "count": 4,
+        "display_name": "Violet Fungi",
+        "name": "Violet Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "violet-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 3,
+    "table_title": "Physical Fungi Myconids and Predatory Plants",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+    "roll": 6,
+    "encounter_group": "3 Myconid Adults + 6 Myconid Sprouts + 3 Shrieker Fungi",
+    "total_creatures": 12,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Myconid Adults",
+        "name": "Myconid Adult",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "myconid-adult"
+      },
+      {
+        "count": 6,
+        "display_name": "Myconid Sprouts",
+        "name": "Myconid Sprout",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "myconid-sprout"
+      },
+      {
+        "count": 3,
+        "display_name": "Shrieker Fungi",
+        "name": "Shrieker Fungus",
+        "catalog_file": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+        "entry_anchor": "shrieker-fungus"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 1,
+    "encounter_group": "6 Giant Bats",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Giant Bats",
+        "name": "Giant Bat",
+        "catalog_file": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+        "entry_anchor": "giant-bat"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 2,
+    "encounter_group": "4 Pteranodons",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Pteranodons",
+        "name": "Pteranodon",
+        "catalog_file": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+        "entry_anchor": "pteranodon"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 3,
+    "encounter_group": "3 Giant Wasps",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Giant Wasps",
+        "name": "Giant Wasp",
+        "catalog_file": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+        "entry_anchor": "giant-wasp"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 4,
+    "encounter_group": "2 Giant Vultures",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Giant Vultures",
+        "name": "Giant Vulture",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "giant-vulture"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 5,
+    "encounter_group": "1 Giant Vulture + 3 Pteranodons",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Vulture",
+        "name": "Giant Vulture",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "giant-vulture"
+      },
+      {
+        "count": 3,
+        "display_name": "Pteranodons",
+        "name": "Pteranodon",
+        "catalog_file": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+        "entry_anchor": "pteranodon"
+      }
+    ]
+  },
+  {
+    "table_number": 4,
+    "table_title": "Aerial and Cliff Dwelling Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+    "roll": 6,
+    "encounter_group": "6 Giant Wasps",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Giant Wasps",
+        "name": "Giant Wasp",
+        "catalog_file": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+        "entry_anchor": "giant-wasp"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 1,
+    "encounter_group": "4 Giant Crabs",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Giant Crabs",
+        "name": "Giant Crab",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-crab"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 2,
+    "encounter_group": "1 Giant Octopus",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Octopus",
+        "name": "Giant Octopus",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-octopus"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 3,
+    "encounter_group": "3 Reef Sharks",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Reef Sharks",
+        "name": "Reef Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "reef-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 4,
+    "encounter_group": "2 Hunter Sharks",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Hunter Sharks",
+        "name": "Hunter Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "hunter-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 5,
+    "encounter_group": "1 Giant Crocodile + 2 Crocodiles",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Crocodile",
+        "name": "Giant Crocodile",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-crocodile"
+      },
+      {
+        "count": 2,
+        "display_name": "Crocodiles",
+        "name": "Crocodile",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "crocodile"
+      }
+    ]
+  },
+  {
+    "table_number": 5,
+    "table_title": "Aquatic Wetland and Coastal Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+    "roll": 6,
+    "encounter_group": "1 Giant Shark",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Giant Shark",
+        "name": "Giant Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 1,
+    "encounter_group": "4 Giant Centipedes + 2 Giant Fire Beetles",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Giant Centipedes",
+        "name": "Giant Centipede",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "giant-centipede"
+      },
+      {
+        "count": 2,
+        "display_name": "Giant Fire Beetles",
+        "name": "Giant Fire Beetle",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "giant-fire-beetle"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 2,
+    "encounter_group": "3 Giant Spiders",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Giant Spiders",
+        "name": "Giant Spider",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "giant-spider"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 3,
+    "encounter_group": "1 Carrion Crawler + 4 Giant Fire Beetles",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Carrion Crawler",
+        "name": "Carrion Crawler",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "carrion-crawler"
+      },
+      {
+        "count": 4,
+        "display_name": "Giant Fire Beetles",
+        "name": "Giant Fire Beetle",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "giant-fire-beetle"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 4,
+    "encounter_group": "1 Cave Fisher + 2 Piercers",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Cave Fisher",
+        "name": "Cave Fisher",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "cave-fisher"
+      },
+      {
+        "count": 2,
+        "display_name": "Piercers",
+        "name": "Piercer",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "piercer"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 5,
+    "encounter_group": "1 Ankheg + 2 Giant Lizards",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Ankheg",
+        "name": "Ankheg",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "ankheg"
+      },
+      {
+        "count": 2,
+        "display_name": "Giant Lizards",
+        "name": "Giant Lizard",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "giant-lizard"
+      }
+    ]
+  },
+  {
+    "table_number": 6,
+    "table_title": "Cavern Mine and Burrowing Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+    "roll": 6,
+    "encounter_group": "1 Bulette",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Bulette",
+        "name": "Bulette",
+        "catalog_file": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+        "entry_anchor": "bulette"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 1,
+    "encounter_group": "2 Saber-Toothed Tigers",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Saber-Toothed Tigers",
+        "name": "Saber-Toothed Tiger",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "saber-toothed-tiger"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 2,
+    "encounter_group": "1 Winter Wolf + 4 Wolves",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Winter Wolf",
+        "name": "Winter Wolf",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "winter-wolf"
+      },
+      {
+        "count": 4,
+        "display_name": "Wolves",
+        "name": "Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "wolf"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 3,
+    "encounter_group": "1 Yeti",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Yeti",
+        "name": "Yeti",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "yeti"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 4,
+    "encounter_group": "1 Young Remorhaz",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Young Remorhaz",
+        "name": "Young Remorhaz",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "young-remorhaz"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 5,
+    "encounter_group": "1 Abominable Yeti",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Abominable Yeti",
+        "name": "Abominable Yeti",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "abominable-yeti"
+      }
+    ]
+  },
+  {
+    "table_number": 7,
+    "table_title": "Cold Region Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Cold_Region_Predators.md",
+    "roll": 6,
+    "encounter_group": "1 Remorhaz",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Remorhaz",
+        "name": "Remorhaz",
+        "catalog_file": "catalog/natural_ecology/Cold_Region_Predators.md",
+        "entry_anchor": "remorhaz"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 1,
+    "encounter_group": "8 Elk",
+    "total_creatures": 8,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 8,
+        "display_name": "Elk",
+        "name": "Elk",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "elk"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 2,
+    "encounter_group": "6 Boars + 1 Giant Boar",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Boars",
+        "name": "Boar",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "boar"
+      },
+      {
+        "count": 1,
+        "display_name": "Giant Boar",
+        "name": "Giant Boar",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "giant-boar"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 3,
+    "encounter_group": "5 Giant Goats",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 5,
+        "display_name": "Giant Goats",
+        "name": "Giant Goat",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "giant-goat"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 4,
+    "encounter_group": "2 Giant Boars",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Giant Boars",
+        "name": "Giant Boar",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "giant-boar"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 5,
+    "encounter_group": "2 Mammoths",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Mammoths",
+        "name": "Mammoth",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "mammoth"
+      }
+    ]
+  },
+  {
+    "table_number": 8,
+    "table_title": "Hoofed Animals and Megafauna",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+    "roll": 6,
+    "encounter_group": "3 Mammoths",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Mammoths",
+        "name": "Mammoth",
+        "catalog_file": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+        "entry_anchor": "mammoth"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 1,
+    "encounter_group": "6 Hyenas + 1 Giant Hyena",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Hyenas",
+        "name": "Hyena",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "hyena"
+      },
+      {
+        "count": 1,
+        "display_name": "Giant Hyena",
+        "name": "Giant Hyena",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "giant-hyena"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 2,
+    "encounter_group": "3 Panthers",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Panthers",
+        "name": "Panther",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "panther"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 3,
+    "encounter_group": "6 Axe Beaks",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Axe Beaks",
+        "name": "Axe Beak",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "axe-beak"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 4,
+    "encounter_group": "4 Lions",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Lions",
+        "name": "Lion",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "lion"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 5,
+    "encounter_group": "2 Tigers",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Tigers",
+        "name": "Tiger",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "tiger"
+      }
+    ]
+  },
+  {
+    "table_number": 9,
+    "table_title": "Southern Plains Wildlife",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Southern_Plains_Wildlife.md",
+    "roll": 6,
+    "encounter_group": "2 Elephants",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Elephants",
+        "name": "Elephant",
+        "catalog_file": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+        "entry_anchor": "elephant"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 1,
+    "encounter_group": "2 Swarms of Rats",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Swarms of Rats",
+        "name": "Swarm of Rats",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-rats"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 2,
+    "encounter_group": "2 Swarms of Bats",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Swarms of Bats",
+        "name": "Swarm of Bats",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-bats"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 3,
+    "encounter_group": "2 Swarms of Ravens",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Swarms of Ravens",
+        "name": "Swarm of Ravens",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-ravens"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 4,
+    "encounter_group": "2 Swarms of Insects",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Swarms of Insects",
+        "name": "Swarm of Insects",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-insects"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 5,
+    "encounter_group": "1 Swarm of Rats + 1 Swarm of Insects",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Swarm of Rats",
+        "name": "Swarm of Rats",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-rats"
+      },
+      {
+        "count": 1,
+        "display_name": "Swarm of Insects",
+        "name": "Swarm of Insects",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-insects"
+      }
+    ]
+  },
+  {
+    "table_number": 10,
+    "table_title": "Swarms and Small Vermin",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Swarms_and_Small_Vermin.md",
+    "roll": 6,
+    "encounter_group": "1 Swarm of Bats + 1 Swarm of Ravens",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Swarm of Bats",
+        "name": "Swarm of Bats",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-bats"
+      },
+      {
+        "count": 1,
+        "display_name": "Swarm of Ravens",
+        "name": "Swarm of Ravens",
+        "catalog_file": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+        "entry_anchor": "swarm-of-ravens"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 1,
+    "encounter_group": "4 Giant Wolf Spiders",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Giant Wolf Spiders",
+        "name": "Giant Wolf Spider",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "giant-wolf-spider"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 2,
+    "encounter_group": "2 Giant Venomous Snakes + 1 Swarm of Venomous Snakes",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Giant Venomous Snakes",
+        "name": "Giant Venomous Snake",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "giant-venomous-snake"
+      },
+      {
+        "count": 1,
+        "display_name": "Swarm of Venomous Snakes",
+        "name": "Swarm of Venomous Snakes",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "swarm-of-venomous-snakes"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 3,
+    "encounter_group": "2 Giant Scorpions",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Giant Scorpions",
+        "name": "Giant Scorpion",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "giant-scorpion"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 4,
+    "encounter_group": "1 Kruthik Hive Lord + 4 Adult Kruthiks + 12 Young Kruthiks",
+    "total_creatures": 17,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Kruthik Hive Lord",
+        "name": "Kruthik Hive Lord",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "kruthik-hive-lord"
+      },
+      {
+        "count": 4,
+        "display_name": "Adult Kruthiks",
+        "name": "Adult Kruthik",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "adult-kruthik"
+      },
+      {
+        "count": 12,
+        "display_name": "Young Kruthiks",
+        "name": "Young Kruthik",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "young-kruthik"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 5,
+    "encounter_group": "1 Umber Hulk",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Umber Hulk",
+        "name": "Umber Hulk",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "umber-hulk"
+      }
+    ]
+  },
+  {
+    "table_number": 11,
+    "table_title": "Venomous Animals and Large Insects",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+    "roll": 6,
+    "encounter_group": "1 Purple Worm",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Purple Worm",
+        "name": "Purple Worm",
+        "catalog_file": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+        "entry_anchor": "purple-worm"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 1,
+    "encounter_group": "6 Wolves",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Wolves",
+        "name": "Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "wolf"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 2,
+    "encounter_group": "1 Dire Wolf + 6 Wolves",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Dire Wolf",
+        "name": "Dire Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "dire-wolf"
+      },
+      {
+        "count": 6,
+        "display_name": "Wolves",
+        "name": "Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "wolf"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 3,
+    "encounter_group": "1 Black Bear",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Black Bear",
+        "name": "Black Bear",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "black-bear"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 4,
+    "encounter_group": "1 Brown Bear",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Brown Bear",
+        "name": "Brown Bear",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "brown-bear"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 5,
+    "encounter_group": "1 Polar Bear",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Polar Bear",
+        "name": "Polar Bear",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "polar-bear"
+      }
+    ]
+  },
+  {
+    "table_number": 12,
+    "table_title": "Wolves and Large Predators",
+    "roll_table_group": "natural_ecology",
+    "table_file": "natural_ecology/Wolves_and_Large_Predators.md",
+    "roll": 6,
+    "encounter_group": "2 Dire Wolves + 8 Wolves",
+    "total_creatures": 10,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Dire Wolves",
+        "name": "Dire Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "dire-wolf"
+      },
+      {
+        "count": 8,
+        "display_name": "Wolves",
+        "name": "Wolf",
+        "catalog_file": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+        "entry_anchor": "wolf"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 1,
+    "encounter_group": "2 Rust Monsters",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Rust Monsters",
+        "name": "Rust Monster",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "rust-monster"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 2,
+    "encounter_group": "4 Cockatrices",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Cockatrices",
+        "name": "Cockatrice",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "cockatrice"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 3,
+    "encounter_group": "2 Death Dogs",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Death Dogs",
+        "name": "Death Dog",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "death-dog"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 4,
+    "encounter_group": "1 Basilisk",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Basilisk",
+        "name": "Basilisk",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "basilisk"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 5,
+    "encounter_group": "1 Roper",
+    "total_creatures": 1,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Roper",
+        "name": "Roper",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "roper"
+      }
+    ]
+  },
+  {
+    "table_number": 13,
+    "table_title": "Captured and Transported Monstrosities",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+    "roll": 6,
+    "encounter_group": "2 Mimics",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Mimics",
+        "name": "Mimic",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "mimic"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 1,
+    "encounter_group": "4 Bronze Scouts",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Bronze Scouts",
+        "name": "Bronze Scout",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "bronze-scout"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 2,
+    "encounter_group": "3 Iron Cobras",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 3,
+        "display_name": "Iron Cobras",
+        "name": "Iron Cobra",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "iron-cobra"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 3,
+    "encounter_group": "2 Stone Defenders",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Stone Defenders",
+        "name": "Stone Defender",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "stone-defender"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 4,
+    "encounter_group": "2 Oaken Bolters + 2 Bronze Scouts",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Oaken Bolters",
+        "name": "Oaken Bolter",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "oaken-bolter"
+      },
+      {
+        "count": 2,
+        "display_name": "Bronze Scouts",
+        "name": "Bronze Scout",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "bronze-scout"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 5,
+    "encounter_group": "1 Stone Defender + 2 Iron Cobras + 2 Bronze Scouts",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Stone Defender",
+        "name": "Stone Defender",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "stone-defender"
+      },
+      {
+        "count": 2,
+        "display_name": "Iron Cobras",
+        "name": "Iron Cobra",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "iron-cobra"
+      },
+      {
+        "count": 2,
+        "display_name": "Bronze Scouts",
+        "name": "Bronze Scout",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "bronze-scout"
+      }
+    ]
+  },
+  {
+    "table_number": 14,
+    "table_title": "Clockwork Construct Adaptation Chassis",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+    "roll": 6,
+    "encounter_group": "2 Stone Defenders + 2 Oaken Bolters + 4 Bronze Scouts",
+    "total_creatures": 8,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Stone Defenders",
+        "name": "Stone Defender",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "stone-defender"
+      },
+      {
+        "count": 2,
+        "display_name": "Oaken Bolters",
+        "name": "Oaken Bolter",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "oaken-bolter"
+      },
+      {
+        "count": 4,
+        "display_name": "Bronze Scouts",
+        "name": "Bronze Scout",
+        "catalog_file": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+        "entry_anchor": "bronze-scout"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 1,
+    "encounter_group": "6 Blink Dogs",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Blink Dogs",
+        "name": "Blink Dog",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "blink-dog"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 2,
+    "encounter_group": "2 Displacer Beasts",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Displacer Beasts",
+        "name": "Displacer Beast",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "displacer-beast"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 3,
+    "encounter_group": "2 Phase Spiders",
+    "total_creatures": 2,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Phase Spiders",
+        "name": "Phase Spider",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "phase-spider"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 4,
+    "encounter_group": "1 Displacer Beast + 4 Blink Dogs",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Displacer Beast",
+        "name": "Displacer Beast",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "displacer-beast"
+      },
+      {
+        "count": 4,
+        "display_name": "Blink Dogs",
+        "name": "Blink Dog",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "blink-dog"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 5,
+    "encounter_group": "1 Phase Spider + 2 Blink Dogs",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Phase Spider",
+        "name": "Phase Spider",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "phase-spider"
+      },
+      {
+        "count": 2,
+        "display_name": "Blink Dogs",
+        "name": "Blink Dog",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "blink-dog"
+      }
+    ]
+  },
+  {
+    "table_number": 15,
+    "table_title": "Fey and Ethereal Predators",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+    "roll": 6,
+    "encounter_group": "2 Displacer Beasts + 2 Phase Spiders",
+    "total_creatures": 4,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Displacer Beasts",
+        "name": "Displacer Beast",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "displacer-beast"
+      },
+      {
+        "count": 2,
+        "display_name": "Phase Spiders",
+        "name": "Phase Spider",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+        "entry_anchor": "phase-spider"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 1,
+    "encounter_group": "1 Dryad + 4 Sprites + 2 Pixies",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Dryad",
+        "name": "Dryad",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "dryad"
+      },
+      {
+        "count": 4,
+        "display_name": "Sprites",
+        "name": "Sprite",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "sprite"
+      },
+      {
+        "count": 2,
+        "display_name": "Pixies",
+        "name": "Pixie",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "pixie"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 2,
+    "encounter_group": "1 Green Hag + 2 Yeth Hounds",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Green Hag",
+        "name": "Green Hag",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "green-hag"
+      },
+      {
+        "count": 2,
+        "display_name": "Yeth Hounds",
+        "name": "Yeth Hound",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "yeth-hound"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 3,
+    "encounter_group": "2 Satyrs + 4 Boggles",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Satyrs",
+        "name": "Satyr",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "satyr"
+      },
+      {
+        "count": 4,
+        "display_name": "Boggles",
+        "name": "Boggle",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "boggle"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 4,
+    "encounter_group": "1 Quickling + 4 Darklings",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Quickling",
+        "name": "Quickling",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "quickling"
+      },
+      {
+        "count": 4,
+        "display_name": "Darklings",
+        "name": "Darkling",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "darkling"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 5,
+    "encounter_group": "1 Redcap + 4 Meenlocks",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Redcap",
+        "name": "Redcap",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "redcap"
+      },
+      {
+        "count": 4,
+        "display_name": "Meenlocks",
+        "name": "Meenlock",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "meenlock"
+      }
+    ]
+  },
+  {
+    "table_number": 16,
+    "table_title": "Fey and Magical Wilderness Creatures",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+    "roll": 6,
+    "encounter_group": "1 Wood Woad + 2 Dryads + 6 Sprites",
+    "total_creatures": 9,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Wood Woad",
+        "name": "Wood Woad",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "wood-woad"
+      },
+      {
+        "count": 2,
+        "display_name": "Dryads",
+        "name": "Dryad",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "dryad"
+      },
+      {
+        "count": 6,
+        "display_name": "Sprites",
+        "name": "Sprite",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "sprite"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 1,
+    "encounter_group": "4 Merrow + 2 Hunter Sharks",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Merrow",
+        "name": "Merrow",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "merrow"
+      },
+      {
+        "count": 2,
+        "display_name": "Hunter Sharks",
+        "name": "Hunter Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "hunter-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 2,
+    "encounter_group": "6 Sea Spawn + 2 Giant Sea Eels",
+    "total_creatures": 8,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Sea Spawn",
+        "name": "Sea Spawn",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "sea-spawn"
+      },
+      {
+        "count": 2,
+        "display_name": "Giant Sea Eels",
+        "name": "Giant Sea Eel",
+        "catalog_file": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+        "entry_anchor": "giant-sea-eel"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 3,
+    "encounter_group": "2 Merrow + 1 Giant Octopus",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Merrow",
+        "name": "Merrow",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "merrow"
+      },
+      {
+        "count": 1,
+        "display_name": "Giant Octopus",
+        "name": "Giant Octopus",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-octopus"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 4,
+    "encounter_group": "1 Sea Hag + 4 Sea Spawn",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Sea Hag",
+        "name": "Sea Hag",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "sea-hag"
+      },
+      {
+        "count": 4,
+        "display_name": "Sea Spawn",
+        "name": "Sea Spawn",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "sea-spawn"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 5,
+    "encounter_group": "1 Water Weird + 4 Sea Spawn",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Water Weird",
+        "name": "Water Weird",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "water-weird"
+      },
+      {
+        "count": 4,
+        "display_name": "Sea Spawn",
+        "name": "Sea Spawn",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "sea-spawn"
+      }
+    ]
+  },
+  {
+    "table_number": 17,
+    "table_title": "Intelligent Aquatic and Magical Water Threats",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+    "roll": 6,
+    "encounter_group": "6 Merrow + 1 Giant Shark",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Merrow",
+        "name": "Merrow",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "merrow"
+      },
+      {
+        "count": 1,
+        "display_name": "Giant Shark",
+        "name": "Giant Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 1,
+    "encounter_group": "4 Flying Swords + 2 Animated Armors",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Flying Swords",
+        "name": "Animated Flying Sword",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "animated-flying-sword"
+      },
+      {
+        "count": 2,
+        "display_name": "Animated Armors",
+        "name": "Animated Armor",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "animated-armor"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 2,
+    "encounter_group": "2 Rugs of Smothering + 4 Homunculi",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Rugs of Smothering",
+        "name": "Animated Rug of Smothering",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "animated-rug-of-smothering"
+      },
+      {
+        "count": 4,
+        "display_name": "Homunculi",
+        "name": "Homunculus",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "homunculus"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 3,
+    "encounter_group": "4 Scarecrows + 2 Animated Armors",
+    "total_creatures": 6,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Scarecrows",
+        "name": "Scarecrow",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "scarecrow"
+      },
+      {
+        "count": 2,
+        "display_name": "Animated Armors",
+        "name": "Animated Armor",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "animated-armor"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 4,
+    "encounter_group": "1 Helmed Horror + 4 Flying Swords",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Helmed Horror",
+        "name": "Helmed Horror",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "helmed-horror"
+      },
+      {
+        "count": 4,
+        "display_name": "Flying Swords",
+        "name": "Animated Flying Sword",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "animated-flying-sword"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 5,
+    "encounter_group": "1 Shield Guardian + 2 Helmed Horrors",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Shield Guardian",
+        "name": "Shield Guardian",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "shield-guardian"
+      },
+      {
+        "count": 2,
+        "display_name": "Helmed Horrors",
+        "name": "Helmed Horror",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "helmed-horror"
+      }
+    ]
+  },
+  {
+    "table_number": 18,
+    "table_title": "Magically Animated Constructs and Objects",
+    "roll_table_group": "constructs_and_animated",
+    "table_file": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+    "roll": 6,
+    "encounter_group": "1 Iron Golem + 2 Stone Golems + 2 Clay Golems",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Iron Golem",
+        "name": "Iron Golem",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "iron-golem"
+      },
+      {
+        "count": 2,
+        "display_name": "Stone Golems",
+        "name": "Stone Golem",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "stone-golem"
+      },
+      {
+        "count": 2,
+        "display_name": "Clay Golems",
+        "name": "Clay Golem",
+        "catalog_file": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+        "entry_anchor": "clay-golem"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 1,
+    "encounter_group": "1 Awakened Tree + 6 Awakened Shrubs",
+    "total_creatures": 7,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Awakened Tree",
+        "name": "Awakened Tree",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "awakened-tree"
+      },
+      {
+        "count": 6,
+        "display_name": "Awakened Shrubs",
+        "name": "Awakened Shrub",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "awakened-shrub"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 2,
+    "encounter_group": "8 Twig Blights + 4 Needle Blights",
+    "total_creatures": 12,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 8,
+        "display_name": "Twig Blights",
+        "name": "Twig Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "twig-blight"
+      },
+      {
+        "count": 4,
+        "display_name": "Needle Blights",
+        "name": "Needle Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "needle-blight"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 3,
+    "encounter_group": "2 Vine Blights + 6 Twig Blights",
+    "total_creatures": 8,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Vine Blights",
+        "name": "Vine Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "vine-blight"
+      },
+      {
+        "count": 6,
+        "display_name": "Twig Blights",
+        "name": "Twig Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "twig-blight"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 4,
+    "encounter_group": "1 Shambling Mound + 4 Vine Blights",
+    "total_creatures": 5,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Shambling Mound",
+        "name": "Shambling Mound",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "shambling-mound"
+      },
+      {
+        "count": 4,
+        "display_name": "Vine Blights",
+        "name": "Vine Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "vine-blight"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 5,
+    "encounter_group": "1 Wood Woad + 2 Awakened Trees",
+    "total_creatures": 3,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 1,
+        "display_name": "Wood Woad",
+        "name": "Wood Woad",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "wood-woad"
+      },
+      {
+        "count": 2,
+        "display_name": "Awakened Trees",
+        "name": "Awakened Tree",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "awakened-tree"
+      }
+    ]
+  },
+  {
+    "table_number": 19,
+    "table_title": "Magically Sustained Plants and Blights",
+    "roll_table_group": "planar_and_magical",
+    "table_file": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+    "roll": 6,
+    "encounter_group": "2 Shambling Mounds + 4 Needle Blights + 4 Vine Blights",
+    "total_creatures": 10,
+    "gate_invasion": false,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Shambling Mounds",
+        "name": "Shambling Mound",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "shambling-mound"
+      },
+      {
+        "count": 4,
+        "display_name": "Needle Blights",
+        "name": "Needle Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "needle-blight"
+      },
+      {
+        "count": 4,
+        "display_name": "Vine Blights",
+        "name": "Vine Blight",
+        "catalog_file": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+        "entry_anchor": "vine-blight"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 1,
+    "encounter_group": "48 Air Elementals + 4 Invisible Stalkers — 52 total",
+    "total_creatures": 52,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 48,
+        "display_name": "Air Elementals",
+        "name": "Air Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "air-elemental"
+      },
+      {
+        "count": 4,
+        "display_name": "Invisible Stalkers",
+        "name": "Invisible Stalker",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "invisible-stalker"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 2,
+    "encounter_group": "40 Earth Elementals + 12 Galeb Duhr — 52 total",
+    "total_creatures": 52,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 40,
+        "display_name": "Earth Elementals",
+        "name": "Earth Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "earth-elemental"
+      },
+      {
+        "count": 12,
+        "display_name": "Galeb Duhr",
+        "name": "Galeb Duhr",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "galeb-duhr"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 3,
+    "encounter_group": "36 Fire Elementals + 12 Salamanders + 6 Azers — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 36,
+        "display_name": "Fire Elementals",
+        "name": "Fire Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "fire-elemental"
+      },
+      {
+        "count": 12,
+        "display_name": "Salamanders",
+        "name": "Salamander",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "salamander"
+      },
+      {
+        "count": 6,
+        "display_name": "Azers",
+        "name": "Azer",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "azer"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 4,
+    "encounter_group": "40 Water Elementals + 12 Water Weirds — 52 total",
+    "total_creatures": 52,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 40,
+        "display_name": "Water Elementals",
+        "name": "Water Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "water-elemental"
+      },
+      {
+        "count": 12,
+        "display_name": "Water Weirds",
+        "name": "Water Weird",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "water-weird"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 5,
+    "encounter_group": "20 Air Elementals + 20 Fire Elementals + 10 Earth Elementals + 10 Water Elementals — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 20,
+        "display_name": "Air Elementals",
+        "name": "Air Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "air-elemental"
+      },
+      {
+        "count": 20,
+        "display_name": "Fire Elementals",
+        "name": "Fire Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "fire-elemental"
+      },
+      {
+        "count": 10,
+        "display_name": "Earth Elementals",
+        "name": "Earth Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "earth-elemental"
+      },
+      {
+        "count": 10,
+        "display_name": "Water Elementals",
+        "name": "Water Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "water-elemental"
+      }
+    ]
+  },
+  {
+    "table_number": 20,
+    "table_title": "Major Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+    "roll": 6,
+    "encounter_group": "12 Salamanders + 12 Galeb Duhr + 12 Earth Elementals + 12 Fire Elementals + 6 Azers — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 12,
+        "display_name": "Salamanders",
+        "name": "Salamander",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "salamander"
+      },
+      {
+        "count": 12,
+        "display_name": "Galeb Duhr",
+        "name": "Galeb Duhr",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "galeb-duhr"
+      },
+      {
+        "count": 12,
+        "display_name": "Earth Elementals",
+        "name": "Earth Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "earth-elemental"
+      },
+      {
+        "count": 12,
+        "display_name": "Fire Elementals",
+        "name": "Fire Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "fire-elemental"
+      },
+      {
+        "count": 6,
+        "display_name": "Azers",
+        "name": "Azer",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "azer"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 1,
+    "encounter_group": "60 Smoke Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 60,
+        "display_name": "Smoke Mephits",
+        "name": "Smoke Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "smoke-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 2,
+    "encounter_group": "40 Steam Mephits + 20 Mud Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 40,
+        "display_name": "Steam Mephits",
+        "name": "Steam Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "steam-mephit"
+      },
+      {
+        "count": 20,
+        "display_name": "Mud Mephits",
+        "name": "Mud Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "mud-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 3,
+    "encounter_group": "36 Magma Mephits + 24 Magmin — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 36,
+        "display_name": "Magma Mephits",
+        "name": "Magma Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "magma-mephit"
+      },
+      {
+        "count": 24,
+        "display_name": "Magmin",
+        "name": "Magmin",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "magmin"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 4,
+    "encounter_group": "30 Ice Mephits + 30 Dust Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 30,
+        "display_name": "Ice Mephits",
+        "name": "Ice Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "ice-mephit"
+      },
+      {
+        "count": 30,
+        "display_name": "Dust Mephits",
+        "name": "Dust Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "dust-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 5,
+    "encounter_group": "12 Azers + 24 Fire Snakes + 24 Magma Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 12,
+        "display_name": "Azers",
+        "name": "Azer",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "azer"
+      },
+      {
+        "count": 24,
+        "display_name": "Fire Snakes",
+        "name": "Fire Snake",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "fire-snake"
+      },
+      {
+        "count": 24,
+        "display_name": "Magma Mephits",
+        "name": "Magma Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "magma-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 21,
+    "table_title": "Minor Elemental Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+    "roll": 6,
+    "encounter_group": "20 Gargoyles + 20 Magmin + 20 Smoke Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 20,
+        "display_name": "Gargoyles",
+        "name": "Gargoyle",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "gargoyle"
+      },
+      {
+        "count": 20,
+        "display_name": "Magmin",
+        "name": "Magmin",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "magmin"
+      },
+      {
+        "count": 20,
+        "display_name": "Smoke Mephits",
+        "name": "Smoke Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "smoke-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 1,
+    "encounter_group": "6 Hell Hounds + 48 Imps — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Hell Hounds",
+        "name": "Hell Hound",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "hell-hound"
+      },
+      {
+        "count": 48,
+        "display_name": "Imps",
+        "name": "Imp",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "imp"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 2,
+    "encounter_group": "12 Quasits + 42 Dretches — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 12,
+        "display_name": "Quasits",
+        "name": "Quasit",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "quasit"
+      },
+      {
+        "count": 42,
+        "display_name": "Dretches",
+        "name": "Dretch",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "dretch"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 3,
+    "encounter_group": "12 Manticores + 18 Death Dogs + 24 Hell Hounds — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 12,
+        "display_name": "Manticores",
+        "name": "Manticore",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "manticore"
+      },
+      {
+        "count": 18,
+        "display_name": "Death Dogs",
+        "name": "Death Dog",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "death-dog"
+      },
+      {
+        "count": 24,
+        "display_name": "Hell Hounds",
+        "name": "Hell Hound",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "hell-hound"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 4,
+    "encounter_group": "10 Chuul + 20 Merrow + 24 Sea Spawn — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 10,
+        "display_name": "Chuul",
+        "name": "Chuul",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "chuul"
+      },
+      {
+        "count": 20,
+        "display_name": "Merrow",
+        "name": "Merrow",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "merrow"
+      },
+      {
+        "count": 24,
+        "display_name": "Sea Spawn",
+        "name": "Sea Spawn",
+        "catalog_file": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+        "entry_anchor": "sea-spawn"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 5,
+    "encounter_group": "8 Xorn + 16 Rust Monsters + 32 Steam Mephits — 56 total",
+    "total_creatures": 56,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 8,
+        "display_name": "Xorn",
+        "name": "Xorn",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "xorn"
+      },
+      {
+        "count": 16,
+        "display_name": "Rust Monsters",
+        "name": "Rust Monster",
+        "catalog_file": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+        "entry_anchor": "rust-monster"
+      },
+      {
+        "count": 32,
+        "display_name": "Steam Mephits",
+        "name": "Steam Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "steam-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 22,
+    "table_title": "Minor and Moderate Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+    "roll": 6,
+    "encounter_group": "6 Sea Hags + 18 Giant Octopuses + 30 Reef Sharks — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Sea Hags",
+        "name": "Sea Hag",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "sea-hag"
+      },
+      {
+        "count": 18,
+        "display_name": "Giant Octopuses",
+        "name": "Giant Octopus",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "giant-octopus"
+      },
+      {
+        "count": 30,
+        "display_name": "Reef Sharks",
+        "name": "Reef Shark",
+        "catalog_file": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+        "entry_anchor": "reef-shark"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 1,
+    "encounter_group": "2 Bone Devils + 8 Chain Devils + 20 Hell Hounds + 24 Imps — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Bone Devils",
+        "name": "Bone Devil",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "bone-devil"
+      },
+      {
+        "count": 8,
+        "display_name": "Chain Devils",
+        "name": "Chain Devil",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "chain-devil"
+      },
+      {
+        "count": 20,
+        "display_name": "Hell Hounds",
+        "name": "Hell Hound",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "hell-hound"
+      },
+      {
+        "count": 24,
+        "display_name": "Imps",
+        "name": "Imp",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "imp"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 2,
+    "encounter_group": "2 Hezrou + 8 Barlguras + 12 Vrocks + 12 Chasmes + 24 Dretches — 58 total",
+    "total_creatures": 58,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 2,
+        "display_name": "Hezrou",
+        "name": "Hezrou",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "hezrou"
+      },
+      {
+        "count": 8,
+        "display_name": "Barlguras",
+        "name": "Barlgura",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "barlgura"
+      },
+      {
+        "count": 12,
+        "display_name": "Vrocks",
+        "name": "Vrock",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "vrock"
+      },
+      {
+        "count": 12,
+        "display_name": "Chasmes",
+        "name": "Chasme",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "chasme"
+      },
+      {
+        "count": 24,
+        "display_name": "Dretches",
+        "name": "Dretch",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "dretch"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 3,
+    "encounter_group": "4 Green Slaads + 12 Blue Slaads + 40 Red Slaads — 56 total",
+    "total_creatures": 56,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Green Slaads",
+        "name": "Green Slaad",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "green-slaad"
+      },
+      {
+        "count": 12,
+        "display_name": "Blue Slaads",
+        "name": "Blue Slaad",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "blue-slaad"
+      },
+      {
+        "count": 40,
+        "display_name": "Red Slaads",
+        "name": "Red Slaad",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "red-slaad"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 4,
+    "encounter_group": "6 Salamanders + 12 Fire Elementals + 18 Azers + 24 Magma Mephits — 60 total",
+    "total_creatures": 60,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Salamanders",
+        "name": "Salamander",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "salamander"
+      },
+      {
+        "count": 12,
+        "display_name": "Fire Elementals",
+        "name": "Fire Elemental",
+        "catalog_file": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+        "entry_anchor": "fire-elemental"
+      },
+      {
+        "count": 18,
+        "display_name": "Azers",
+        "name": "Azer",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "azer"
+      },
+      {
+        "count": 24,
+        "display_name": "Magma Mephits",
+        "name": "Magma Mephit",
+        "catalog_file": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+        "entry_anchor": "magma-mephit"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 5,
+    "encounter_group": "6 Invisible Stalkers + 12 Manticores + 18 Vrocks + 18 Chasmes — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 6,
+        "display_name": "Invisible Stalkers",
+        "name": "Invisible Stalker",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "invisible-stalker"
+      },
+      {
+        "count": 12,
+        "display_name": "Manticores",
+        "name": "Manticore",
+        "catalog_file": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+        "entry_anchor": "manticore"
+      },
+      {
+        "count": 18,
+        "display_name": "Vrocks",
+        "name": "Vrock",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "vrock"
+      },
+      {
+        "count": 18,
+        "display_name": "Chasmes",
+        "name": "Chasme",
+        "catalog_file": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+        "entry_anchor": "chasme"
+      }
+    ]
+  },
+  {
+    "table_number": 23,
+    "table_title": "Severe Gate Invasions",
+    "roll_table_group": "gate_incursions",
+    "table_file": "gate_incursions/Severe_Gate_Invasions.md",
+    "roll": 6,
+    "encounter_group": "4 Green Hags + 10 Yeth Hounds + 20 Redcaps + 20 Meenlocks — 54 total",
+    "total_creatures": 54,
+    "gate_invasion": true,
+    "catalog_entries": [
+      {
+        "count": 4,
+        "display_name": "Green Hags",
+        "name": "Green Hag",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "green-hag"
+      },
+      {
+        "count": 10,
+        "display_name": "Yeth Hounds",
+        "name": "Yeth Hound",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "yeth-hound"
+      },
+      {
+        "count": 20,
+        "display_name": "Redcaps",
+        "name": "Redcap",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "redcap"
+      },
+      {
+        "count": 20,
+        "display_name": "Meenlocks",
+        "name": "Meenlock",
+        "catalog_file": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+        "entry_anchor": "meenlock"
+      }
+    ]
+  }
+]

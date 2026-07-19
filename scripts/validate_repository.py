@@ -14,6 +14,7 @@ Exit codes:
 from __future__ import annotations
 
 import argparse
+import csv
 import fnmatch
 import hashlib
 import json
@@ -34,6 +35,22 @@ GEOGRAPHY_PATH = Path("canon/World_Geography.md")
 CITY_PROFILE_GLOB = "cities/*_City_Profile.md"
 NPC_MASTER_PATH = Path("npcs/NPC_Backstory_Personality_file.md")
 STAT_BLOCK_PATH = Path("combat/Enemy_Encounters_Stat_Blocks.md")
+CREATURE_ROOT = Path("creatures")
+CREATURE_MANIFEST = CREATURE_ROOT / "manifest.json"
+CREATURE_DATA_JSON = CREATURE_ROOT / "data/creatures.json"
+CREATURE_DATA_CSV = CREATURE_ROOT / "data/creatures.csv"
+CREATURE_INDEX = CREATURE_ROOT / "Creature_Catalog_Index.md"
+ROLL_ROOT = CREATURE_ROOT / "roll_tables"
+ROLL_MANIFEST = ROLL_ROOT / "manifest.json"
+ROLL_DATA_JSON = ROLL_ROOT / "data/roll_tables.json"
+ROLL_DATA_CSV = ROLL_ROOT / "data/roll_tables.csv"
+EXPECTED_CREATURE_COUNT = 161
+EXPECTED_CREATURE_CATEGORY_COUNT = 23
+EXPECTED_CREATURE_GROUP_COUNT = 4
+EXPECTED_ROLL_TABLE_COUNT = 23
+EXPECTED_ROLL_RESULT_COUNT = 138
+EXPECTED_GATE_INVASION_RESULT_COUNT = 24
+
 EXPECTED_MAJOR_CITY_COUNT = 15
 EXPECTED_MINOR_CITY_COUNT = 20
 EXPECTED_TOTAL_CITY_COUNT = 35
@@ -177,6 +194,8 @@ class Validator:
         self.check_index_metadata()
         self.check_canonical_ownership()
         self.check_pending_inventory()
+        self.check_creature_catalog()
+        self.check_roll_tables()
 
     # ------------------------------------------------------------------
     # Internal filenames and links
@@ -788,6 +807,255 @@ class Validator:
                 f"Pending inventory verified: {len(headings)} proposal(s), {len(existing)} existing target(s), "
                 f"{len(declared_new)} declared new file(s).",
             )
+
+
+
+    # ------------------------------------------------------------------
+    # Creature catalog integrity
+    # ------------------------------------------------------------------
+    def check_creature_catalog(self) -> None:
+        check = "creature catalog integrity"
+        required = [
+            CREATURE_MANIFEST, CREATURE_DATA_JSON, CREATURE_DATA_CSV, CREATURE_INDEX
+        ]
+        missing = [path.as_posix() for path in required if not (self.root / path).is_file()]
+        if missing:
+            self.error(check, f"Required creature files are missing: {missing}.")
+            return
+
+        try:
+            records = json.loads((self.root / CREATURE_DATA_JSON).read_text(encoding="utf-8"))
+            manifest = json.loads((self.root / CREATURE_MANIFEST).read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            self.error(check, f"Creature JSON could not be read: {exc}.")
+            return
+
+        if not isinstance(records, list):
+            self.error(check, "Creature JSON must be a list.", self.root / CREATURE_DATA_JSON)
+            records = []
+
+        if len(records) != EXPECTED_CREATURE_COUNT:
+            self.error(
+                check,
+                f"Expected {EXPECTED_CREATURE_COUNT} creature records; found {len(records)}.",
+                self.root / CREATURE_DATA_JSON,
+            )
+
+        required_fields = {
+            "name", "category", "catalog_group", "catalog_file", "entry_anchor",
+            "availability", "stat_baseline", "cr", "size", "creature_type",
+            "ac", "hp", "speed", "habitat", "elyndrian_regions",
+            "campaign_status", "magical_dependency", "dead_zone_behavior",
+            "recommended_party_levels", "suitable_gate_city",
+            "physical_viability", "connection_severance", "dm_adjudication",
+        }
+        names: list[str] = []
+        groups: set[str] = set()
+        catalog_files: set[str] = set()
+        index_text = (self.root / CREATURE_INDEX).read_text(encoding="utf-8")
+        for record in records:
+            if not isinstance(record, dict):
+                self.error(check, "Every creature record must be an object.", self.root / CREATURE_DATA_JSON)
+                continue
+            name = str(record.get("name", "")).strip()
+            names.append(normalize_name(name))
+            groups.add(str(record.get("catalog_group", "")).strip())
+            catalog_file = str(record.get("catalog_file", "")).strip()
+            catalog_files.add(catalog_file)
+            absent = sorted(field for field in required_fields if str(record.get(field, "")).strip() == "")
+            if absent:
+                self.error(check, f"Creature '{name or '<unnamed>'}' is missing fields: {absent}.", self.root / CREATURE_DATA_JSON)
+                continue
+            category_path = self.root / CREATURE_ROOT / catalog_file
+            if not category_path.is_file():
+                self.error(check, f"Creature '{name}' category file is missing: {catalog_file}.", self.root / CREATURE_DATA_JSON)
+                continue
+            category_text = self.text(category_path)
+            heading_pattern = rf"^##\s+{re.escape(name)}\s*$"
+            if not re.search(heading_pattern, category_text, re.M):
+                self.error(check, f"Creature '{name}' has no matching H2 entry in {catalog_file}.", category_path)
+            anchor = str(record.get("entry_anchor", "")).strip().casefold()
+            if anchor not in markdown_anchors(category_text):
+                self.error(check, f"Creature '{name}' anchor '#{anchor}' is missing in {catalog_file}.", category_path)
+            expected_link = f"({catalog_file}#{anchor})"
+            if expected_link not in index_text:
+                self.error(check, f"Creature '{name}' is not directly linked from the catalog index.", self.root / CREATURE_INDEX)
+
+        duplicate_names = sorted(name for name, count in Counter(names).items() if name and count > 1)
+        if duplicate_names or any(not name for name in names):
+            self.error(check, f"Creature names must be nonempty and unique; duplicates: {duplicate_names}.", self.root / CREATURE_DATA_JSON)
+        if len(groups - {""}) != EXPECTED_CREATURE_GROUP_COUNT:
+            self.error(check, f"Expected {EXPECTED_CREATURE_GROUP_COUNT} creature groups; found {sorted(groups - {''})}.", self.root / CREATURE_DATA_JSON)
+
+        category_paths = sorted((self.root / CREATURE_ROOT / "catalog").rglob("*.md"))
+        if len(category_paths) != EXPECTED_CREATURE_CATEGORY_COUNT:
+            self.error(check, f"Expected {EXPECTED_CREATURE_CATEGORY_COUNT} category files; found {len(category_paths)}.", self.root / CREATURE_ROOT / "catalog")
+        actual_catalog_files = {
+            path.relative_to(self.root / CREATURE_ROOT).as_posix() for path in category_paths
+        }
+        if catalog_files != actual_catalog_files:
+            self.error(
+                check,
+                f"Creature JSON category-file set differs from repository files: missing={sorted(actual_catalog_files - catalog_files)}, extra={sorted(catalog_files - actual_catalog_files)}.",
+                self.root / CREATURE_DATA_JSON,
+            )
+
+        try:
+            with (self.root / CREATURE_DATA_CSV).open(newline="", encoding="utf-8-sig") as handle:
+                csv_rows = list(csv.DictReader(handle))
+        except OSError as exc:
+            self.error(check, f"Creature CSV could not be read: {exc}.", self.root / CREATURE_DATA_CSV)
+            csv_rows = []
+        csv_names = [normalize_name(row.get("name", "")) for row in csv_rows]
+        if len(csv_rows) != EXPECTED_CREATURE_COUNT or Counter(csv_names) != Counter(names):
+            self.error(check, "Creature CSV does not match the JSON creature-name inventory.", self.root / CREATURE_DATA_CSV)
+
+        counts = manifest.get("counts", {}) if isinstance(manifest, dict) else {}
+        expected_manifest_counts = {
+            "creatures": EXPECTED_CREATURE_COUNT,
+            "categories": EXPECTED_CREATURE_CATEGORY_COUNT,
+            "repository_groups": EXPECTED_CREATURE_GROUP_COUNT,
+            "markdown_category_entries": EXPECTED_CREATURE_COUNT,
+            "roll_tables": EXPECTED_ROLL_TABLE_COUNT,
+            "roll_results": EXPECTED_ROLL_RESULT_COUNT,
+        }
+        for key, expected in expected_manifest_counts.items():
+            if counts.get(key) != expected:
+                self.error(check, f"Creature manifest count '{key}' must be {expected}; found {counts.get(key)!r}.", self.root / CREATURE_MANIFEST)
+
+        self._check_checksum_manifest(check, self.root / CREATURE_ROOT, manifest, self.root / CREATURE_MANIFEST)
+
+        if not any(f.severity == "ERROR" and f.check == check for f in self.findings):
+            self.pass_(
+                check,
+                f"Verified {EXPECTED_CREATURE_COUNT} creatures, {EXPECTED_CREATURE_CATEGORY_COUNT} category files, {EXPECTED_CREATURE_GROUP_COUNT} groups, direct index links, synchronized JSON/CSV, and manifest checksums.",
+            )
+
+    # ------------------------------------------------------------------
+    # Random encounter roll-table integrity
+    # ------------------------------------------------------------------
+    def check_roll_tables(self) -> None:
+        check = "random encounter roll-table integrity"
+        required = [ROLL_MANIFEST, ROLL_DATA_JSON, ROLL_DATA_CSV, ROLL_ROOT / "Roll_Table_Index.md"]
+        missing = [path.as_posix() for path in required if not (self.root / path).is_file()]
+        if missing:
+            self.error(check, f"Required roll-table files are missing: {missing}.")
+            return
+        try:
+            results = json.loads((self.root / ROLL_DATA_JSON).read_text(encoding="utf-8"))
+            manifest = json.loads((self.root / ROLL_MANIFEST).read_text(encoding="utf-8"))
+            creatures = json.loads((self.root / CREATURE_DATA_JSON).read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            self.error(check, f"Roll-table data could not be read: {exc}.")
+            return
+
+        if not isinstance(results, list):
+            self.error(check, "Roll-table JSON must be a list.", self.root / ROLL_DATA_JSON)
+            results = []
+        if len(results) != EXPECTED_ROLL_RESULT_COUNT:
+            self.error(check, f"Expected {EXPECTED_ROLL_RESULT_COUNT} roll results; found {len(results)}.", self.root / ROLL_DATA_JSON)
+
+        creature_names = {normalize_name(str(record.get("name", ""))) for record in creatures if isinstance(record, dict)}
+        table_rolls: dict[int, list[int]] = defaultdict(list)
+        gate_results = 0
+        result_keys: list[tuple[int, int]] = []
+        for result in results:
+            if not isinstance(result, dict):
+                self.error(check, "Every roll result must be an object.", self.root / ROLL_DATA_JSON)
+                continue
+            table_number = int(result.get("table_number", 0) or 0)
+            roll = int(result.get("roll", 0) or 0)
+            table_rolls[table_number].append(roll)
+            result_keys.append((table_number, roll))
+            table_rel = str(result.get("table_file", "")).strip()
+            table_path = self.root / ROLL_ROOT / table_rel
+            if not table_path.is_file():
+                self.error(check, f"Roll table file is missing: {table_rel}.", self.root / ROLL_DATA_JSON)
+                continue
+            table_text = self.text(table_path)
+            for entry in result.get("catalog_entries", []):
+                name = normalize_name(str(entry.get("name", "")))
+                if name not in creature_names:
+                    self.error(check, f"Roll result references unknown creature: {entry.get('name')!r}.", self.root / ROLL_DATA_JSON)
+                anchor = str(entry.get("entry_anchor", "")).strip()
+                catalog_file = str(entry.get("catalog_file", "")).strip()
+                if f"#{anchor})" not in table_text or Path(catalog_file).name not in table_text:
+                    self.error(check, f"Table {table_number} roll {roll} lacks a direct catalog link for {entry.get('name')!r}.", table_path)
+            if result.get("gate_invasion") is True:
+                gate_results += 1
+                if int(result.get("total_creatures", 0) or 0) < 50:
+                    self.error(check, f"Gate-invasion table {table_number} roll {roll} contains fewer than 50 creatures.", self.root / ROLL_DATA_JSON)
+
+        duplicates = sorted(key for key, count in Counter(result_keys).items() if count > 1)
+        if duplicates:
+            self.error(check, f"Duplicate table/roll pairs exist: {duplicates}.", self.root / ROLL_DATA_JSON)
+        if len(table_rolls) != EXPECTED_ROLL_TABLE_COUNT:
+            self.error(check, f"Expected {EXPECTED_ROLL_TABLE_COUNT} roll tables; found {len(table_rolls)}.", self.root / ROLL_DATA_JSON)
+        for table_number, rolls in table_rolls.items():
+            if sorted(rolls) != [1, 2, 3, 4, 5, 6]:
+                self.error(check, f"Table {table_number} must contain rolls 1-6 exactly once; found {sorted(rolls)}.", self.root / ROLL_DATA_JSON)
+        if gate_results != EXPECTED_GATE_INVASION_RESULT_COUNT:
+            self.error(check, f"Expected {EXPECTED_GATE_INVASION_RESULT_COUNT} gate-invasion results; found {gate_results}.", self.root / ROLL_DATA_JSON)
+
+        table_paths = []
+        for group in ("natural_ecology", "planar_and_magical", "constructs_and_animated", "gate_incursions"):
+            table_paths.extend((self.root / ROLL_ROOT / group).glob("*.md"))
+        if len(table_paths) != EXPECTED_ROLL_TABLE_COUNT:
+            self.error(check, f"Expected {EXPECTED_ROLL_TABLE_COUNT} Markdown roll tables; found {len(table_paths)}.", self.root / ROLL_ROOT)
+
+        try:
+            with (self.root / ROLL_DATA_CSV).open(newline="", encoding="utf-8-sig") as handle:
+                csv_rows = list(csv.DictReader(handle))
+        except OSError as exc:
+            self.error(check, f"Roll-table CSV could not be read: {exc}.", self.root / ROLL_DATA_CSV)
+            csv_rows = []
+        csv_keys = Counter((int(row.get("table_number", 0) or 0), int(row.get("roll", 0) or 0)) for row in csv_rows)
+        if len(csv_rows) != EXPECTED_ROLL_RESULT_COUNT or csv_keys != Counter(result_keys):
+            self.error(check, "Roll-table CSV does not match the JSON table/roll inventory.", self.root / ROLL_DATA_CSV)
+
+        counts = manifest.get("counts", {}) if isinstance(manifest, dict) else {}
+        expected_counts = {
+            "tables": EXPECTED_ROLL_TABLE_COUNT,
+            "results": EXPECTED_ROLL_RESULT_COUNT,
+            "repository_groups": EXPECTED_CREATURE_GROUP_COUNT,
+            "gate_invasion_results": EXPECTED_GATE_INVASION_RESULT_COUNT,
+        }
+        for key, expected in expected_counts.items():
+            if counts.get(key) != expected:
+                self.error(check, f"Roll manifest count '{key}' must be {expected}; found {counts.get(key)!r}.", self.root / ROLL_MANIFEST)
+        if manifest.get("gate_invasion_minimum") != 50:
+            self.error(check, "Roll manifest gate_invasion_minimum must be 50.", self.root / ROLL_MANIFEST)
+
+        self._check_checksum_manifest(check, self.root / ROLL_ROOT, manifest, self.root / ROLL_MANIFEST)
+
+        if not any(f.severity == "ERROR" and f.check == check for f in self.findings):
+            self.pass_(
+                check,
+                f"Verified {EXPECTED_ROLL_TABLE_COUNT} d6 tables, {EXPECTED_ROLL_RESULT_COUNT} synchronized results, catalog links, {EXPECTED_GATE_INVASION_RESULT_COUNT} gate-invasion results, and manifest checksums.",
+            )
+
+    def _check_checksum_manifest(
+        self, check: str, base: Path, manifest: object, manifest_path: Path
+    ) -> None:
+        files = manifest.get("files", []) if isinstance(manifest, dict) else []
+        if not isinstance(files, list):
+            self.error(check, "Manifest files field must be a list.", manifest_path)
+            return
+        for entry in files:
+            if not isinstance(entry, dict):
+                self.error(check, "Manifest file entry must be an object.", manifest_path)
+                continue
+            rel = str(entry.get("path", "")).strip()
+            target = base / rel
+            if not target.is_file():
+                self.error(check, f"Manifest file does not exist: {rel}.", manifest_path)
+                continue
+            raw = target.read_bytes()
+            actual_sha = hashlib.sha256(raw).hexdigest()
+            if actual_sha != str(entry.get("sha256", "")):
+                self.error(check, f"Manifest checksum mismatch: {rel}.", target)
+            if len(raw) != entry.get("bytes"):
+                self.error(check, f"Manifest byte count mismatch: {rel}.", target)
 
 
 # ----------------------------------------------------------------------

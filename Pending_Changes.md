@@ -1,9 +1,9 @@
 ---
 status: Active Reference
 authority: Proposed Change Staging
-version: 7.0
-last_reviewed: 2026-07-17
-review_state: Batch H shop and equipment integration archived; no active proposals
+version: 8.0
+last_reviewed: 2026-07-19
+review_state: Batch I creature catalog and random encounter integration archived; no active proposals
 ---
 
 # Pending Changes — Active

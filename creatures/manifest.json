@@ -1,0 +1,389 @@
+{
+  "schema_version": 2,
+  "title": "Elyndria Creature Catalog",
+  "catalog_status": "Reference candidate",
+  "last_reviewed": "2026-07-19",
+  "source_package": {
+    "filename": "Elyndria_Creature_Catalog_Master_Updated(1).zip",
+    "sha256": "e0192acee312127fdcce6fc171372cf7e0868ebbfd11e33ab470d8a871a2c00e"
+  },
+  "authority": "Creature_Catalog_Index.md",
+  "structured_source": "data/creatures.json",
+  "counts": {
+    "creatures": 161,
+    "categories": 23,
+    "repository_groups": 4,
+    "markdown_category_entries": 161,
+    "roll_tables": 23,
+    "roll_results": 138,
+    "roll_table_groups": 4,
+    "roll_table_unique_creatures_referenced": 153
+  },
+  "group_counts": {
+    "constructs_and_animated": 15,
+    "gate_incursions": 35,
+    "natural_ecology": 81,
+    "planar_and_magical": 30
+  },
+  "category_counts": {
+    "Natural Ecology/Approved Nonmagical Oozes": 4,
+    "Natural Ecology/Freshwater, Marsh, and Deep-Water Wildlife": 7,
+    "Natural Ecology/Physical Fungi, Myconids, and Predatory Plants": 6,
+    "Natural Wildlife/Aerial and Cliff-Dwelling Wildlife": 3,
+    "Natural Wildlife/Aquatic, Wetland and Coastal Wildlife": 9,
+    "Natural Wildlife/Cavern, Mine and Burrowing Predators": 8,
+    "Natural Wildlife/Cold-Region Predators": 7,
+    "Natural Wildlife/Hoofed Animals and Megafauna": 5,
+    "Natural Wildlife/Southern-Plains Wildlife": 9,
+    "Natural Wildlife/Swarms and Small Vermin": 6,
+    "Natural Wildlife/Venomous Animals and Large Insects": 12,
+    "Natural Wildlife/Wolves and Large Predators": 5,
+    "Planar and Escaped/Captured and Transported Monstrosities": 6,
+    "Planar and Escaped/Clockwork Construct Adaptation Chassis": 4,
+    "Planar and Escaped/Fey and Ethereal Predators": 3,
+    "Planar and Escaped/Fey and Magical Wilderness Creatures": 11,
+    "Planar and Escaped/Intelligent Aquatic and Magical Water Threats": 3,
+    "Planar and Escaped/Magically Animated Constructs and Objects": 11,
+    "Planar and Escaped/Magically Sustained Plants and Blights": 7,
+    "Planar and Escaped/Major Elemental Gate Creatures": 5,
+    "Planar and Escaped/Minor Elemental Gate Creatures": 9,
+    "Planar and Escaped/Minor and Moderate Gate Incursions": 10,
+    "Planar and Escaped/Severe Gate Incursions": 11
+  },
+  "deferred_decisions": [
+    "Giant Elk version selection",
+    "Giant Owl version selection",
+    "Dryad survival duration",
+    "Redcap deterioration rate",
+    "Quickling speed reduction",
+    "selected spore-effect classification",
+    "construct shutdown timing",
+    "elemental collapse timing"
+  ],
+  "files": [
+    {
+      "path": "Creature_Catalog_Index.md",
+      "sha256": "221b1c68118718fa802635e1b31b32dee57fc244cc8953be0b6cb6730765e191",
+      "bytes": 33538
+    },
+    {
+      "path": "README.md",
+      "sha256": "dd0d2e20e07c2ae9c4c57200cd38da0a5b148b1108d89e83f4222868bf3f1a99",
+      "bytes": 1849
+    },
+    {
+      "path": "catalog/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+      "sha256": "7e59e4d2cc856eb702f340acc179cfd651cd8ee2ce5f12fe688a87214b7eeca7",
+      "bytes": 7373
+    },
+    {
+      "path": "catalog/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+      "sha256": "a5b5d80750035e20a3154f00a812ef7066231a46cc82048c5a6dca99fee5b400",
+      "bytes": 17922
+    },
+    {
+      "path": "catalog/gate_incursions/Major_Elemental_Gate_Creatures.md",
+      "sha256": "54689a28ca7c3f41e3b420cf7f37cb49b5bd33f52d7e3c6ef1b92be7b2a857bc",
+      "bytes": 8063
+    },
+    {
+      "path": "catalog/gate_incursions/Minor_Elemental_Gate_Creatures.md",
+      "sha256": "6a4856518f439ba5989befe36c7389ec945c37212253b3476673978a5bde7c2a",
+      "bytes": 13857
+    },
+    {
+      "path": "catalog/gate_incursions/Minor_and_Moderate_Gate_Incursions.md",
+      "sha256": "43630dbaf92539030805957cc9ab9809865275db24a6ff643a5a77d0be11377f",
+      "bytes": 14335
+    },
+    {
+      "path": "catalog/gate_incursions/Severe_Gate_Incursions.md",
+      "sha256": "7249270ca625d9270ca056bd250ee453ee36ea310beaef1850353a43beeb54c8",
+      "bytes": 16328
+    },
+    {
+      "path": "catalog/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+      "sha256": "81ba97c22c233df35be73b06c6d585eb4f3458a98e8b438415339e4e4d9ce198",
+      "bytes": 4198
+    },
+    {
+      "path": "catalog/natural_ecology/Approved_Nonmagical_Oozes.md",
+      "sha256": "d9add64a871a5b60de35259fc0a4e20f5dee5de94eb2b7d3c9c691ca604a3a15",
+      "bytes": 6589
+    },
+    {
+      "path": "catalog/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+      "sha256": "47f26eb57d38591cc492e65472c2a63da6e2e7a94ba611cec51035a150a54fc4",
+      "bytes": 11537
+    },
+    {
+      "path": "catalog/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+      "sha256": "c3d6844cc269fde35991a509f26aa5e9161c096ad914a23f04d98e034c755255",
+      "bytes": 10768
+    },
+    {
+      "path": "catalog/natural_ecology/Cold_Region_Predators.md",
+      "sha256": "72ad073570afde69a9a13bc53e82cc82d7240174fcb05e3ec0805ba07d77357b",
+      "bytes": 9834
+    },
+    {
+      "path": "catalog/natural_ecology/Freshwater_Marsh_and_Deep_Water_Wildlife.md",
+      "sha256": "616a062a12f08bf586033f3fd34474c9a8e9358b6f11d8a22cf8ff6ef5ca6e54",
+      "bytes": 9480
+    },
+    {
+      "path": "catalog/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+      "sha256": "e220875ad3ffac62d6214b47b5627dff2e87547a04659d20a2fb9eb07c522e25",
+      "bytes": 6621
+    },
+    {
+      "path": "catalog/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+      "sha256": "1938ebfb83c19d8303d5efa72f243bec265047f942a8c683871b69d31f7ffdd6",
+      "bytes": 8659
+    },
+    {
+      "path": "catalog/natural_ecology/Southern_Plains_Wildlife.md",
+      "sha256": "a6dca2a1e5966b54882235642031c5097b20cfc373b21079d8a2a90c7be7875a",
+      "bytes": 11219
+    },
+    {
+      "path": "catalog/natural_ecology/Swarms_and_Small_Vermin.md",
+      "sha256": "094423c983b8fa52407c9847f8a25e153f2e36b4b54a84813badbe9736233a42",
+      "bytes": 8371
+    },
+    {
+      "path": "catalog/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+      "sha256": "eb30de120a64642b0b272de814e6624b2779151eedc40c9005b25c30528d3190",
+      "bytes": 16123
+    },
+    {
+      "path": "catalog/natural_ecology/Wolves_and_Large_Predators.md",
+      "sha256": "13dd6cca0d83e552bcbb422919f78bbc21e25a0bba6eeec65f89e976134f2122",
+      "bytes": 6636
+    },
+    {
+      "path": "catalog/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+      "sha256": "565fd9baff7adeb0b30669bc2094379924aace9306e49f23eefe206278f9af79",
+      "bytes": 8342
+    },
+    {
+      "path": "catalog/planar_and_magical/Fey_and_Ethereal_Predators.md",
+      "sha256": "c7d00c6afefabd2d3aed791ea2284cfb44138cb64135e5eec79d5487dba615a0",
+      "bytes": 4497
+    },
+    {
+      "path": "catalog/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+      "sha256": "450584e6d5914f7d8be0f8cff448cb8086f0eefa25b8acf85460551df914e4a2",
+      "bytes": 16222
+    },
+    {
+      "path": "catalog/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+      "sha256": "34877e01ee2d0e8dd7ede3e4a8c809f11ed112ef8c5c8a3e730c3394b7cde221",
+      "bytes": 4904
+    },
+    {
+      "path": "catalog/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+      "sha256": "0bd2b29e0980c7a9a419ea459f9edeeb02e952b604aa592aafe67870ed689712",
+      "bytes": 10789
+    },
+    {
+      "path": "data/Creature_Data_Schema.md",
+      "sha256": "a134fd8ba22e5804ac4a57c37a5d76e07f344bc7d1773ceef9f4911b1902bf85",
+      "bytes": 2449
+    },
+    {
+      "path": "data/creatures.csv",
+      "sha256": "8bfa98dfc8a96b541b91d5309699edce67852e9a5242e71211ad8838dedc12a1",
+      "bytes": 141443
+    },
+    {
+      "path": "data/creatures.json",
+      "sha256": "9f6e490fbbf1c448f15873e46825fa73979c3f2d10a814505c84ef004c6c1556",
+      "bytes": 275616
+    },
+    {
+      "path": "guidance/Dead_Zone_Creature_Guidance.md",
+      "sha256": "6aa77b3d2f6a37a62d1b1255d5089dc16bee069d467871950b7064dee55090b0",
+      "bytes": 2681
+    },
+    {
+      "path": "guidance/Source_and_Edition_Guidance.md",
+      "sha256": "af811729e59272a37cbed88e9611a938e56a12d32060378829e04e4c790d22e3",
+      "bytes": 1299
+    },
+    {
+      "path": "guidance/Token_and_Image_Guidance.md",
+      "sha256": "6b46728becbffaa02c2a7cf65b5a2824a0e6015c8bde3698a5adaa56b7529ac0",
+      "bytes": 956
+    },
+    {
+      "path": "lookups/Creature_Dead_Zone_and_Source_Lookup.md",
+      "sha256": "58edeafd811b8cc413c538912c311a62fe6390e8f4af27066585cd4e15f83e8f",
+      "bytes": 117242
+    },
+    {
+      "path": "lookups/Creature_Encounter_Lookup.md",
+      "sha256": "beeecf3890bf9ae6ca1149f73c149afef87ed00812fa0af0e79d134d6fe41ba1",
+      "bytes": 42239
+    },
+    {
+      "path": "lookups/Creature_Regional_Lookup.md",
+      "sha256": "3c766df5c0631459bf9c4fbdf50b402c9ba8e0f5f0f1e1c0366e9a8515825c8b",
+      "bytes": 78078
+    },
+    {
+      "path": "roll_tables/README.md",
+      "sha256": "ca9e8e699390a4e6db6b5be6788136e7f6a7528f04dd09b446ee6f0d18a8886d",
+      "bytes": 775
+    },
+    {
+      "path": "roll_tables/Roll_Table_Index.md",
+      "sha256": "b125de02f15682a266139c666f6d6de3aab8a90b3e080e63838dca645254525b",
+      "bytes": 7133
+    },
+    {
+      "path": "roll_tables/Roll_Table_Selection_Guide.md",
+      "sha256": "a19657f9cb49d5ea2b818baf9e3aa2f165cf5734de183595dbe94c1eaa4873af",
+      "bytes": 4641
+    },
+    {
+      "path": "roll_tables/constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+      "sha256": "4820eb9db58af5e44b6f824a63f994496b1c4ae61769580d05a0a0d83de619cc",
+      "bytes": 2135
+    },
+    {
+      "path": "roll_tables/constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+      "sha256": "b11426300efe6b6c62d5dfd9ca2de6fc44db40bff898345fb8e9a1693a5eff22",
+      "bytes": 2495
+    },
+    {
+      "path": "roll_tables/data/Roll_Table_Data_Schema.md",
+      "sha256": "0e6f4fb0d99241023b6b3c4b2cc824f138a505afed86d3dbb20d3fb35410e28a",
+      "bytes": 1170
+    },
+    {
+      "path": "roll_tables/data/roll_tables.csv",
+      "sha256": "99f8efac852fc7ef3f5c708db9a6342aaeae6c8f5fcebbceb09aad4edae98b92",
+      "bytes": 42585
+    },
+    {
+      "path": "roll_tables/data/roll_tables.json",
+      "sha256": "5b135a9a9ee6e481118cbf5a9c67515387d3f22fea248fbb8641a148701c2905",
+      "bytes": 108931
+    },
+    {
+      "path": "roll_tables/gate_incursions/Major_Elemental_Gate_Invasions.md",
+      "sha256": "7b497a82cf361de0a42469f72967af610bce12600d85c1adf9838e8a0a5a5be9",
+      "bytes": 2800
+    },
+    {
+      "path": "roll_tables/gate_incursions/Minor_Elemental_Gate_Invasions.md",
+      "sha256": "70e297dd1daea7ea3b7687f572b6ac3a1bc825899a50a28492e7a95be7823d9c",
+      "bytes": 2146
+    },
+    {
+      "path": "roll_tables/gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+      "sha256": "c2148fe632f835807ef804adbac0d28941879127ea36d5006b4547e1628cae28",
+      "bytes": 2508
+    },
+    {
+      "path": "roll_tables/gate_incursions/Severe_Gate_Invasions.md",
+      "sha256": "fdb3814aca9b88122ceca101685d5cee70841deeacdefe715a767ff5c9ad3468",
+      "bytes": 3145
+    },
+    {
+      "path": "roll_tables/manifest.json",
+      "sha256": "a44e6f84465e33b27d19d967188da8cd211c8f1fe87b47c5407a5e1e74b3b5b7",
+      "bytes": 6206
+    },
+    {
+      "path": "roll_tables/natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+      "sha256": "819f85096c74f9b68c65cef200da145bb7602281cabcab882b4e8181382f6fab",
+      "bytes": 1466
+    },
+    {
+      "path": "roll_tables/natural_ecology/Approved_Nonmagical_Oozes.md",
+      "sha256": "69fb2e7008e21765e72458b1837d913008b6cc4ed85bf39a6e24582c10ac98f5",
+      "bytes": 1510
+    },
+    {
+      "path": "roll_tables/natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+      "sha256": "60c1041c50446741c3fe122fe474b750ace9014c0ad5ee800a09e94b754a4218",
+      "bytes": 1519
+    },
+    {
+      "path": "roll_tables/natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+      "sha256": "c65e67928900ddaf5cdb4cd76472af555e9104fc524051eb9c6039ac6600aa1c",
+      "bytes": 1832
+    },
+    {
+      "path": "roll_tables/natural_ecology/Cold_Region_Predators.md",
+      "sha256": "798354138a2d9a47a6d25af57bce613ccf5b6e818589fe2cf155def8985bb10b",
+      "bytes": 1358
+    },
+    {
+      "path": "roll_tables/natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+      "sha256": "b37dbe9f64b6ec320b8a8a6de5d18791342f9004f3e57f132ad4a9fc2ff61aab",
+      "bytes": 1985
+    },
+    {
+      "path": "roll_tables/natural_ecology/Hoofed_Animals_and_Megafauna.md",
+      "sha256": "fcba3f8432f4856e2204edcde6f6a892a2748486404d88e7f610f10618d9135d",
+      "bytes": 1353
+    },
+    {
+      "path": "roll_tables/natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+      "sha256": "c81ceb2ea0c6955c738c2a46bf3a446a8caa62a7b6950bf4fca64ab4b0207ef1",
+      "bytes": 2556
+    },
+    {
+      "path": "roll_tables/natural_ecology/Southern_Plains_Wildlife.md",
+      "sha256": "c35427da95f275648df1101bec5e5d07c849052546a8aca383b2436153401336",
+      "bytes": 1305
+    },
+    {
+      "path": "roll_tables/natural_ecology/Swarms_and_Small_Vermin.md",
+      "sha256": "6c0c727e3d2c70a0179b51995b0bdb4dead027d502171946f60191dea16c76c8",
+      "bytes": 1559
+    },
+    {
+      "path": "roll_tables/natural_ecology/Venomous_Animals_and_Large_Insects.md",
+      "sha256": "724666523c1519c100099d69a27365086ab6238a005db4e2a9998eb90704b50e",
+      "bytes": 1836
+    },
+    {
+      "path": "roll_tables/natural_ecology/Wolves_and_Large_Predators.md",
+      "sha256": "955b2b9a6a03c48d41d73b26e172c6ce758058ac09ed3deede391032e2067b2b",
+      "bytes": 1434
+    },
+    {
+      "path": "roll_tables/planar_and_magical/Captured_and_Transported_Monstrosities.md",
+      "sha256": "27afe375f70c8a033c92ffc1027adce370e8c9c1869ff1b5977e98ae8ed5493e",
+      "bytes": 1384
+    },
+    {
+      "path": "roll_tables/planar_and_magical/Fey_and_Ethereal_Predators.md",
+      "sha256": "279f15178c6c1d405762721a42d10cb4253641a4aa38210c4be01224ec526ad5",
+      "bytes": 1678
+    },
+    {
+      "path": "roll_tables/planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+      "sha256": "c0208cbc952aeaa59519e709b04900b411d8ea2c6481f473b24f61a96a500675",
+      "bytes": 2189
+    },
+    {
+      "path": "roll_tables/planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+      "sha256": "8b3c324b959b548ecfb818e4d29280830173e44a0398eec703991b798b2dc472",
+      "bytes": 2134
+    },
+    {
+      "path": "roll_tables/planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+      "sha256": "5a30b929be7df5f9e97e3998ba5c849466207fdb2329d5569f3a52f691d62289",
+      "bytes": 2325
+    }
+  ],
+  "roll_table_source_package": {
+    "filename": "Elyndria_D6_Roll_Tables(1).zip",
+    "sha256": "b94cf5d89185b8533cd8523c016dde896187dc9440eafb9c2377d81effa0b521"
+  }
+}

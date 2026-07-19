@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Repository Governance
-version: 1.2
-last_reviewed: 2026-07-17
+version: 1.3
+last_reviewed: 2026-07-19
 ---
 
 # Aetherbound Repository Governance
@@ -32,7 +32,7 @@ When documents disagree, use this order:
 1. **`GOVERNANCE.md`** — repository process, status meanings, authority ownership, and approval workflow.
 2. **`canon/DnD_Campaign_World_Bible.md`** — setting-wide lore, history, world mechanics, and campaign-wide facts.
 3. **`canon/World_Geography.md`** — spatial relationships, terrain, roads, rivers, ports, distances, and dead-zone placement.
-4. **Dedicated authority files** — detailed city profiles, NPC database, quest files, tracker, combat repository, and shop/item inventory within their defined scopes.
+4. **Dedicated authority files** — detailed city profiles, NPC database, quest files, tracker, combat repository, creature catalog and roll tables, and shop/item inventory within their defined scopes.
 5. **`Campaign_Index_and_Quick_Reference.md`** — navigation and factual project status only. It does not override canon.
 6. **Session plans and drafts** — preparation material. New claims in a draft do not become canon until approved and synchronized.
 7. **`Pending_Changes.md`** — proposals only; never canon.
@@ -51,6 +51,8 @@ If two files at the same level conflict, do not silently select one. Report the 
 | Current quest state, decisions, attitudes, and session outcomes | `quests/Quests_Player_Decisions_Impacts.md` | Quest and session files |
 | Quest design and prepared scenes | Dedicated quest/session file | Tracker, NPC database, city profile |
 | Combat-ready custom statistics | `combat/Enemy_Encounters_Stat_Blocks.md` | World mechanics and encounter files |
+| Creature discovery, placement recommendations, and structured creature records | `creatures/Creature_Catalog_Index.md` and `creatures/data/creatures.json` | World Bible, Geography, official owned sources, combat repository |
+| Random encounter table navigation and structured roll results | `creatures/roll_tables/Roll_Table_Index.md` and `creatures/roll_tables/data/roll_tables.json` | Creature catalog and selected official/custom statistics |
 | Shop identities, inventories, prices, and item availability | `items/Shop_Inventory_and_Items.md` | City profiles, quests, and world mechanics |
 | Project navigation and readiness | `Campaign_Index_and_Quick_Reference.md` | All current files |
 

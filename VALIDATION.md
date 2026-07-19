@@ -1,8 +1,8 @@
 ---
 status: Reference
 authority: Repository Validation Guide
-version: 1.2
-last_reviewed: 2026-07-17
+version: 1.3
+last_reviewed: 2026-07-19
 ---
 
 # Repository Validation
@@ -52,6 +52,10 @@ The validator checks:
 6. Campaign Index version and metadata-status values against file front matter.
 7. Duplicate authority claims, canonical NPC entries, city-profile ownership, location ownership, and proprietor ownership.
 8. Active `Pending_Changes.md` inventory against real repository paths and the required proposal structure.
+9. Creature-catalog integrity across 161 JSON and CSV records, 23 category pages, direct index links, anchors, groups, and manifest checksums.
+10. Random encounter integrity across 23 d6 tables, 138 synchronized results, catalog resolution, gate-invasion minimums, and manifest checksums.
+
+The creature and roll-table manifests under `creatures/` are deterministic maintenance records. Any approved catalog or table edit must regenerate the synchronized Markdown, JSON, CSV, indexes, and checksum records.
 
 Historical and superseded files are excluded from active-content checks so retired names and paths can remain preserved for traceability.
 
@@ -92,4 +96,4 @@ The workflow reports problems but does not edit files, repair canon, undo pushes
 
 ## Maintenance Rule
 
-When a new file, city, dead-zone discovery, stat-block format, metadata field, or naming convention is approved, update the validator and its manifest in the same change batch. Do not weaken a check merely to hide a real repository inconsistency.
+When a new file, city, dead-zone discovery, creature record, roll table, stat-block format, metadata field, or naming convention is approved, update the validator and its manifest in the same change batch. Do not weaken a check merely to hide a real repository inconsistency.

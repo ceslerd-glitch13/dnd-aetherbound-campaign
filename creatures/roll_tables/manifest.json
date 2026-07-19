@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "title": "Elyndria Random Encounter Roll Tables",
+  "status": "Reference candidate",
+  "last_reviewed": "2026-07-19",
+  "source_package": {
+    "filename": "Elyndria_D6_Roll_Tables(1).zip",
+    "sha256": "b94cf5d89185b8533cd8523c016dde896187dc9440eafb9c2377d81effa0b521"
+  },
+  "authority": "Roll_Table_Index.md",
+  "structured_source": "data/roll_tables.json",
+  "counts": {
+    "tables": 23,
+    "results": 138,
+    "repository_groups": 4,
+    "unique_catalog_creatures_referenced": 153,
+    "gate_invasion_tables": 4,
+    "gate_invasion_results": 24
+  },
+  "gate_invasion_minimum": 50,
+  "table_counts": {
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6,
+    "9": 6,
+    "10": 6,
+    "11": 6,
+    "12": 6,
+    "13": 6,
+    "14": 6,
+    "15": 6,
+    "16": 6,
+    "17": 6,
+    "18": 6,
+    "19": 6,
+    "20": 6,
+    "21": 6,
+    "22": 6,
+    "23": 6
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "ca9e8e699390a4e6db6b5be6788136e7f6a7528f04dd09b446ee6f0d18a8886d",
+      "bytes": 775
+    },
+    {
+      "path": "Roll_Table_Index.md",
+      "sha256": "b125de02f15682a266139c666f6d6de3aab8a90b3e080e63838dca645254525b",
+      "bytes": 7133
+    },
+    {
+      "path": "Roll_Table_Selection_Guide.md",
+      "sha256": "a19657f9cb49d5ea2b818baf9e3aa2f165cf5734de183595dbe94c1eaa4873af",
+      "bytes": 4641
+    },
+    {
+      "path": "constructs_and_animated/Clockwork_Construct_Adaptation_Chassis.md",
+      "sha256": "4820eb9db58af5e44b6f824a63f994496b1c4ae61769580d05a0a0d83de619cc",
+      "bytes": 2135
+    },
+    {
+      "path": "constructs_and_animated/Magically_Animated_Constructs_and_Objects.md",
+      "sha256": "b11426300efe6b6c62d5dfd9ca2de6fc44db40bff898345fb8e9a1693a5eff22",
+      "bytes": 2495
+    },
+    {
+      "path": "data/Roll_Table_Data_Schema.md",
+      "sha256": "0e6f4fb0d99241023b6b3c4b2cc824f138a505afed86d3dbb20d3fb35410e28a",
+      "bytes": 1170
+    },
+    {
+      "path": "data/roll_tables.csv",
+      "sha256": "99f8efac852fc7ef3f5c708db9a6342aaeae6c8f5fcebbceb09aad4edae98b92",
+      "bytes": 42585
+    },
+    {
+      "path": "data/roll_tables.json",
+      "sha256": "5b135a9a9ee6e481118cbf5a9c67515387d3f22fea248fbb8641a148701c2905",
+      "bytes": 108931
+    },
+    {
+      "path": "gate_incursions/Major_Elemental_Gate_Invasions.md",
+      "sha256": "7b497a82cf361de0a42469f72967af610bce12600d85c1adf9838e8a0a5a5be9",
+      "bytes": 2800
+    },
+    {
+      "path": "gate_incursions/Minor_Elemental_Gate_Invasions.md",
+      "sha256": "70e297dd1daea7ea3b7687f572b6ac3a1bc825899a50a28492e7a95be7823d9c",
+      "bytes": 2146
+    },
+    {
+      "path": "gate_incursions/Minor_and_Moderate_Gate_Invasions.md",
+      "sha256": "c2148fe632f835807ef804adbac0d28941879127ea36d5006b4547e1628cae28",
+      "bytes": 2508
+    },
+    {
+      "path": "gate_incursions/Severe_Gate_Invasions.md",
+      "sha256": "fdb3814aca9b88122ceca101685d5cee70841deeacdefe715a767ff5c9ad3468",
+      "bytes": 3145
+    },
+    {
+      "path": "natural_ecology/Aerial_and_Cliff_Dwelling_Wildlife.md",
+      "sha256": "819f85096c74f9b68c65cef200da145bb7602281cabcab882b4e8181382f6fab",
+      "bytes": 1466
+    },
+    {
+      "path": "natural_ecology/Approved_Nonmagical_Oozes.md",
+      "sha256": "69fb2e7008e21765e72458b1837d913008b6cc4ed85bf39a6e24582c10ac98f5",
+      "bytes": 1510
+    },
+    {
+      "path": "natural_ecology/Aquatic_Wetland_and_Coastal_Wildlife.md",
+      "sha256": "60c1041c50446741c3fe122fe474b750ace9014c0ad5ee800a09e94b754a4218",
+      "bytes": 1519
+    },
+    {
+      "path": "natural_ecology/Cavern_Mine_and_Burrowing_Predators.md",
+      "sha256": "c65e67928900ddaf5cdb4cd76472af555e9104fc524051eb9c6039ac6600aa1c",
+      "bytes": 1832
+    },
+    {
+      "path": "natural_ecology/Cold_Region_Predators.md",
+      "sha256": "798354138a2d9a47a6d25af57bce613ccf5b6e818589fe2cf155def8985bb10b",
+      "bytes": 1358
+    },
+    {
+      "path": "natural_ecology/Freshwater_Marsh_and_Deep_Water_Threats.md",
+      "sha256": "b37dbe9f64b6ec320b8a8a6de5d18791342f9004f3e57f132ad4a9fc2ff61aab",
+      "bytes": 1985
+    },
+    {
+      "path": "natural_ecology/Hoofed_Animals_and_Megafauna.md",
+      "sha256": "fcba3f8432f4856e2204edcde6f6a892a2748486404d88e7f610f10618d9135d",
+      "bytes": 1353
+    },
+    {
+      "path": "natural_ecology/Physical_Fungi_Myconids_and_Predatory_Plants.md",
+      "sha256": "c81ceb2ea0c6955c738c2a46bf3a446a8caa62a7b6950bf4fca64ab4b0207ef1",
+      "bytes": 2556
+    },
+    {
+      "path": "natural_ecology/Southern_Plains_Wildlife.md",
+      "sha256": "c35427da95f275648df1101bec5e5d07c849052546a8aca383b2436153401336",
+      "bytes": 1305
+    },
+    {
+      "path": "natural_ecology/Swarms_and_Small_Vermin.md",
+      "sha256": "6c0c727e3d2c70a0179b51995b0bdb4dead027d502171946f60191dea16c76c8",
+      "bytes": 1559
+    },
+    {
+      "path": "natural_ecology/Venomous_Animals_and_Large_Insects.md",
+      "sha256": "724666523c1519c100099d69a27365086ab6238a005db4e2a9998eb90704b50e",
+      "bytes": 1836
+    },
+    {
+      "path": "natural_ecology/Wolves_and_Large_Predators.md",
+      "sha256": "955b2b9a6a03c48d41d73b26e172c6ce758058ac09ed3deede391032e2067b2b",
+      "bytes": 1434
+    },
+    {
+      "path": "planar_and_magical/Captured_and_Transported_Monstrosities.md",
+      "sha256": "27afe375f70c8a033c92ffc1027adce370e8c9c1869ff1b5977e98ae8ed5493e",
+      "bytes": 1384
+    },
+    {
+      "path": "planar_and_magical/Fey_and_Ethereal_Predators.md",
+      "sha256": "279f15178c6c1d405762721a42d10cb4253641a4aa38210c4be01224ec526ad5",
+      "bytes": 1678
+    },
+    {
+      "path": "planar_and_magical/Fey_and_Magical_Wilderness_Creatures.md",
+      "sha256": "c0208cbc952aeaa59519e709b04900b411d8ea2c6481f473b24f61a96a500675",
+      "bytes": 2189
+    },
+    {
+      "path": "planar_and_magical/Intelligent_Aquatic_and_Magical_Water_Threats.md",
+      "sha256": "8b3c324b959b548ecfb818e4d29280830173e44a0398eec703991b798b2dc472",
+      "bytes": 2134
+    },
+    {
+      "path": "planar_and_magical/Magically_Sustained_Plants_and_Blights.md",
+      "sha256": "5a30b929be7df5f9e97e3998ba5c849466207fdb2329d5569f3a52f691d62289",
+      "bytes": 2325
+    }
+  ]
+}
